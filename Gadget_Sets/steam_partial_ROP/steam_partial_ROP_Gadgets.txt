@@ -1,0 +1,1220 @@
+7-zip.dll | 0x10005153 | adc al, 0x41 ; mov eax, edx ; jmp 0x10005162
+7-zip.dll | 0x10002829 | adc al, 0x53 ; inc r10 ; jmp 0x1000287d
+7-zip.dll | 0x10001491 | adc al, 0x88 ; mov rax, qword ptr [r10] ; lea rax, [rax + rdx*2] ; ret
+7-zip.dll | 0x10006a17 | adc al, byte ptr [rax] ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10001c60 | adc byte ptr [rax - 0x75], cl ; ret 0x8348
+7-zip.dll | 0x10001ea4 | adc byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10006a0b | adc byte ptr [rbx + 0x74c085f8], cl ; adc byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000bcdc | adc byte ptr [rsi - 9], ah ; sar edi, 0xff ; jne 0x1000bced ; ret
+7-zip.dll | 0x100020ca | adc cl, byte ptr [rax + 0x3b] ; retf 0xe274
+7-zip.dll | 0x10001c2d | adc cl, byte ptr [rax - 0x75] ; retf
+7-zip.dll | 0x1000498b | adc dword ptr [rcx - 0x74cfdba4], ecx ; retf
+7-zip.dll | 0x10006ff7 | adc eax, 0x506c ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10007020 | adc eax, 0x51f3 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10004eb2 | adc eax, 0x7161 ; add rsp, 0x48 ; ret
+7-zip.dll | 0x10001a45 | adc eax, 0x8bd00341 ; ret 0xe8d1
+7-zip.dll | 0x10005094 | adc ecx, dword ptr [rax - 0x75] ; retf
+7-zip.dll | 0x10007664 | adc ecx, dword ptr [rax - 0x7d] ; ret 0x6602
+7-zip.dll | 0x10001037 | adc ecx, dword ptr [rcx - 1] ; ret
+7-zip.dll | 0x10002397 | add ah, cl ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10003589 | add al, 0 ; add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x10003b11 | add al, 0x2f ; jne 0x10003b24 ; mov eax, 1 ; ret
+7-zip.dll | 0x1000211d | add al, 0x40 ; add byte ptr [rax], al ; mov dword ptr [rcx + 8], edx ; ret
+7-zip.dll | 0x10008e7e | add al, 0x41 ; pop rsp ; add byte ptr [rcx - 1], al ; ret
+7-zip.dll | 0x10001498 | add al, 0x50 ; ret
+7-zip.dll | 0x10003ad1 | add al, 0x51 ; pop rsp ; add bh, bh ; ret 0xc766
+7-zip.dll | 0x1000286f | add al, 0x53 ; std ; dec dword ptr [rcx - 1] ; ret 0x3245
+7-zip.dll | 0x10006da6 | add al, 0x80 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000667d | add al, 2 ; pop rdi ; add byte ptr [rbp - 0x26], dh ; ret
+7-zip.dll | 0x10006da5 | add al, byte ptr [rax + rax*4] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10002e74 | add al, byte ptr [rax] ; add byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003f63 | add al, byte ptr [rax] ; add byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10003d84 | add al, byte ptr [rbp + 0xf] ; ret
+7-zip.dll | 0x10003fba | add al, byte ptr [rcx - 0x75] ; ret 0xf46
+7-zip.dll | 0x10002b1a | add al, byte ptr [rsi] ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10006fb3 | add al, ch ; mov r14b, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10006732 | add al, ch ; or byte ptr [rbp - 0x74b70001], dh ; ret
+7-zip.dll | 0x100054d7 | add al, ch ; ret
+7-zip.dll | 0x1000b67f | add al, ch ; retf
+7-zip.dll | 0x10006fd7 | add al, ch ; wait ; mov dh, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10001d13 | add bh, bh ; ret
+7-zip.dll | 0x100040da | add bh, bh ; ret 0x8566
+7-zip.dll | 0x10005d38 | add bh, bh ; ret 0x8966
+7-zip.dll | 0x10001ebd | add bh, bh ; ret 0xc766
+7-zip.dll | 0x10003cbb | add bh, byte ptr [rdx] ; jne 0x10003cce ; mov eax, 1 ; ret
+7-zip.dll | 0x10003b19 | add bl, al ; xor eax, eax ; ret
+7-zip.dll | 0x1000667e | add bl, byte ptr [rdi] ; jne 0x10006662 ; ret
+7-zip.dll | 0x1000698b | add byte ptr [rax + 0x20c48348], al ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100011d1 | add byte ptr [rax + 0x24548d48], dl ; sub byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10006778 | add byte ptr [rax - 0x39], cl ; ret 1
+7-zip.dll | 0x10006c9b | add byte ptr [rax - 0x39], cl ; ret 2
+7-zip.dll | 0x100018d5 | add byte ptr [rax - 0x75], cl ; ret
+7-zip.dll | 0x10002ae9 | add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10005240 | add byte ptr [rax - 0x75], cl ; retf 0x3fe8
+7-zip.dll | 0x1000751b | add byte ptr [rax - 0x75], cl ; ror byte ptr [rax - 0x75], 1 ; retf
+7-zip.dll | 0x10005505 | add byte ptr [rax - 0x7d], cl ; ret 0x4828
+7-zip.dll | 0x1000b60d | add byte ptr [rax - 0xa], al ; mov byte ptr [rcx], 0x74 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x100054d4 | add byte ptr [rax], 0 ; add al, ch ; ret
+7-zip.dll | 0x100054d5 | add byte ptr [rax], al ; add al, ch ; ret
+7-zip.dll | 0x10003b17 | add byte ptr [rax], al ; add bl, al ; xor eax, eax ; ret
+7-zip.dll | 0x10001cb5 | add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; ret
+7-zip.dll | 0x10002b91 | add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000523e | add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf 0x3fe8
+7-zip.dll | 0x10005503 | add byte ptr [rax], al ; add byte ptr [rax - 0x7d], cl ; ret 0x4828
+7-zip.dll | 0x10004e34 | add byte ptr [rax], al ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x1000523d | add byte ptr [rax], al ; add byte ptr [rax], al ; mov rcx, rdx ; call 0x10001c91
+7-zip.dll | 0x1000403e | add byte ptr [rax], al ; add byte ptr [rbp + rax - 0x7d], dh ; ret
+7-zip.dll | 0x1000802a | add byte ptr [rax], al ; add byte ptr [rbx], bh ; retf 0x840f
+7-zip.dll | 0x10007e0a | add byte ptr [rax], al ; add byte ptr [rcx + 0x5c], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10005061 | add byte ptr [rax], al ; add byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x100036f9 | add byte ptr [rax], al ; add byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100084a0 | add byte ptr [rax], al ; add byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10003457 | add byte ptr [rax], al ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x100077e4 | add byte ptr [rax], al ; add byte ptr [rsi - 0x46], ah ; add byte ptr cs:[rax - 0x75], cl ; retf
+7-zip.dll | 0x1000106c | add byte ptr [rax], al ; add rsp, 0x18 ; ret
+7-zip.dll | 0x10001444 | add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10004e36 | add byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001ab3 | add byte ptr [rax], al ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10004193 | add byte ptr [rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b3f9 | add byte ptr [rax], al ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10004e7a | add byte ptr [rax], al ; add rsp, 0x30 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100010fc | add byte ptr [rax], al ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x10004eb5 | add byte ptr [rax], al ; add rsp, 0x48 ; ret
+7-zip.dll | 0x10003d65 | add byte ptr [rax], al ; mov al, dl ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000211f | add byte ptr [rax], al ; mov dword ptr [rcx + 8], edx ; ret
+7-zip.dll | 0x10004deb | add byte ptr [rax], al ; mov eax, ebx ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10003f09 | add byte ptr [rax], al ; mov eax, edx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000523f | add byte ptr [rax], al ; mov rcx, rdx ; call 0x10001c8f
+7-zip.dll | 0x10007e0b | add byte ptr [rax], al ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10002a65 | add byte ptr [rax], al ; pop rbx ; ret
+7-zip.dll | 0x10002e75 | add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003f64 | add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10003b18 | add byte ptr [rax], al ; ret
+7-zip.dll | 0x10006aa6 | add byte ptr [rax], al ; setne al ; ret
+7-zip.dll | 0x1000b568 | add byte ptr [rax], al ; xor eax, eax ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x100020af | add byte ptr [rbp + 6], dh ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x1000b73a | add byte ptr [rbp + 7], dh ; xor eax, eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10004040 | add byte ptr [rbp + rax - 0x7d], dh ; ret
+7-zip.dll | 0x10006680 | add byte ptr [rbp - 0x26], dh ; ret
+7-zip.dll | 0x10007f21 | add byte ptr [rbp - 0xe68b40], al ; ret
+7-zip.dll | 0x10003172 | add byte ptr [rbx + 0x3bdb33f0], cl ; ret
+7-zip.dll | 0x100015d8 | add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x1000802c | add byte ptr [rbx], bh ; retf 0x840f
+7-zip.dll | 0x10008034 | add byte ptr [rbx], bh ; retf 0x8e0f
+7-zip.dll | 0x100014d3 | add byte ptr [rbx], dh ; fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x10007e0c | add byte ptr [rcx + 0x5c], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10008e78 | add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x10005063 | add byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x10008e81 | add byte ptr [rcx - 1], al ; ret
+7-zip.dll | 0x1000824b | add byte ptr [rcx], al ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002e76 | add byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003f65 | add byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10002077 | add byte ptr [rdi + rcx - 0x49], al ; ret 0x2574
+7-zip.dll | 0x1000b4e3 | add byte ptr [rdx], al ; add byte ptr [rax - 0x39], cl ; ret 1
+7-zip.dll | 0x10003df9 | add byte ptr [rdx], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100014ed | add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x10003df8 | add byte ptr [rdx], r8b ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100077e6 | add byte ptr [rsi - 0x46], ah ; add byte ptr cs:[rax - 0x75], cl ; retf
+7-zip.dll | 0x100077e9 | add byte ptr cs:[rax - 0x75], cl ; retf
+7-zip.dll | 0x1000bd39 | add byte ptr gs:[rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10001230 | add cl, byte ptr [rax + 0x63] ; ret
+7-zip.dll | 0x10001495 | add cl, byte ptr [rax - 0x73] ; add al, 0x50 ; ret
+7-zip.dll | 0x10001fc2 | add cl, byte ptr [rax - 0x7d] ; ret 0x4902
+7-zip.dll | 0x1000175e | add cl, byte ptr [rax - 1] ; ret 0x4566
+7-zip.dll | 0x1000175a | add cl, byte ptr [rcx - 0x7d] ; ret 0x4802
+7-zip.dll | 0x10007575 | add dword ptr [rax - 0x7d], ecx ; ret 0x4808
+7-zip.dll | 0x10004191 | add dword ptr [rax], eax ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10003b16 | add dword ptr [rax], eax ; add byte ptr [rax], al ; ret
+7-zip.dll | 0x10008032 | add dword ptr [rax], eax ; add byte ptr [rbx], bh ; retf 0x8e0f
+7-zip.dll | 0x10008e76 | add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x10004d41 | add dword ptr [rax], eax ; add byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000824c | add dword ptr [rax], eax ; add byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10001f5e | add dword ptr [rdi + 8], ebx ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10006da4 | add dword ptr [rdx], eax ; add al, 0x80 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10002825 | add eax, 0x14894366 ; push rbx ; inc r10 ; jmp 0x10002881
+7-zip.dll | 0x1000bd37 | add eax, 0x655c ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10006a98 | add eax, 0xb83b ; ret
+7-zip.dll | 0x10006aa3 | add eax, 0xb840 ; setne al ; ret
+7-zip.dll | 0x100050a7 | add eax, dword ptr [rcx - 0x75] ; ret
+7-zip.dll | 0x10003dbb | add eax, dword ptr [rcx - 0x75] ; ror byte ptr [rcx + 3], cl ; ret
+7-zip.dll | 0x10007433 | add eax, dword ptr [rdx] ; add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x10001749 | add ebx, eax ; xor al, al ; ret
+7-zip.dll | 0x100049ce | add ebx, ebp ; or cl, byte ptr [rcx - 0x75] ; retf
+7-zip.dll | 0x10002067 | add ecx, dword ptr [rax - 0x2f] ; clc ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001909 | add ecx, dword ptr [rax - 1] ; ret
+7-zip.dll | 0x1000190f | add ecx, dword ptr [rcx - 1] ; ret
+7-zip.dll | 0x10003d35 | add esi, dword ptr [rbx] ; rol bl, 0xb8 ; add dword ptr [rax], eax ; add byte ptr [rax], al ; ret
+7-zip.dll | 0x10008249 | add esp, 0x100 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000106f | add esp, 0x18 ; ret
+7-zip.dll | 0x10001700 | add esp, 0x20 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10001447 | add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000112c | add esp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x100017ee | add esp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002a61 | add esp, 0x230 ; pop rbx ; ret
+7-zip.dll | 0x10003f60 | add esp, 0x230 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001889 | add esp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000119b | add esp, 0x28 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10001a5c | add esp, 0x28 ; ret
+7-zip.dll | 0x10003002 | add esp, 0x280 ; pop rbx ; ret
+7-zip.dll | 0x100052b2 | add esp, 0x30 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100068e5 | add esp, 0x30 ; pop r13 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10001bf0 | add esp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10002645 | add esp, 0x30 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006f73 | add esp, 0x38 ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10004b79 | add esp, 0x38 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10002497 | add esp, 0x38 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003a32 | add esp, 0x38 ; ret
+7-zip.dll | 0x10005493 | add esp, 0x40 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10008348 | add esp, 0x40 ; pop rbp ; ret
+7-zip.dll | 0x100010ff | add esp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x100026ca | add esp, 0x40 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002d30 | add esp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004eb8 | add esp, 0x48 ; ret
+7-zip.dll | 0x1000160d | add esp, 0x50 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100067a2 | add esp, 0x50 ; pop rbx ; ret
+7-zip.dll | 0x10005591 | add esp, 0x50 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006358 | add esp, 0x58 ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10005b28 | add esp, 0x58 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000b366 | add esp, 0x58 ; ret
+7-zip.dll | 0x1000710d | add esp, 0x60 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100050ac | add esp, 0x60 ; pop rbx ; ret
+7-zip.dll | 0x10002c40 | add esp, 0x68 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x100049dc | add esp, 0x68 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006e90 | add esp, 0x68 ; ret
+7-zip.dll | 0x10004b05 | add esp, 0x70 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100057a0 | add esp, 0x78 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006d0e | add esp, 0x90 ; pop rbx ; ret
+7-zip.dll | 0x1000849d | add esp, 0x90 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001cb2 | add esp, dword ptr [rsi - 0x39] ; add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; ret
+7-zip.dll | 0x1000106e | add rsp, 0x18 ; ret
+7-zip.dll | 0x10001446 | add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000112b | add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x100017ed | add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002a60 | add rsp, 0x230 ; pop rbx ; ret
+7-zip.dll | 0x10001888 | add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000119a | add rsp, 0x28 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10001a5b | add rsp, 0x28 ; ret
+7-zip.dll | 0x10003001 | add rsp, 0x280 ; pop rbx ; ret
+7-zip.dll | 0x10001bef | add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10002644 | add rsp, 0x30 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006f72 | add rsp, 0x38 ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10004b78 | add rsp, 0x38 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10002496 | add rsp, 0x38 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003a31 | add rsp, 0x38 ; ret
+7-zip.dll | 0x10008347 | add rsp, 0x40 ; pop rbp ; ret
+7-zip.dll | 0x100010fe | add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x100026c9 | add rsp, 0x40 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002d2f | add rsp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004eb7 | add rsp, 0x48 ; ret
+7-zip.dll | 0x100067a1 | add rsp, 0x50 ; pop rbx ; ret
+7-zip.dll | 0x10005590 | add rsp, 0x50 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006357 | add rsp, 0x58 ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10005b27 | add rsp, 0x58 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000b365 | add rsp, 0x58 ; ret
+7-zip.dll | 0x100050ab | add rsp, 0x60 ; pop rbx ; ret
+7-zip.dll | 0x10002c3f | add rsp, 0x68 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x100049db | add rsp, 0x68 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006e8f | add rsp, 0x68 ; ret
+7-zip.dll | 0x1000579f | add rsp, 0x78 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006d0d | add rsp, 0x90 ; pop rbx ; ret
+7-zip.dll | 0x10008e74 | and al, 0x18 ; add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x1000b7b6 | and al, 0x30 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b602 | and al, 0x38 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000ba19 | and al, 0x38 ; add rsp, 0x58 ; ret
+7-zip.dll | 0x100060c0 | and al, 0x38 ; call 0x100023a4
+7-zip.dll | 0x100060bf | and al, 0x38 ; call 0x100023a5
+7-zip.dll | 0x10003abb | and al, 0x39 ; or al, 0x75 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000b8e9 | and al, 0x48 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b94e | and al, 0x48 ; add rsp, 0x68 ; ret
+7-zip.dll | 0x10004f29 | and al, 0x48 ; mov byte ptr [rbx], cl ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10004f05 | and al, 0x48 ; mov dword ptr [rbx], ecx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10009174 | and al, 0x50 ; add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x10005d86 | and al, 0x68 ; mov rcx, rsi ; call 0x10001fe7
+7-zip.dll | 0x1000bcb3 | and al, 0x78 ; add rsp, 0x68 ; ret
+7-zip.dll | 0x1000492c | and al, 0x8b ; retf
+7-zip.dll | 0x1000505f | and al, 0x90 ; add byte ptr [rax], al ; add byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x10008b63 | and al, 0x98 ; add byte ptr [rax], al ; add al, ch ; ret
+7-zip.dll | 0x10002b8f | and al, 0x98 ; add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x100014e8 | and al, ch ; and eax, dword ptr es:[rax] ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x10001540 | and al, ch ; push rdx ; and eax, dword ptr [rax] ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x10003683 | and bh, byte ptr [rbx] ; ret 0x474
+7-zip.dll | 0x1000384d | and byte ptr [rax + 3], cl ; retf
+7-zip.dll | 0x10001c74 | and byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10001702 | and byte ptr [rcx + 0x5c], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100050d2 | and byte ptr [rcx - 0x75], cl ; retf 0xc748
+7-zip.dll | 0x100017f0 | and byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10003204 | and byte ptr [rdx], bh ; ret
+7-zip.dll | 0x1000657a | and cl, byte ptr [rax - 1] ; ret
+7-zip.dll | 0x10006da3 | and eax, 0x80040201 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100014eb | and eax, dword ptr [rax] ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x100014ea | and eax, dword ptr es:[rax] ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x10003e62 | and eax, ecx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10005244 | call 0x10001c8a
+7-zip.dll | 0x10005d8b | call 0x10001fe2
+7-zip.dll | 0x100060c2 | call 0x100023a2
+7-zip.dll | 0x100066ff | call 0x10003122
+7-zip.dll | 0x100066fe | call 0x10003123
+7-zip.dll | 0x100066fd | call 0x10003124
+7-zip.dll | 0x1000a9dd | call 0x100074b6
+7-zip.dll | 0x1000206a | clc ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001676 | clc ; ret
+7-zip.dll | 0x10003853 | cmovs eax, dword ptr [rbx + 0x5b5f28c4] ; ret
+7-zip.dll | 0x10001d0c | cmovs ecx, dword ptr [rbx - 0x3f7cb73e] ; add bh, bh ; ret
+7-zip.dll | 0x100070b8 | cmp al, ch ; cmp ch, byte ptr [rdi + rdi*8 - 0x74b36f01] ; ret
+7-zip.dll | 0x100045d7 | cmp al, ch ; ret
+7-zip.dll | 0x10004658 | cmp al, ch ; ret 0xffea
+7-zip.dll | 0x1000603b | cmp al, ch ; retf
+7-zip.dll | 0x10007150 | cmp al, ch ; retf 0xffbf
+7-zip.dll | 0x10005f65 | cmp al, ch ; xor eax, 0x8bffffc4 ; ret
+7-zip.dll | 0x1000a2a2 | cmp bh, 0xff ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10006f75 | cmp byte ptr [rcx + 0x5c], al ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10004b7b | cmp byte ptr [rdi + 0x5b], bl ; ret
+7-zip.dll | 0x10002499 | cmp byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100070ba | cmp ch, byte ptr [rdi + rdi*8 - 0x74b36f01] ; ret
+7-zip.dll | 0x10003cbc | cmp dh, byte ptr [rbp + 6] ; mov eax, 1 ; ret
+7-zip.dll | 0x10003d30 | cmp dword ptr [rcx + 6], 0x2f ; je 0x10003d41 ; xor eax, eax ; ret
+7-zip.dll | 0x10006aa2 | cmp dword ptr [rip + 0xb840], eax ; setne al ; ret
+7-zip.dll | 0x10003f88 | cmp eax, 0x850f002e ; retf 0
+7-zip.dll | 0x1000ad22 | cmp edi, -1 ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10004657 | cmp r8b, r13b ; ret 0xffea
+7-zip.dll | 0x1000714f | cmp r8b, r13b ; retf 0xffbf
+7-zip.dll | 0x10003d2f | cmp word ptr [rcx + 6], 0x2f ; je 0x10003d42 ; xor eax, eax ; ret
+7-zip.dll | 0x100066ca | cmpsb byte ptr [rsi], byte ptr [rdi] ; mov dh, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10002e73 | cwde ; add al, byte ptr [rax] ; add byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10008b64 | cwde ; add byte ptr [rax], al ; add al, ch ; ret
+7-zip.dll | 0x10002b90 | cwde ; add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x100061ec | cwde ; mov esi, 0x8b480000 ; retf
+7-zip.dll | 0x100040d5 | dec byte ptr [r8 - 0x7d] ; rol dword ptr [rdx], 0xff ; ret 0x8566
+7-zip.dll | 0x100066fa | dec byte ptr [rax - 0x75] ; call 0x10003127
+7-zip.dll | 0x100040d6 | dec byte ptr [rax - 0x7d] ; rol dword ptr [rdx], 0xff ; ret 0x8566
+7-zip.dll | 0x100015c7 | dec dword ptr [rax + 0x3b] ; ret
+7-zip.dll | 0x10001beb | dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10002cb8 | dec dword ptr [rax - 0x75] ; retf
+7-zip.dll | 0x10007364 | dec dword ptr [rbx + 0x3bdb33f8] ; ret
+7-zip.dll | 0x1000679e | dec dword ptr [rbx - 0x3b7cb73d] ; push rax ; pop rbx ; ret
+7-zip.dll | 0x10002872 | dec dword ptr [rcx - 1] ; ret 0x3245
+7-zip.dll | 0x10002d2c | dec dword ptr [rdx - 0x3b7cb73d] ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000b51e | dec dword ptr [rdx - 0x3b7cb73d] ; sub byte ptr [rdi + 0x5b], bl ; ret
+7-zip.dll | 0x1000b66b | dec eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b55a | enter -0x3e75, 0x48 ; add esp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10005b22 | enter -1, -0x75 ; ret
+7-zip.dll | 0x10003588 | fadd qword ptr [rax + rax] ; add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x10003e5f | fcomp dword ptr [rbx] ; shl byte ptr [rbx], 0xc1 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10003176 | fstp xword ptr [rbx] ; ret
+7-zip.dll | 0x100014d5 | fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x1000b5b2 | in al, dx ; sub dh, dh ; ret 0x4802
+7-zip.dll | 0x10001670 | in al, dx ; sub rax, rcx ; sar rax, 1 ; ret
+7-zip.dll | 0x10002112 | in eax, 0x3b ; push rcx ; or byte ptr [rsp + rcx - 0x75], dh ; ret 0x4166
+7-zip.dll | 0x1000216f | inc dword ptr [rbx + 8] ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10007c19 | inc dword ptr [rcx + 0x10] ; mov eax, dword ptr [rcx + 0x10] ; ret
+7-zip.dll | 0x10006999 | inc dword ptr [rcx + 8] ; mov eax, dword ptr [rcx + 8] ; ret
+7-zip.dll | 0x10003a8c | inc ebx ; sub rax, rcx ; sar rax, 1 ; ret
+7-zip.dll | 0x1000282c | inc edx ; jmp 0x1000287a
+7-zip.dll | 0x100040db | inc edx ; test ax, ax ; jne 0x10004097 ; xor al, al ; ret
+7-zip.dll | 0x10001742 | inc edx ; test cl, cl ; jne 0x1000171d ; mov al, 1 ; ret
+7-zip.dll | 0x1000282b | inc r10 ; jmp 0x1000287b
+7-zip.dll | 0x10001741 | inc rdx ; test cl, cl ; jne 0x1000171e ; mov al, 1 ; ret
+7-zip.dll | 0x10006ff8 | insb byte ptr [rdi], dx ; push rax ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10002099 | int1 ; sub rcx, rdx ; sar rcx, 1 ; mov eax, ecx ; ret
+7-zip.dll | 0x10002faa | jb 0x10002fb6 ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000b67d | jb 0x1000b683 ; add al, ch ; retf
+7-zip.dll | 0x1000274b | je 0x10002758 ; mov qword ptr [rdx], rcx ; mov eax, r8d ; ret
+7-zip.dll | 0x10002824 | je 0x10002834 ; mov word ptr [r11 + r10*2], dx ; inc r10 ; jmp 0x10002882
+7-zip.dll | 0x10003d34 | je 0x10003d3d ; xor eax, eax ; ret
+7-zip.dll | 0x1000b3f7 | jge 0x1000b40e ; add byte ptr [rax], al ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x1000b8e8 | jl 0x1000b915 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bb10 | jl 0x1000bb3d ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bb8d | jl 0x1000bbba ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100017eb | jle 0x10001802 ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001859 | jle 0x10001870 ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000196d | jle 0x10001984 ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100019e2 | jle 0x100019f9 ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000166f | jne 0x10001665 ; sub rax, rcx ; sar rax, 1 ; ret
+7-zip.dll | 0x10001746 | jne 0x10001719 ; mov al, 1 ; ret
+7-zip.dll | 0x100017a0 | jne 0x10001757 ; mov al, 1 ; ret
+7-zip.dll | 0x100020b0 | jne 0x100020bf ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x10003a86 | jne 0x10003a77 ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x10003b13 | jne 0x10003b22 ; mov eax, 1 ; ret
+7-zip.dll | 0x10003c31 | jne 0x10003c40 ; mov eax, 1 ; ret
+7-zip.dll | 0x10003cbd | jne 0x10003ccc ; mov eax, 1 ; ret
+7-zip.dll | 0x10003cf5 | jne 0x10003d04 ; mov eax, 1 ; ret
+7-zip.dll | 0x10003dcb | jne 0x10003da9 ; mov eax, edx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100040e0 | jne 0x10004092 ; xor al, al ; ret
+7-zip.dll | 0x10006681 | jne 0x1000665f ; ret
+7-zip.dll | 0x1000ae97 | jne 0x1000ae9d ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x1000b73b | jne 0x1000b74c ; xor eax, eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bce2 | jne 0x1000bce7 ; ret
+7-zip.dll | 0x10001886 | jnp 0x1000189c ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10001484 | jns 0x1000148d ; xor eax, eax ; ret
+7-zip.dll | 0x10002075 | jns 0x10002085 ; add byte ptr [rdi + rcx - 0x49], al ; ret 0x2574
+7-zip.dll | 0x10004b07 | jo 0x10004b51 ; pop rsp ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10005501 | jo 0x1000550a ; add byte ptr [rax], al ; add byte ptr [rax - 0x7d], cl ; ret 0x4828
+7-zip.dll | 0x100060d3 | jo 0x1000611e ; pop rbp ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10007798 | jo 0x100077e2 ; pop rsp ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000463a | js 0x10004686 ; pop rbp ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10004f9d | js 0x1000501a ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000523c | js 0x10005245 ; add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf 0x3fe8
+7-zip.dll | 0x100057a2 | js 0x10005808 ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006acd | js 0x10006ac0 ; xor eax, 0x33ffffbf ; fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x1000b1f7 | js 0x1000b243 ; pop rbp ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000bcb4 | js 0x1000bd03 ; add esp, 0x68 ; ret
+7-zip.dll | 0x10003df6 | lea eax, [rax + r8 + 2] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10003df7 | lea eax, [rax + rax + 2] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10001497 | lea eax, [rax + rdx*2] ; ret
+7-zip.dll | 0x100054d3 | lea eax, [rax - 0x18000000] ; ret
+7-zip.dll | 0x1000a9da | lea ecx, [rbp + 0x50] ; call 0x100074b9
+7-zip.dll | 0x10005d84 | lea edx, [rsp + 0x68] ; mov rcx, rsi ; call 0x10001fe9
+7-zip.dll | 0x10001496 | lea rax, [rax + rdx*2] ; ret
+7-zip.dll | 0x1000a9d9 | lea rcx, [rbp + 0x50] ; call 0x100074ba
+7-zip.dll | 0x10001745 | leave ; jne 0x1000171a ; mov al, 1 ; ret
+7-zip.dll | 0x10003dca | leave ; jne 0x10003daa ; mov eax, edx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100081e3 | leave ; retf
+7-zip.dll | 0x10007c18 | lock inc dword ptr [rcx + 0x10] ; mov eax, dword ptr [rcx + 0x10] ; ret
+7-zip.dll | 0x10006998 | lock inc dword ptr [rcx + 8] ; mov eax, dword ptr [rcx + 8] ; ret
+7-zip.dll | 0x100040e1 | lodsb al, byte ptr [rsi] ; xor al, al ; ret
+7-zip.dll | 0x10001b1e | loopne 0x10001b21 ; ret 0x8b4c
+7-zip.dll | 0x10003a5b | loopne 0x10003a61 ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x1000266c | mov al, 0xa ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10002d7b | mov al, 1 ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001748 | mov al, 1 ; ret
+7-zip.dll | 0x1000b51f | mov al, bl ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10002d2d | mov al, bl ; add rsp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10002e92 | mov al, byte ptr [rdx] ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10002886 | mov al, cl ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10003d67 | mov al, dl ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10002885 | mov al, r9b ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006f57 | mov bl, 0 ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000106a | mov byte ptr [r8], 0 ; add rsp, 0x18 ; ret
+7-zip.dll | 0x100010fa | mov byte ptr [r8], 0 ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x1000106b | mov byte ptr [rax], 0 ; add rsp, 0x18 ; ret
+7-zip.dll | 0x100010fb | mov byte ptr [rax], 0 ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x100036f8 | mov byte ptr [rax], al ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100076f1 | mov byte ptr [rbx + 0x18], 0 ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x1000520e | mov byte ptr [rbx + 9], 0 ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10004ee3 | mov byte ptr [rbx], cl ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x1000306e | mov byte ptr [rcx + 0x24], al ; mov byte ptr [rcx + 0x25], al ; ret
+7-zip.dll | 0x10003071 | mov byte ptr [rcx + 0x25], al ; ret
+7-zip.dll | 0x10001492 | mov byte ptr [rcx - 0x75], cl ; add cl, byte ptr [rax - 0x73] ; add al, 0x50 ; ret
+7-zip.dll | 0x1000b610 | mov byte ptr [rcx], 0x74 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10006c99 | mov ch, 0 ; add byte ptr [rax - 0x39], cl ; ret 2
+7-zip.dll | 0x10006735 | mov ch, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x100017a1 | mov cl, 0xb0 ; add ebx, eax ; xor al, al ; ret
+7-zip.dll | 0x10007238 | mov cl, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x100066cb | mov dh, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x1000286d | mov dword ptr [r11 + r10*2], 0xff49fffd ; ret 0x3245
+7-zip.dll | 0x10002827 | mov dword ptr [r11 + r10*2], edx ; inc r10 ; jmp 0x1000287f
+7-zip.dll | 0x10001cb4 | mov dword ptr [rax], 0x8b480000 ; ret
+7-zip.dll | 0x100065e7 | mov dword ptr [rax], edx ; ret
+7-zip.dll | 0x100065e6 | mov dword ptr [rax], r10d ; ret
+7-zip.dll | 0x10001128 | mov dword ptr [rbx + 0x20], ebx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001127 | mov dword ptr [rbx + 0x20], r11d ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001885 | mov dword ptr [rbx + 0xc], edi ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10001ec6 | mov dword ptr [rbx + 8], edx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10005340 | mov dword ptr [rbx + 8], edx ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000286e | mov dword ptr [rbx + rdx*2], 0xff49fffd ; ret 0x3245
+7-zip.dll | 0x10002828 | mov dword ptr [rbx + rdx*2], edx ; inc r10 ; jmp 0x1000287e
+7-zip.dll | 0x10001a11 | mov dword ptr [rbx], eax ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004f07 | mov dword ptr [rbx], ecx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x1000388d | mov dword ptr [rbx], ecx ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x1000306b | mov dword ptr [rcx + 0x20], eax ; mov byte ptr [rcx + 0x24], al ; mov byte ptr [rcx + 0x25], al ; ret
+7-zip.dll | 0x100065e2 | mov dword ptr [rcx + 8], edx ; mov word ptr [rax], r10w ; ret
+7-zip.dll | 0x10002121 | mov dword ptr [rcx + 8], edx ; ret
+7-zip.dll | 0x100065e1 | mov dword ptr [rcx + 8], r10d ; mov word ptr [rax], r10w ; ret
+7-zip.dll | 0x10008e7d | mov dword ptr [rcx + rax*2], 0xff41005c ; ret
+7-zip.dll | 0x10005152 | mov dword ptr [rcx + rax*2], edx ; mov eax, edx ; jmp 0x10005163
+7-zip.dll | 0x10004aa2 | mov dword ptr [rdi + 0x30], eax ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10003852 | mov dword ptr [rdi], ecx ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000667b | mov dword ptr [rdx + r8], 0xda75005f ; ret
+7-zip.dll | 0x1000667c | mov dword ptr [rdx + rax], 0xda75005f ; ret
+7-zip.dll | 0x1000274e | mov dword ptr [rdx], ecx ; mov eax, r8d ; ret
+7-zip.dll | 0x10006a97 | mov dword ptr [rip + 0xb83b], eax ; ret
+7-zip.dll | 0x10002883 | mov dword ptr [rsi], edx ; mov al, r9b ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001678 | mov eax, 0xffffffff ; ret
+7-zip.dll | 0x10004190 | mov eax, 1 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10003b15 | mov eax, 1 ; ret
+7-zip.dll | 0x10003637 | mov eax, dword ptr [rax] ; add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x10007c1c | mov eax, dword ptr [rcx + 0x10] ; ret
+7-zip.dll | 0x1000699c | mov eax, dword ptr [rcx + 8] ; ret
+7-zip.dll | 0x10001494 | mov eax, dword ptr [rdx] ; lea rax, [rax + rdx*2] ; ret
+7-zip.dll | 0x10002751 | mov eax, eax ; ret
+7-zip.dll | 0x1000514d | mov eax, eax ; xor edx, edx ; mov word ptr [rcx + rax*2], dx ; mov eax, edx ; jmp 0x10005168
+7-zip.dll | 0x100018d7 | mov eax, ebx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001bed | mov eax, ebx ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10002afe | mov eax, ebx ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x1000679f | mov eax, ebx ; add rsp, 0x50 ; pop rbx ; ret
+7-zip.dll | 0x100050a9 | mov eax, ebx ; add rsp, 0x60 ; pop rbx ; ret
+7-zip.dll | 0x10002c3d | mov eax, ebx ; add rsp, 0x68 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000b55b | mov eax, ecx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x100020a0 | mov eax, ecx ; ret
+7-zip.dll | 0x10001dbe | mov eax, edi ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001918 | mov eax, edi ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004b76 | mov eax, edi ; add rsp, 0x38 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000adfd | mov eax, edi ; add rsp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000558e | mov eax, edi ; add rsp, 0x50 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10003dcd | mov eax, edx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10005155 | mov eax, edx ; jmp 0x10005160
+7-zip.dll | 0x10001d36 | mov eax, esi ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002642 | mov eax, esi ; add rsp, 0x30 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100026c7 | mov eax, esi ; add rsp, 0x40 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10005154 | mov eax, r10d ; jmp 0x10005161
+7-zip.dll | 0x100050ff | mov eax, r11d ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x100050a8 | mov eax, r11d ; add rsp, 0x60 ; pop rbx ; ret
+7-zip.dll | 0x10002750 | mov eax, r8d ; ret
+7-zip.dll | 0x1000b4f3 | mov ebp, 0x3bffff9b ; ret
+7-zip.dll | 0x100030df | mov ebp, 0x8bfffff2 ; ret
+7-zip.dll | 0x1000a9d7 | mov ebp, edx ; lea rcx, [rbp + 0x50] ; call 0x100074bc
+7-zip.dll | 0x1000abe1 | mov ebx, 0x48ffff77 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000a661 | mov ebx, 0x48ffff8a ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000a561 | mov ebx, 0x48ffff8b ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000a261 | mov ebx, 0x48ffff8e ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000b7b4 | mov ebx, dword ptr [rsp + 0x30] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b600 | mov ebx, dword ptr [rsp + 0x38] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bcb1 | mov ebx, dword ptr [rsp + 0x78] ; add rsp, 0x68 ; ret
+7-zip.dll | 0x1000392b | mov ecx, 0x33fffffe ; fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x100032c3 | mov ecx, 0x3affffe3 ; ret
+7-zip.dll | 0x100066fc | mov ecx, dword ptr [rbp + 0x40] ; call 0x10003125
+7-zip.dll | 0x100060be | mov ecx, dword ptr [rsp + 0x38] ; call 0x100023a6
+7-zip.dll | 0x10005242 | mov ecx, edx ; call 0x10001c8c
+7-zip.dll | 0x10005d89 | mov ecx, esi ; call 0x10001fe4
+7-zip.dll | 0x10006409 | mov edi, 0x4890ffff ; add esp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x1000a2c1 | mov edi, 0x48ffff89 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000b8e7 | mov edi, dword ptr [rsp + 0x48] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000ac62 | mov edx, 0x48ffff84 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000ab62 | mov edx, 0x48ffff85 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000aa62 | mov edx, 0x48ffff86 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000a962 | mov edx, 0x48ffff87 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000a762 | mov edx, 0x48ffff89 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10008262 | mov edx, 0x48ffffae ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10003bbd | mov edx, 0x8348c0ff ; ret
+7-zip.dll | 0x100077e8 | mov edx, 0x8b48002e ; retf
+7-zip.dll | 0x100066c3 | mov edx, 0x8b48005f ; retf
+7-zip.dll | 0x100058df | mov edx, 0xdde80022 ; ret
+7-zip.dll | 0x10007b7e | mov esi, 0x48ffffad ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x100061d3 | mov esi, 0x8b480000 ; retf
+7-zip.dll | 0x100039a4 | mov esp, 0x3a00000d ; ret
+7-zip.dll | 0x1000ba17 | mov esp, dword ptr [rsp + 0x38] ; add rsp, 0x58 ; ret
+7-zip.dll | 0x1000b94c | mov esp, dword ptr [rsp + 0x48] ; add rsp, 0x68 ; ret
+7-zip.dll | 0x10001a10 | mov qword ptr [rbx], rax ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004f06 | mov qword ptr [rbx], rcx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10003851 | mov qword ptr [rdi], rcx ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000274d | mov qword ptr [rdx], rcx ; mov eax, r8d ; ret
+7-zip.dll | 0x10006a96 | mov qword ptr [rip + 0xb83b], r8 ; ret
+7-zip.dll | 0x10002882 | mov qword ptr [rsi], r10 ; mov al, r9b ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000ba16 | mov r12, qword ptr [rsp + 0x38] ; add rsp, 0x58 ; ret
+7-zip.dll | 0x1000b94b | mov r12, qword ptr [rsp + 0x48] ; add rsp, 0x68 ; ret
+7-zip.dll | 0x10006fb5 | mov r14b, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10001493 | mov rax, qword ptr [r10] ; lea rax, [rax + rdx*2] ; ret
+7-zip.dll | 0x100018d6 | mov rax, rbx ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001bec | mov rax, rbx ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10002afd | mov rax, rbx ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x1000723b | mov rax, rbx ; add rsp, 0x60 ; pop rbx ; ret
+7-zip.dll | 0x10002c3c | mov rax, rbx ; add rsp, 0x68 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10001917 | mov rax, rdi ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10004b75 | mov rax, rdi ; add rsp, 0x38 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000adfc | mov rax, rdi ; add rsp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000a9d6 | mov rbp, rdx ; lea rcx, [rbp + 0x50] ; call 0x100074bd
+7-zip.dll | 0x1000b7b3 | mov rbx, qword ptr [rsp + 0x30] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b5ff | mov rbx, qword ptr [rsp + 0x38] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bcb0 | mov rbx, qword ptr [rsp + 0x78] ; add rsp, 0x68 ; ret
+7-zip.dll | 0x100066fb | mov rcx, qword ptr [rbp + 0x40] ; call 0x10003126
+7-zip.dll | 0x100060bd | mov rcx, qword ptr [rsp + 0x38] ; call 0x100023a7
+7-zip.dll | 0x10005241 | mov rcx, rdx ; call 0x10001c8d
+7-zip.dll | 0x10005d88 | mov rcx, rsi ; call 0x10001fe5
+7-zip.dll | 0x1000b8e6 | mov rdi, qword ptr [rsp + 0x48] ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10002826 | mov word ptr [r11 + r10*2], dx ; inc r10 ; jmp 0x10002880
+7-zip.dll | 0x10008b62 | mov word ptr [rax + rbx*4], fs ; add byte ptr [rax], al ; add al, ch ; ret
+7-zip.dll | 0x10008e73 | mov word ptr [rax + rbx], fs ; add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x10009173 | mov word ptr [rax + rdx*2], fs ; add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x100065e5 | mov word ptr [rax], r10w ; ret
+7-zip.dll | 0x10005151 | mov word ptr [rcx + rax*2], dx ; mov eax, edx ; jmp 0x10005164
+7-zip.dll | 0x1000667a | mov word ptr [rdx + r8], 0x5f ; jne 0x10006666 ; ret
+7-zip.dll | 0x1000aef3 | movabs byte ptr [0x5b5f28c48348ffff], al ; ret
+7-zip.dll | 0x1000b27a | movabs byte ptr [0x5d20c48348ffff7e], al ; ret
+7-zip.dll | 0x1000727a | movabs byte ptr [0x5d20c48348ffffbe], al ; ret
+7-zip.dll | 0x1000467a | movabs byte ptr [0x5d20c48348ffffea], al ; ret
+7-zip.dll | 0x10002c79 | movabs dword ptr [0x5d20c48348000004], eax ; ret
+7-zip.dll | 0x1000b669 | neg eax ; dec eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10005060 | nop ; add byte ptr [rax], al ; add byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x1000849f | nop ; add byte ptr [rax], al ; add byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x1000640c | nop ; add rsp, 0x40 ; pop rbx ; ret
+7-zip.dll | 0x100064d0 | nop ; add rsp, 0x48 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x100060bc | nop ; mov rcx, qword ptr [rsp + 0x38] ; call 0x100023a8
+7-zip.dll | 0x100017ec | or al, 0x48 ; add esp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001887 | or al, 0x48 ; add esp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x100066c1 | or al, 0x66 ; mov edx, 0x8b48005f ; retf
+7-zip.dll | 0x10005304 | or al, 0x73 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10003abe | or al, 0x75 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10005125 | or al, 0x76 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000173e | or al, 0x8a ; or cl, byte ptr [rax - 1] ; ret 0xc984
+7-zip.dll | 0x10002117 | or al, 0x8b ; ret 0x4166
+7-zip.dll | 0x100081e1 | or al, ch ; leave ; retf
+7-zip.dll | 0x10005e1c | or bh, bh ; ret
+7-zip.dll | 0x10007373 | or bh, bh ; retf 0xc23b
+7-zip.dll | 0x1000158b | or bh, byte ptr [rdx] ; retf
+7-zip.dll | 0x100052ac | or byte ptr [r8 - 0x75], cl ; ret
+7-zip.dll | 0x10006650 | or byte ptr [r9 + 0x3b], al ; ret 0x8b48
+7-zip.dll | 0x10001c2a | or byte ptr [rax - 0x75], cl ; adc cl, byte ptr [rax - 0x75] ; retf
+7-zip.dll | 0x100052ad | or byte ptr [rax - 0x75], cl ; ret
+7-zip.dll | 0x10003ac0 | or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000698c | or byte ptr [rax - 0x7d], 0xc4 ; and byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10007c0b | or byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10006a2a | or byte ptr [rax - 0x7d], 0xc4 ; xor byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x100020ae | or byte ptr [rax], al ; jne 0x100020c1 ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x1000122c | or byte ptr [rbp + rcx*4 + 0x48], cl ; add cl, byte ptr [rax + 0x63] ; ret
+7-zip.dll | 0x10006734 | or byte ptr [rbp - 0x74b70001], dh ; ret
+7-zip.dll | 0x100065ed | or byte ptr [rbp - 0x75], al ; ret 0x5b76
+7-zip.dll | 0x10006651 | or byte ptr [rcx + 0x3b], al ; ret 0x8b48
+7-zip.dll | 0x100065e4 | or byte ptr [rsi + 0x44], ah ; mov dword ptr [rax], edx ; ret
+7-zip.dll | 0x10002115 | or byte ptr [rsp + rcx - 0x75], dh ; ret 0x4166
+7-zip.dll | 0x10001740 | or cl, byte ptr [rax - 1] ; ret 0xc984
+7-zip.dll | 0x100049d0 | or cl, byte ptr [rcx - 0x75] ; retf
+7-zip.dll | 0x1000520f | or dword ptr [r8], eax ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10005362 | or dword ptr [r9], r8d ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000208a | or dword ptr [rax + 0x3b], ecx ; retf 0x1374
+7-zip.dll | 0x10005210 | or dword ptr [rax], eax ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x100065e0 | or dword ptr [rcx + rcx*4 + 0x51], eax ; or byte ptr [rsi + 0x44], ah ; mov dword ptr [rax], edx ; ret
+7-zip.dll | 0x10005363 | or dword ptr [rcx], eax ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000179b | or dword ptr [rsi + 0x45], esp ; test eax, eax ; jne 0x1000175c ; mov al, 1 ; ret
+7-zip.dll | 0x1000529d | or eax, 0x8349c0ff ; ret
+7-zip.dll | 0x1000778f | or eax, 0x8affffac ; ret
+7-zip.dll | 0x10003170 | or eax, dword ptr [rax] ; add byte ptr [rbx + 0x3bdb33f0], cl ; ret
+7-zip.dll | 0x1000b3d9 | or ecx, dword ptr [rax - 0x75] ; retf
+7-zip.dll | 0x10006548 | or ecx, dword ptr [rax - 1] ; ret
+7-zip.dll | 0x100010c6 | or ecx, dword ptr [rcx - 1] ; ret
+7-zip.dll | 0x10003ace | or esp, dword ptr [rsi - 0x39] ; add al, 0x51 ; pop rsp ; add bh, bh ; ret 0xc766
+7-zip.dll | 0x10001069 | out dx, eax ; mov byte ptr [r8], 0 ; add rsp, 0x18 ; ret
+7-zip.dll | 0x10008e7f | pop r12 ; add byte ptr [rcx - 1], al ; ret
+7-zip.dll | 0x1000141e | pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100060d6 | pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000141c | pop r13 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100060d4 | pop r13 ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100068e8 | pop r13 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10003d83 | pop rax ; add al, byte ptr [rbp + 0xf] ; ret
+7-zip.dll | 0x1000635a | pop rax ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10005b2a | pop rax ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000b368 | pop rax ; ret
+7-zip.dll | 0x1000141d | pop rbp ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100060d5 | pop rbp ; pop r12 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x100011a0 | pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100068e9 | pop rbp ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000144a | pop rbp ; ret
+7-zip.dll | 0x10001102 | pop rbx ; ret
+7-zip.dll | 0x10005e1b | pop rcx ; or bh, bh ; ret
+7-zip.dll | 0x100066c4 | pop rdi ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000667f | pop rdi ; add byte ptr [rbp - 0x26], dh ; ret
+7-zip.dll | 0x1000188c | pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000119e | pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100017f1 | pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x1000141b | pop rsi ; pop r13 ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000119f | pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100017f2 | pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10003ad3 | pop rsp ; add bh, bh ; ret 0xc766
+7-zip.dll | 0x10008e80 | pop rsp ; add byte ptr [rcx - 1], al ; ret
+7-zip.dll | 0x1000bd38 | pop rsp ; add byte ptr gs:[rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b7b5 | pop rsp ; and al, 0x30 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000b601 | pop rsp ; and al, 0x38 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x1000bcb2 | pop rsp ; and al, 0x78 ; add rsp, 0x68 ; ret
+7-zip.dll | 0x1000141f | pop rsp ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100060d7 | pop rsp ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10002cb5 | psllw mm7, mm7 ; dec dword ptr [rax - 0x75] ; retf
+7-zip.dll | 0x10005d87 | push -0x173174b8 ; push rax ; ret 0xffff
+7-zip.dll | 0x10006227 | push -0x74b72dcd ; retf
+7-zip.dll | 0x100049de | push 0x5b5d5e5f ; ret
+7-zip.dll | 0x1000bce1 | push qword ptr [rbp + 1] ; ret
+7-zip.dll | 0x1000302e | push qword ptr [rbx] ; fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x10003d48 | push qword ptr [rbx] ; sar byte ptr [rdx], cl ; ret 0x474
+7-zip.dll | 0x10003eb4 | push qword ptr [rbx] ; sar byte ptr [rdx], cl ; ret 0x774
+7-zip.dll | 0x1000a9db | push r8 ; call 0x100074b8
+7-zip.dll | 0x10006ff9 | push rax ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10009175 | push rax ; add dword ptr [rax], eax ; add byte ptr [rcx - 0x75], al ; ret
+7-zip.dll | 0x1000a9dc | push rax ; call 0x100074b7
+7-zip.dll | 0x100066f9 | push rax ; dec byte ptr [rax - 0x75] ; call 0x10003128
+7-zip.dll | 0x100066f8 | push rax ; dec byte ptr [rax - 0x75] ; call 0x10003129
+7-zip.dll | 0x10007b53 | push rax ; mov rax, rbx ; add rsp, 0x30 ; pop rbx ; ret
+7-zip.dll | 0x1000160f | push rax ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100067a4 | push rax ; pop rbx ; ret
+7-zip.dll | 0x10005593 | push rax ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10001499 | push rax ; ret
+7-zip.dll | 0x10005d8c | push rax ; ret 0xffff
+7-zip.dll | 0x10003b77 | push rax ; xor al, al ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10007372 | push rbp ; or bh, bh ; retf 0xc23b
+7-zip.dll | 0x10003fb9 | push rbx ; add al, byte ptr [rcx - 0x75] ; ret 0xf46
+7-zip.dll | 0x1000282a | push rbx ; inc r10 ; jmp 0x1000287c
+7-zip.dll | 0x10005303 | push rbx ; or al, 0x73 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10005124 | push rbx ; or al, 0x76 ; or byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10002870 | push rbx ; std ; dec dword ptr [rcx - 1] ; ret 0x3245
+7-zip.dll | 0x10007022 | push rcx ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+7-zip.dll | 0x100065ec | push rcx ; or byte ptr [rbp - 0x75], al ; ret 0x5b76
+7-zip.dll | 0x100065e3 | push rcx ; or byte ptr [rsi + 0x44], ah ; mov dword ptr [rax], edx ; ret
+7-zip.dll | 0x10002114 | push rcx ; or byte ptr [rsp + rcx - 0x75], dh ; ret 0x4166
+7-zip.dll | 0x10003ad2 | push rcx ; pop rsp ; add bh, bh ; ret 0xc766
+7-zip.dll | 0x10001542 | push rdx ; and eax, dword ptr [rax] ; add byte ptr [rdx], bh ; ret
+7-zip.dll | 0x10005d85 | push rsp ; and al, 0x68 ; mov rcx, rsi ; call 0x10001fe8
+7-zip.dll | 0x1000bcdb | rcl dword ptr [rax], 0x66 ; test ecx, 0x175ffff ; ret
+7-zip.dll | 0x1000164a | rcr byte ptr [rdx], cl ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10002887 | rcr dword ptr [rdi + 0x5e], 0x5b ; ret
+7-zip.dll | 0x1000103a | ret
+7-zip.dll | 0x10002831 | ret 0
+7-zip.dll | 0x10001c5e | ret 0x1074
+7-zip.dll | 0x1000207b | ret 0x2574
+7-zip.dll | 0x10002875 | ret 0x3245
+7-zip.dll | 0x10007429 | ret 0x349
+7-zip.dll | 0x100018fa | ret 0x3880
+7-zip.dll | 0x1000159f | ret 0x3b44
+7-zip.dll | 0x10002119 | ret 0x4166
+7-zip.dll | 0x10006679 | ret 0x4266
+7-zip.dll | 0x10006646 | ret 0x4402
+7-zip.dll | 0x10005bc2 | ret 0x4408
+7-zip.dll | 0x100036c2 | ret 0x450f
+7-zip.dll | 0x10001033 | ret 0x4530
+7-zip.dll | 0x10001761 | ret 0x4566
+7-zip.dll | 0x10003685 | ret 0x474
+7-zip.dll | 0x1000175d | ret 0x4802
+7-zip.dll | 0x10007578 | ret 0x4808
+7-zip.dll | 0x10005508 | ret 0x4828
+7-zip.dll | 0x10001fc5 | ret 0x4902
+7-zip.dll | 0x10001045 | ret 0x4930
+7-zip.dll | 0x1000282d | ret 0x49eb
+7-zip.dll | 0x100065f0 | ret 0x5b76
+7-zip.dll | 0x10002bd7 | ret 0x6273
+7-zip.dll | 0x10007667 | ret 0x6602
+7-zip.dll | 0x10005156 | ret 0x6eb
+7-zip.dll | 0x1000210f | ret 0x75ff
+7-zip.dll | 0x10003eb8 | ret 0x774
+7-zip.dll | 0x10007396 | ret 0x7b8d
+7-zip.dll | 0x10002844 | ret 0x8166
+7-zip.dll | 0x10002c08 | ret 0x8341
+7-zip.dll | 0x10001c63 | ret 0x8348
+7-zip.dll | 0x10003484 | ret 0x840f
+7-zip.dll | 0x100040dc | ret 0x8566
+7-zip.dll | 0x100073d7 | ret 0x8840
+7-zip.dll | 0x100010d9 | ret 0x8845
+7-zip.dll | 0x10003b92 | ret 0x89
+7-zip.dll | 0x10005d3a | ret 0x8966
+7-zip.dll | 0x1000100c | ret 0x8b44
+7-zip.dll | 0x10003025 | ret 0x8b48
+7-zip.dll | 0x10001081 | ret 0x8b4c
+7-zip.dll | 0x100027fb | ret 0xb60f
+7-zip.dll | 0x10003d59 | ret 0xb74
+7-zip.dll | 0x100061d2 | ret 0xbe
+7-zip.dll | 0x10001ebf | ret 0xc766
+7-zip.dll | 0x10001743 | ret 0xc984
+7-zip.dll | 0x100051de | ret 0xd18b
+7-zip.dll | 0x10004023 | ret 0xdb33
+7-zip.dll | 0x10001025 | ret 0xe0c0
+7-zip.dll | 0x10001894 | ret 0xe8d1
+7-zip.dll | 0x10002863 | ret 0xeb02
+7-zip.dll | 0x1000166e | ret 0xec75
+7-zip.dll | 0x10003fbd | ret 0xf46
+7-zip.dll | 0x100010ab | ret 0xf749
+7-zip.dll | 0x100080d0 | ret 0xf983
+7-zip.dll | 0x10004ffc | ret 0xff02
+7-zip.dll | 0x10001f80 | ret 0xff48
+7-zip.dll | 0x1000b25a | ret 0xff7e
+7-zip.dll | 0x1000725a | ret 0xffbe
+7-zip.dll | 0x1000475a | ret 0xffe9
+7-zip.dll | 0x1000465a | ret 0xffea
+7-zip.dll | 0x10002ada | ret 0xfff8
+7-zip.dll | 0x10005d8d | ret 0xffff
+7-zip.dll | 0x1000677b | ret 1
+7-zip.dll | 0x10006c9e | ret 2
+7-zip.dll | 0x100019da | ret 9
+7-zip.dll | 0x10001087 | retf
+7-zip.dll | 0x10003f8d | retf 0
+7-zip.dll | 0x1000afce | retf 0x10b9
+7-zip.dll | 0x1000208d | retf 0x1374
+7-zip.dll | 0x1000189f | retf 0x3e9
+7-zip.dll | 0x10005243 | retf 0x3fe8
+7-zip.dll | 0x1000520a | retf 0x6f
+7-zip.dll | 0x10001eac | retf 0x72e8
+7-zip.dll | 0x10002363 | retf 0x8348
+7-zip.dll | 0x1000802e | retf 0x840f
+7-zip.dll | 0x10007bfc | retf 0x8948
+7-zip.dll | 0x10002018 | retf 0x8b44
+7-zip.dll | 0x1000218c | retf 0x8d41
+7-zip.dll | 0x10008152 | retf 0x8d48
+7-zip.dll | 0x10008108 | retf 0x8d4c
+7-zip.dll | 0x10008036 | retf 0x8e0f
+7-zip.dll | 0x10004e0e | retf 0xb
+7-zip.dll | 0x10007375 | retf 0xc23b
+7-zip.dll | 0x100050d5 | retf 0xc748
+7-zip.dll | 0x10007e93 | retf 0xc766
+7-zip.dll | 0x10001a55 | retf 0xc9e8
+7-zip.dll | 0x100010d0 | retf 0xcc73
+7-zip.dll | 0x1000209c | retf 0xd148
+7-zip.dll | 0x1000214c | retf 0xd2e8
+7-zip.dll | 0x10002c18 | retf 0xd675
+7-zip.dll | 0x100020cd | retf 0xe274
+7-zip.dll | 0x1000222c | retf 0xf2e8
+7-zip.dll | 0x10001a2b | retf 0xf3e9
+7-zip.dll | 0x100080e2 | retf 0xf983
+7-zip.dll | 0x1000316d | retf 0xfde8
+7-zip.dll | 0x10009aba | retf 0xff81
+7-zip.dll | 0x10007152 | retf 0xffbf
+7-zip.dll | 0x1000809e | retf 0xffe3
+7-zip.dll | 0x1000610e | retf 0xfff8
+7-zip.dll | 0x10005246 | retf 0xffff
+7-zip.dll | 0x10003d37 | rol bl, 0xb8 ; add dword ptr [rax], eax ; add byte ptr [rax], al ; ret
+7-zip.dll | 0x10003d80 | rol byte ptr [rbp - 0x73], 0x58 ; add al, byte ptr [rbp + 0xf] ; ret
+7-zip.dll | 0x100050e6 | rol byte ptr [rbx + rcx*4 - 0x28], 0x75 ; adc ecx, dword ptr [rax - 0x75] ; retf
+7-zip.dll | 0x10001d12 | rol byte ptr [rdx], 0xff ; ret
+7-zip.dll | 0x10004180 | rol byte ptr [rdx], 0xff ; ret 0x8566
+7-zip.dll | 0x10001030 | rol dword ptr [rcx - 0x80], 1 ; ret 0x4530
+7-zip.dll | 0x10001042 | rol dword ptr [rcx - 0x80], cl ; ret 0x4930
+7-zip.dll | 0x100040d9 | rol dword ptr [rdx], 0xff ; ret 0x8566
+7-zip.dll | 0x1000bab1 | ror byte ptr [rax - 0x75], 1 ; ret
+7-zip.dll | 0x10002444 | ror byte ptr [rax - 0x75], 1 ; retf
+7-zip.dll | 0x10006229 | ror byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x1000226b | ror byte ptr [rax - 0x7d], 0xc0 ; add bh, bh ; ret
+7-zip.dll | 0x10004075 | ror byte ptr [rax - 0x7d], 0xc4 ; and byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x100049da | ror byte ptr [rax - 0x7d], 0xc4 ; push 0x5b5d5e5f ; ret
+7-zip.dll | 0x10003049 | ror byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rdi + 0x5b], bl ; ret
+7-zip.dll | 0x10002a5f | ror byte ptr [rax - 0x7f], 0xc4 ; xor byte ptr [rdx], al ; add byte ptr [rax], al ; pop rbx ; ret
+7-zip.dll | 0x10003dbe | ror byte ptr [rcx + 3], cl ; ret
+7-zip.dll | 0x1000388c | ror byte ptr [rcx - 0x3b7cb7f5], 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10001673 | ror dword ptr [rax - 0x2f], 0xf8 ; ret
+7-zip.dll | 0x10004ee2 | ror dword ptr [rax - 0x3b7cb7f5], 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10003a4d | ror dword ptr [rax - 0x75], 1 ; retf
+7-zip.dll | 0x1000b668 | sal bh, 0xd8 ; dec eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10006a0f | sal byte ptr [rax + rdx + 0x48], 0x8b ; retf
+7-zip.dll | 0x100078b4 | sal byte ptr [rbp + 0x5f], 0xff ; ret
+7-zip.dll | 0x1000aedc | sal byte ptr [rbp + rcx + 0x48], 0x8b ; ror byte ptr [rax - 0x75], 1 ; retf
+7-zip.dll | 0x10003a85 | sal byte ptr [rbp - 0x18], cl ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x1000179f | sal byte ptr [rbp - 0x4f], 0xb0 ; add ebx, eax ; xor al, al ; ret
+7-zip.dll | 0x1000274a | sal byte ptr [rbx + rax + 0x48], cl ; mov dword ptr [rdx], ecx ; mov eax, r8d ; ret
+7-zip.dll | 0x1000514e | sal byte ptr [rbx], 0xd2 ; mov word ptr [rcx + rax*2], dx ; mov eax, edx ; jmp 0x10005167
+7-zip.dll | 0x1000173c | sal dword ptr [rbp + 0xc], 0x8a ; or cl, byte ptr [rax - 1] ; ret 0xc984
+7-zip.dll | 0x10003d4a | sar byte ptr [rdx], cl ; ret 0x474
+7-zip.dll | 0x10003eb6 | sar byte ptr [rdx], cl ; ret 0x774
+7-zip.dll | 0x10002069 | sar eax, 1 ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001675 | sar eax, 1 ; ret
+7-zip.dll | 0x1000209e | sar ecx, 1 ; mov eax, ecx ; ret
+7-zip.dll | 0x1000bcdf | sar edi, 0xff ; jne 0x1000bcea ; ret
+7-zip.dll | 0x10002068 | sar rax, 1 ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10001674 | sar rax, 1 ; ret
+7-zip.dll | 0x1000209d | sar rcx, 1 ; mov eax, ecx ; ret
+7-zip.dll | 0x100076f2 | sbb byte ptr [r8], al ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10002015 | sbb byte ptr [rax - 0x75], cl ; retf 0x8b44
+7-zip.dll | 0x100076f3 | sbb byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10007bec | sbb cl, byte ptr [rax - 0x75] ; ret
+7-zip.dll | 0x10003bad | sbb cl, byte ptr [rax - 0x7d] ; ret
+7-zip.dll | 0x10003e60 | sbb eax, eax ; and eax, ecx ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10007f25 | sbb edi, edi ; ret
+7-zip.dll | 0x10003047 | sete al ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10006aa8 | setne al ; ret
+7-zip.dll | 0x10003e61 | shl byte ptr [rbx], 0xc1 ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10005150 | shl byte ptr [rsi - 0x77], cl ; adc al, 0x41 ; mov eax, edx ; jmp 0x10005165
+7-zip.dll | 0x10007361 | shrd edi, edi, cl ; dec dword ptr [rbx + 0x3bdb33f8] ; ret
+7-zip.dll | 0x1000209f | stc ; mov eax, ecx ; ret
+7-zip.dll | 0x10002871 | std ; dec dword ptr [rcx - 1] ; ret 0x3245
+7-zip.dll | 0x1000316f | std ; or eax, dword ptr [rax] ; add byte ptr [rbx + 0x3bdb33f0], cl ; ret
+7-zip.dll | 0x1000a2a1 | sti ; cmp bh, 0xff ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000ad21 | sti ; cmp edi, -1 ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000ae81 | sub al, byte ptr [rax] ; add byte ptr [rax - 0x75], cl ; ror byte ptr [rax - 0x75], 1 ; retf
+7-zip.dll | 0x10007431 | sub al, ch ; add eax, dword ptr [rdx] ; add byte ptr [rbx], bh ; ret
+7-zip.dll | 0x10007235 | sub al, ch ; mov cl, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x100030dd | sub al, ch ; mov ebp, 0x8bfffff2 ; ret
+7-zip.dll | 0x100073c7 | sub al, ch ; ret
+7-zip.dll | 0x10007258 | sub al, ch ; ret 0xffbe
+7-zip.dll | 0x10002ad8 | sub al, ch ; ret 0xfff8
+7-zip.dll | 0x1000552c | sub al, ch ; retf
+7-zip.dll | 0x1000610c | sub al, ch ; retf 0xfff8
+7-zip.dll | 0x100011d7 | sub byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10001b57 | sub byte ptr [rcx + 0x5d], al ; pop r12 ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x10004896 | sub byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x10004d40 | sub byte ptr [rcx], al ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x1000188b | sub byte ptr [rdi + 0x5b], bl ; ret
+7-zip.dll | 0x1000119d | sub byte ptr [rdi + 0x5e], bl ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100051d1 | sub byte ptr [rdx], al ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100026f4 | sub byte ptr [rdx], cl ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x1000b5b3 | sub dh, dh ; ret 0x4802
+7-zip.dll | 0x100021c0 | sub dword ptr [rdi + 8], ebx ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x10001672 | sub eax, ecx ; sar rax, 1 ; ret
+7-zip.dll | 0x1000209b | sub ecx, edx ; sar rcx, 1 ; mov eax, ecx ; ret
+7-zip.dll | 0x10007257 | sub r8b, r13b ; ret 0xffbe
+7-zip.dll | 0x1000610b | sub r8b, r13b ; retf 0xfff8
+7-zip.dll | 0x10001671 | sub rax, rcx ; sar rax, 1 ; ret
+7-zip.dll | 0x1000209a | sub rcx, rdx ; sar rcx, 1 ; mov eax, ecx ; ret
+7-zip.dll | 0x10002f93 | test al, 2 ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100040dd | test ax, ax ; jne 0x10004095 ; xor al, al ; ret
+7-zip.dll | 0x1000505e | test byte ptr [rax + rdx*4], ah ; add byte ptr [rax], al ; add byte ptr [rcx - 0x75], cl ; retf
+7-zip.dll | 0x10008030 | test byte ptr [rax], dh ; add dword ptr [rax], eax ; add byte ptr [rbx], bh ; retf 0x8e0f
+7-zip.dll | 0x10001744 | test cl, cl ; jne 0x1000171b ; mov al, 1 ; ret
+7-zip.dll | 0x1000bcdd | test cx, 0xffff ; jne 0x1000bcec ; ret
+7-zip.dll | 0x1000179e | test eax, eax ; jne 0x10001759 ; mov al, 1 ; ret
+7-zip.dll | 0x100040de | test eax, eax ; jne 0x10004094 ; xor al, al ; ret
+7-zip.dll | 0x10001482 | test eax, eax ; jns 0x1000148f ; xor eax, eax ; ret
+7-zip.dll | 0x1000bcde | test ecx, 0x175ffff ; ret
+7-zip.dll | 0x10003a84 | test edx, edx ; jne 0x10003a79 ; mov eax, 0xffffffff ; ret
+7-zip.dll | 0x1000179d | test r8d, r8d ; jne 0x1000175a ; mov al, 1 ; ret
+7-zip.dll | 0x10001481 | test r8d, r8d ; jns 0x10001490 ; xor eax, eax ; ret
+7-zip.dll | 0x1000179c | test r8w, r8w ; jne 0x1000175b ; mov al, 1 ; ret
+7-zip.dll | 0x10006fd9 | wait ; mov dh, 0xff ; dec dword ptr [rax - 0x75] ; ret
+7-zip.dll | 0x1000870d | wait ; ret
+7-zip.dll | 0x1000388b | xchg eax, ebp ; ror byte ptr [rcx - 0x3b7cb7f5], 0x30 ; pop rbx ; ret
+7-zip.dll | 0x10004ee1 | xchg eax, ebp ; ror dword ptr [rax - 0x3b7cb7f5], 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10006d8a | xchg eax, edx ; ret
+7-zip.dll | 0x10002b8e | xchg eax, esp ; and al, 0x98 ; add byte ptr [rax], al ; add byte ptr [rax - 0x75], cl ; retf
+7-zip.dll | 0x10003048 | xchg eax, esp ; ror byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rdi + 0x5b], bl ; ret
+7-zip.dll | 0x10004074 | xor al, al ; add rsp, 0x20 ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10003b78 | xor al, al ; add rsp, 0x28 ; pop rdi ; pop rbx ; ret
+7-zip.dll | 0x1000174b | xor al, al ; ret
+7-zip.dll | 0x1000778d | xor al, ch ; or eax, 0x8affffac ; ret
+7-zip.dll | 0x1000870b | xor al, ch ; wait ; ret
+7-zip.dll | 0x100050fb | xor byte ptr [rax - 0x77], cl ; add eax, dword ptr [rcx - 0x75] ; ret
+7-zip.dll | 0x1000afc6 | xor byte ptr [rax - 1], cl ; ret
+7-zip.dll | 0x10001034 | xor byte ptr [rbp - 0x78], al ; adc ecx, dword ptr [rcx - 1] ; ret
+7-zip.dll | 0x100010c3 | xor byte ptr [rbp - 0x78], al ; or ecx, dword ptr [rcx - 1] ; ret
+7-zip.dll | 0x100052b4 | xor byte ptr [rcx + 0x5c], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100068e7 | xor byte ptr [rcx + 0x5d], al ; pop rdi ; pop rsi ; pop rbp ; pop rbx ; ret
+7-zip.dll | 0x100010d6 | xor byte ptr [rcx + 0x63], cl ; ret 0x8845
+7-zip.dll | 0x10002647 | xor byte ptr [rdi + 0x5e], bl ; pop rbx ; ret
+7-zip.dll | 0x10002a63 | xor byte ptr [rdx], al ; add byte ptr [rax], al ; pop rbx ; ret
+7-zip.dll | 0x10003f62 | xor byte ptr [rdx], al ; add byte ptr [rax], al ; pop rdi ; pop rsi ; pop rbx ; ret
+7-zip.dll | 0x10006acf | xor eax, 0x33ffffbf ; fstp xword ptr [rdx] ; ret
+7-zip.dll | 0x1000b995 | xor eax, 0x48000001 ; add esp, 0x20 ; pop rbp ; ret
+7-zip.dll | 0x10005f67 | xor eax, 0x8bffffc4 ; ret
+7-zip.dll | 0x1000ad8b | xor eax, eax ; add rsp, 0x20 ; pop rbx ; ret
+7-zip.dll | 0x10003c96 | xor eax, eax ; add rsp, 0x28 ; ret
+7-zip.dll | 0x10006e8d | xor eax, eax ; add rsp, 0x68 ; ret
+7-zip.dll | 0x10001486 | xor eax, eax ; ret
+7-zip.dll | 0x1000514f | xor edx, edx ; mov word ptr [rcx + rax*2], dx ; mov eax, edx ; jmp 0x10005166
+fzshellext_64.dll | 0x67082c91 | add al, 0 ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670826c4 | add al, 0x74 ; or dword ptr [rbx - 0x7af0bf08], eax ; ret 0
+fzshellext_64.dll | 0x67082123 | add al, 0x80 ; add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x67081a93 | add al, 0x80 ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081dce | add al, 0x80 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081dcd | add al, byte ptr [rax + rax*4] ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670828f5 | add al, byte ptr [rax] ; add byte ptr [rax - 0x7d], cl ; ret
+fzshellext_64.dll | 0x6708252a | add bh, bh ; ror byte ptr [rax - 0x7d], 1 ; ret
+fzshellext_64.dll | 0x6708198f | add bl, dh ; ret
+fzshellext_64.dll | 0x670831bc | add byte ptr [r8], r8b ; je 0x670831c9 ; ret
+fzshellext_64.dll | 0x67081563 | add byte ptr [rax + 0x20c48348], al ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x670816be | add byte ptr [rax + 0x20c48348], dl ; pop rbx ; ret
+fzshellext_64.dll | 0x670822f3 | add byte ptr [rax + 0x39], cl ; ret
+fzshellext_64.dll | 0x6708359e | add byte ptr [rax + 0x59], bl ; ret
+fzshellext_64.dll | 0x67081ff5 | add byte ptr [rax - 0x75], cl ; and al, 0x38 ; call qword ptr [rip + 0xc29f]
+fzshellext_64.dll | 0x67081803 | add byte ptr [rax - 0x77], cl ; jmp 0x32b32e11
+fzshellext_64.dll | 0x6708165b | add byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x6708180c | add byte ptr [rax - 0x77], cl ; stc ; call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x67082bba | add byte ptr [rax - 0x7d], cl ; clc ; add dword ptr [rax - 0x77], ecx ; ret 0x7474
+fzshellext_64.dll | 0x67082c6b | add byte ptr [rax - 0x7d], cl ; clc ; add dword ptr [rax - 0x77], ecx ; ret 0x850f
+fzshellext_64.dll | 0x670828f7 | add byte ptr [rax - 0x7d], cl ; ret
+fzshellext_64.dll | 0x6708254b | add byte ptr [rax], 0 ; add byte ptr [rax], al ; xor eax, eax ; ret
+fzshellext_64.dll | 0x670822f1 | add byte ptr [rax], al ; add byte ptr [rax + 0x39], cl ; ret
+fzshellext_64.dll | 0x670818e5 | add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x670818e3 | add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67081038 | add byte ptr [rax], al ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082061 | add byte ptr [rax], al ; add byte ptr [rax], al ; mov qword ptr [rcx], rax ; ret
+fzshellext_64.dll | 0x6708256c | add byte ptr [rax], al ; add byte ptr [rax], al ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708254c | add byte ptr [rax], al ; add byte ptr [rax], al ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67081711 | add byte ptr [rax], al ; add byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x6708351d | add byte ptr [rax], al ; add byte ptr [rbx - 0x7cb7fe12], al ; ret 0x8b14
+fzshellext_64.dll | 0x67081283 | add byte ptr [rax], al ; add cl, ch ; retf
+fzshellext_64.dll | 0x67081a10 | add byte ptr [rax], al ; add dword ptr [rax + 1], edi ; ret
+fzshellext_64.dll | 0x6708103a | add byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082505 | add byte ptr [rax], al ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x670824c0 | add byte ptr [rax], al ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670831bd | add byte ptr [rax], al ; je 0x670831c8 ; ret
+fzshellext_64.dll | 0x67082063 | add byte ptr [rax], al ; mov qword ptr [rcx], rax ; ret
+fzshellext_64.dll | 0x6708256e | add byte ptr [rax], al ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708180b | add byte ptr [rax], al ; mov rcx, rdi ; call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x670816bd | add byte ptr [rax], al ; nop ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67081988 | add byte ptr [rax], al ; nop word ptr [rax + rax] ; ret
+fzshellext_64.dll | 0x67081712 | add byte ptr [rax], al ; pop rbx ; pop rsi ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x6708198e | add byte ptr [rax], al ; ret
+fzshellext_64.dll | 0x670822b4 | add byte ptr [rax], al ; test eax, eax ; je 0x670822c7 ; ret
+fzshellext_64.dll | 0x670830d2 | add byte ptr [rax], al ; xor eax, eax ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x6708144e | add byte ptr [rax], al ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67081a24 | add byte ptr [rax], al ; xor eax, eax ; test edx, edx ; setne al ; ret
+fzshellext_64.dll | 0x6708198d | add byte ptr [rax], r8b ; ret
+fzshellext_64.dll | 0x6708144d | add byte ptr [rax], r8b ; xor eax, eax ; ret
+fzshellext_64.dll | 0x670822b5 | add byte ptr [rbp - 0xcf98b40], al ; ret
+fzshellext_64.dll | 0x67081ee4 | add byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x67081713 | add byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x6708351f | add byte ptr [rbx - 0x7cb7fe12], al ; ret 0x8b14
+fzshellext_64.dll | 0x6708299f | add byte ptr [rbx - 0x7cb7fe3a], al ; ret
+fzshellext_64.dll | 0x6708168b | add byte ptr [rcx], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67081a11 | add byte ptr [rcx], al ; mov eax, 1 ; ret
+fzshellext_64.dll | 0x67081435 | add byte ptr [rcx], al ; ret
+fzshellext_64.dll | 0x6708338d | add byte ptr [rcx], dh ; dec dword ptr [rax - 0x77] ; retf
+fzshellext_64.dll | 0x67082082 | add byte ptr [rcx], dh ; ror byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x670831be | add byte ptr [rdx + rax - 0xd], dh ; ret
+fzshellext_64.dll | 0x67081285 | add cl, ch ; retf
+fzshellext_64.dll | 0x670831c0 | add dh, bl ; ret
+fzshellext_64.dll | 0x67081a12 | add dword ptr [rax + 1], edi ; ret
+fzshellext_64.dll | 0x67081a92 | add dword ptr [rax + rax*4], eax ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67082bbe | add dword ptr [rax - 0x77], ecx ; ret 0x7474
+fzshellext_64.dll | 0x67082c6f | add dword ptr [rax - 0x77], ecx ; ret 0x850f
+fzshellext_64.dll | 0x670829a2 | add dword ptr [rax - 0x7d], ecx ; ret
+fzshellext_64.dll | 0x670833e3 | add dword ptr [rax - 0x7d], ecx ; ret 0x4828
+fzshellext_64.dll | 0x67083522 | add dword ptr [rax - 0x7d], ecx ; ret 0x8b14
+fzshellext_64.dll | 0x67081043 | add dword ptr [rax], eax ; add byte ptr [rax], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670824be | add dword ptr [rax], eax ; add byte ptr [rax], al ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081a14 | add dword ptr [rax], eax ; add byte ptr [rax], al ; ret
+fzshellext_64.dll | 0x67082d5c | add dword ptr [rbx - 0x7cb7f3b0], ecx ; ret
+fzshellext_64.dll | 0x67081dcc | add dword ptr [rdx], eax ; add al, 0x80 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081463 | add eax, 1 ; mov dword ptr [rcx + 0x10], eax ; ret
+fzshellext_64.dll | 0x67081443 | add eax, 1 ; mov dword ptr [rcx + 8], eax ; ret
+fzshellext_64.dll | 0x670812df | add esp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x6708151b | add esp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708103d | add esp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670834ce | add esp, 0x28 ; pop rbx ; pop rsi ; pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x670814b8 | add esp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081db5 | add esp, 0x28 ; ret
+fzshellext_64.dll | 0x670821d0 | add esp, 0x30 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082304 | add esp, 0x40 ; pop rbx ; pop rsi ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x670815ad | add esp, 0x70 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708151a | add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708103c | add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670834cd | add rsp, 0x28 ; pop rbx ; pop rsi ; pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x670814b7 | add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081db4 | add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670821cf | add rsp, 0x30 ; pop rbx ; ret
+fzshellext_64.dll | 0x670815ac | add rsp, 0x70 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x67081ff9 | and al, 0x38 ; call qword ptr [rip + 0xc29f]
+fzshellext_64.dll | 0x670821a1 | and byte ptr [rax - 0x77], cl ; ret
+fzshellext_64.dll | 0x670816a4 | and byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x670822ef | and byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax + 0x39], cl ; ret
+fzshellext_64.dll | 0x6708338b | and byte ptr [rax], al ; add byte ptr [rcx], dh ; dec dword ptr [rax - 0x77] ; retf
+fzshellext_64.dll | 0x670812e1 | and byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x6708151d | and byte ptr [rbx + 0x5e], bl ; pop rdi ; ret
+fzshellext_64.dll | 0x6708207f | and eax, 0x31000032 ; ror byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x670820a7 | call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x67081ffb | call qword ptr [rip + 0xc29f]
+fzshellext_64.dll | 0x67081810 | call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x670826c3 | clc ; add al, 0x74 ; or dword ptr [rbx - 0x7af0bf08], eax ; ret 0
+fzshellext_64.dll | 0x67082bbd | clc ; add dword ptr [rax - 0x77], ecx ; ret 0x7474
+fzshellext_64.dll | 0x67082c6e | clc ; add dword ptr [rax - 0x77], ecx ; ret 0x850f
+fzshellext_64.dll | 0x67083277 | clc ; add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x67081ea7 | cmc ; ret
+fzshellext_64.dll | 0x67083000 | cmovs eax, dword ptr [rbx + 0x5e5b20c4] ; pop rdi ; ret
+fzshellext_64.dll | 0x67081f4e | cmp byte ptr [rbx + rcx*4 + 0x25], cl ; ret
+fzshellext_64.dll | 0x670831ba | cmp dword ptr [rax + 0x45], edx ; add byte ptr [rax], al ; je 0x670831cb ; ret
+fzshellext_64.dll | 0x670831d2 | cmp dword ptr [rbp + 0x5a], ecx ; je 0x670831e7 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x670831b9 | cmp dword ptr [rcx], 0x4550 ; je 0x670831cc ; ret
+fzshellext_64.dll | 0x670831d1 | cmp dword ptr [rcx], 0x9745a4d ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083239 | cmp eax, ecx ; jne 0x67083227 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083238 | cmp rax, r9 ; jne 0x67083228 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x670831c5 | cmp word ptr [rcx + 0x18], 0x20b ; sete al ; ret
+fzshellext_64.dll | 0x670831d0 | cmp word ptr [rcx], 0x5a4d ; je 0x670831e9 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67081a0f | cmpsb byte ptr [rsi], byte ptr [rdi] ; add byte ptr [rax], al ; add dword ptr [rax + 1], edi ; ret
+fzshellext_64.dll | 0x6708338f | dec dword ptr [rax - 0x77] ; retf
+fzshellext_64.dll | 0x6708296a | dec dword ptr [rax - 0x7d] ; ret
+fzshellext_64.dll | 0x67083560 | fninit ; ret
+fzshellext_64.dll | 0x67081658 | hlt ; jnp 0x67081661 ; add byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67081311 | imul bl ; ret 0x894d
+fzshellext_64.dll | 0x670816a3 | in al, dx ; and byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67082143 | in al, dx ; xor byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67081db0 | je 0x67081dc8 ; xor eax, eax ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670822b8 | je 0x670822c3 ; ret
+fzshellext_64.dll | 0x670831bf | je 0x670831c6 ; ret
+fzshellext_64.dll | 0x670831d5 | je 0x670831e4 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083353 | je 0x67083367 ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67083464 | je 0x67083478 ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x670832bd | jl 0x67083289 ; sub bl, ch ; or dword ptr [rax - 0x7d], ecx ; ret
+fzshellext_64.dll | 0x67081806 | jmp 0x32b32e0e
+fzshellext_64.dll | 0x6708223e | jne 0x67082229 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67082fff | jne 0x67083019 ; add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708307d | jne 0x67083099 ; xor eax, eax ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x6708323b | jne 0x67083225 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67081659 | jnp 0x67081660 ; add byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x670831c7 | jns 0x670831e8 ; or eax, dword ptr [rdx] ; sete al ; ret
+fzshellext_64.dll | 0x670815af | jo 0x67081610 ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708223f | jrcxz 0x6708228e ; add esp, 0x28 ; ret
+fzshellext_64.dll | 0x67081ffd | lahf ; ret 0
+fzshellext_64.dll | 0x670820a6 | leave ; call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x67083371 | mov bh, 0x44 ; sbb byte ptr [rsi], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082200 | mov dh, 0xc0 ; neg eax ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670833cf | mov dword ptr [rax - 0x73], ecx ; ret 0xf628
+fzshellext_64.dll | 0x67081466 | mov dword ptr [rcx + 0x10], eax ; ret
+fzshellext_64.dll | 0x67081446 | mov dword ptr [rcx + 8], eax ; ret
+fzshellext_64.dll | 0x670820a2 | mov dword ptr [rcx + 8], eax ; xor ecx, ecx ; call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x67082066 | mov dword ptr [rcx], eax ; ret
+fzshellext_64.dll | 0x67081dcb | mov eax, 0x80040201 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670824bd | mov eax, 1 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081a13 | mov eax, 1 ; ret
+fzshellext_64.dll | 0x67082c90 | mov eax, 4 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081460 | mov eax, dword ptr [rcx + 0x10] ; add eax, 1 ; mov dword ptr [rcx + 0x10], eax ; ret
+fzshellext_64.dll | 0x67081440 | mov eax, dword ptr [rcx + 8] ; add eax, 1 ; mov dword ptr [rcx + 8], eax ; ret
+fzshellext_64.dll | 0x670816e8 | mov eax, ebx ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67083427 | mov eax, ebx ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x670821cd | mov eax, ebx ; add rsp, 0x30 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082561 | mov eax, ecx ; ret
+fzshellext_64.dll | 0x67083276 | mov eax, edi ; add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x67081ff7 | mov ecx, dword ptr [rsp + 0x38] ; call qword ptr [rip + 0xc29f]
+fzshellext_64.dll | 0x6708180e | mov ecx, edi ; call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x670820a1 | mov qword ptr [rcx + 8], rax ; xor ecx, ecx ; call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x67082065 | mov qword ptr [rcx], rax ; ret
+fzshellext_64.dll | 0x67083426 | mov rax, rbx ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x670821cc | mov rax, rbx ; add rsp, 0x30 ; pop rbx ; ret
+fzshellext_64.dll | 0x67082560 | mov rax, rcx ; ret
+fzshellext_64.dll | 0x67081ff6 | mov rcx, qword ptr [rsp + 0x38] ; call qword ptr [rip + 0xc29f]
+fzshellext_64.dll | 0x6708180d | mov rcx, rdi ; call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x670821ff | movzx eax, al ; neg eax ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67082202 | neg eax ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670816bf | nop ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x6708355f | nop ; fninit ; ret
+fzshellext_64.dll | 0x670835af | nop ; mov eax, 1 ; ret
+fzshellext_64.dll | 0x6708255f | nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708355e | nop ; nop ; fninit ; ret
+fzshellext_64.dll | 0x670835ae | nop ; nop ; mov eax, 1 ; ret
+fzshellext_64.dll | 0x6708255e | nop ; nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x670835ad | nop ; nop ; nop ; mov eax, 1 ; ret
+fzshellext_64.dll | 0x6708255d | nop ; nop ; nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x670835ac | nop ; nop ; nop ; nop ; mov eax, 1 ; ret
+fzshellext_64.dll | 0x6708255c | nop ; nop ; nop ; nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708255b | nop ; nop ; nop ; nop ; nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708255a | nop ; nop ; nop ; nop ; nop ; nop ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x6708142f | nop ; sub dword ptr [rip + 0xabe5], 1 ; ret
+fzshellext_64.dll | 0x6708198b | nop dword ptr [rax + rax] ; ret
+fzshellext_64.dll | 0x6708144b | nop dword ptr [rax + rax] ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67082549 | nop dword ptr [rax] ; xor eax, eax ; ret
+fzshellext_64.dll | 0x6708198a | nop word ptr [rax + rax] ; ret
+fzshellext_64.dll | 0x6708144a | nop word ptr [rax + rax] ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083303 | or al, 0x31 ; ror byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rbx + 0x5e], bl ; ret
+fzshellext_64.dll | 0x67082bb8 | or al, byte ptr [rax] ; add byte ptr [rax - 0x7d], cl ; clc ; add dword ptr [rax - 0x77], ecx ; ret 0x7474
+fzshellext_64.dll | 0x670820a3 | or byte ptr [r9], sil ; leave ; call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x6708322e | or byte ptr [rax + 0x39], cl ; retf 0xb72
+fzshellext_64.dll | 0x67081564 | or byte ptr [rax - 0x7d], 0xc4 ; and byte ptr [rbx + 0x5e], bl ; pop rdi ; ret
+fzshellext_64.dll | 0x67081a94 | or byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rbx + 0x5e], bl ; ret
+fzshellext_64.dll | 0x6708322b | or byte ptr [rbx], al ; or byte ptr [rax + 0x39], cl ; retf 0xb72
+fzshellext_64.dll | 0x670820a4 | or byte ptr [rcx], dh ; leave ; call qword ptr [rip + 0xc243]
+fzshellext_64.dll | 0x670814b4 | or byte ptr [rcx], dh ; ror byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rbx + 0x5e], bl ; ret
+fzshellext_64.dll | 0x670832c1 | or dword ptr [rax - 0x7d], ecx ; ret
+fzshellext_64.dll | 0x67082c69 | or dword ptr [rax], eax ; add byte ptr [rax - 0x7d], cl ; clc ; add dword ptr [rax - 0x77], ecx ; ret 0x850f
+fzshellext_64.dll | 0x6708359d | or dword ptr [rax], eax ; pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x670826c6 | or dword ptr [rbx - 0x7af0bf08], eax ; ret 0
+fzshellext_64.dll | 0x6708359c | or dword ptr [rcx], 0 ; pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x670831c9 | or eax, dword ptr [rdx] ; sete al ; ret
+fzshellext_64.dll | 0x6708359b | or qword ptr [rcx], 0 ; pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x67083521 | out dx, al ; add dword ptr [rax - 0x7d], ecx ; ret 0x8b14
+fzshellext_64.dll | 0x670831d3 | pop r10 ; je 0x670831e6 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083351 | pop r10 ; je 0x67083369 ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67081b12 | pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082841 | pop r12 ; pop r13 ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x6708277a | pop r12 ; pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810d1 | pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e6 | pop r12 ; ret
+fzshellext_64.dll | 0x67081b14 | pop r13 ; pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082843 | pop r13 ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x6708277c | pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810d3 | pop r13 ; ret
+fzshellext_64.dll | 0x67081b16 | pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082845 | pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x6708277e | pop r14 ; ret
+fzshellext_64.dll | 0x67081b18 | pop r15 ; ret
+fzshellext_64.dll | 0x6708359f | pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x67081b11 | pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082779 | pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810d0 | pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e5 | pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x67081b15 | pop rbp ; pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082844 | pop rbp ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x6708277d | pop rbp ; pop r14 ; ret
+fzshellext_64.dll | 0x670810d4 | pop rbp ; ret
+fzshellext_64.dll | 0x670810cd | pop rbx ; pop rsi ; pop rdi ; pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e2 | pop rbx ; pop rsi ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x670834d1 | pop rbx ; pop rsi ; pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x6708151e | pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x670814bb | pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081040 | pop rbx ; ret
+fzshellext_64.dll | 0x670835a0 | pop rcx ; ret
+fzshellext_64.dll | 0x67082840 | pop rdi ; pop r12 ; pop r13 ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x67082778 | pop rdi ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810cf | pop rdi ; pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e4 | pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x670834d3 | pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x67081520 | pop rdi ; ret
+fzshellext_64.dll | 0x670831d4 | pop rdx ; je 0x670831e5 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67083352 | pop rdx ; je 0x67083368 ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67083463 | pop rdx ; je 0x67083479 ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081b17 | pop rsi ; pop r15 ; ret
+fzshellext_64.dll | 0x67082846 | pop rsi ; pop rbp ; ret
+fzshellext_64.dll | 0x6708283f | pop rsi ; pop rdi ; pop r12 ; pop r13 ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x67082777 | pop rsi ; pop rdi ; pop rbp ; pop r12 ; pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810ce | pop rsi ; pop rdi ; pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e3 | pop rsi ; pop rdi ; pop rbp ; pop r12 ; ret
+fzshellext_64.dll | 0x670834d2 | pop rsi ; pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x6708151f | pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x670814bc | pop rsi ; ret
+fzshellext_64.dll | 0x67081b13 | pop rsp ; pop r13 ; pop r14 ; pop r15 ; ret
+fzshellext_64.dll | 0x67082842 | pop rsp ; pop r13 ; pop r14 ; pop rbp ; ret
+fzshellext_64.dll | 0x6708277b | pop rsp ; pop r13 ; pop r14 ; ret
+fzshellext_64.dll | 0x670810d2 | pop rsp ; pop r13 ; ret
+fzshellext_64.dll | 0x670812e7 | pop rsp ; ret
+fzshellext_64.dll | 0x670822b3 | popfq ; add byte ptr [rax], al ; test eax, eax ; je 0x670822c8 ; ret
+fzshellext_64.dll | 0x670822b2 | push -0x63 ; add byte ptr [rax], al ; test eax, eax ; je 0x670822c9 ; ret
+fzshellext_64.dll | 0x670831bb | push rax ; add byte ptr [r8], r8b ; je 0x670831ca ; ret
+fzshellext_64.dll | 0x67081014 | ret
+fzshellext_64.dll | 0x67081ffe | ret 0
+fzshellext_64.dll | 0x6708124a | ret 0x42
+fzshellext_64.dll | 0x670833e6 | ret 0x4828
+fzshellext_64.dll | 0x670822a4 | ret 0x6666
+fzshellext_64.dll | 0x67082bc1 | ret 0x7474
+fzshellext_64.dll | 0x67082c72 | ret 0x850f
+fzshellext_64.dll | 0x67081313 | ret 0x894d
+fzshellext_64.dll | 0x67083525 | ret 0x8b14
+fzshellext_64.dll | 0x670830bd | ret 0x8b48
+fzshellext_64.dll | 0x67082a5a | ret 0x8d49
+fzshellext_64.dll | 0x6708364a | ret 0xad
+fzshellext_64.dll | 0x670835ca | ret 0xae
+fzshellext_64.dll | 0x670827c8 | ret 0xb2e8
+fzshellext_64.dll | 0x67081ff2 | ret 0xc2
+fzshellext_64.dll | 0x670833ea | ret 0xe875
+fzshellext_64.dll | 0x670833d3 | ret 0xf628
+fzshellext_64.dll | 0x67081287 | retf
+fzshellext_64.dll | 0x67081813 | retf 0
+fzshellext_64.dll | 0x6708376a | retf 0xab
+fzshellext_64.dll | 0x670836ea | retf 0xac
+fzshellext_64.dll | 0x67083231 | retf 0xb72
+fzshellext_64.dll | 0x67082a4d | retf 0xff00
+fzshellext_64.dll | 0x67081f9b | retf 0xfffe
+fzshellext_64.dll | 0x67082a57 | ror byte ptr [rax + 0x29], cl ; ret 0x8d49
+fzshellext_64.dll | 0x67082084 | ror byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67081519 | ror byte ptr [rax - 0x7d], 0xc4 ; and byte ptr [rbx + 0x5e], bl ; pop rdi ; ret
+fzshellext_64.dll | 0x670815ab | ror byte ptr [rax - 0x7d], 0xc4 ; jo 0x67081614 ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x670814b6 | ror byte ptr [rax - 0x7d], 0xc4 ; sub byte ptr [rbx + 0x5e], bl ; ret
+fzshellext_64.dll | 0x6708252c | ror byte ptr [rax - 0x7d], 1 ; ret
+fzshellext_64.dll | 0x67082a53 | ror byte ptr [rcx + 0xf], cl ; ror byte ptr [rax + 0x29], cl ; ret 0x8d49
+fzshellext_64.dll | 0x67082a7e | ror byte ptr [rcx - 0x7f], cl ; retf 0
+fzshellext_64.dll | 0x67082a4a | ror byte ptr [rcx - 0x7f], cl ; retf 0xff00
+fzshellext_64.dll | 0x67081f98 | ror byte ptr [rdi], 0x85 ; retf 0xfffe
+fzshellext_64.dll | 0x6708359a | ror dword ptr [rax - 0x7d], 9 ; add byte ptr [rax + 0x59], bl ; ret
+fzshellext_64.dll | 0x67082201 | sal bh, 0xd8 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x6708223d | sal byte ptr [rbp - 0x1d], 0x48 ; add esp, 0x28 ; ret
+fzshellext_64.dll | 0x67081daf | sal byte ptr [rsi + rcx + 0x31], 0xc0 ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67083229 | sal dword ptr [rdi + 8], 3 ; or byte ptr [rax + 0x39], cl ; retf 0xb72
+fzshellext_64.dll | 0x67083373 | sbb byte ptr [rsi], al ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x67083372 | sbb byte ptr [rsi], r8b ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670828d0 | sbb ecx, dword ptr [rax - 0x7d] ; ret
+fzshellext_64.dll | 0x670831cb | sete al ; ret
+fzshellext_64.dll | 0x67081a2a | setne al ; ret
+fzshellext_64.dll | 0x67083497 | shr eax, 0x1f ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x6708180f | stc ; call qword ptr [rip + 0xcad2]
+fzshellext_64.dll | 0x67081809 | stosd dword ptr [rdi], eax ; retf
+fzshellext_64.dll | 0x670832bf | sub bl, ch ; or dword ptr [rax - 0x7d], ecx ; ret
+fzshellext_64.dll | 0x670833e7 | sub byte ptr [rax + 0x39], cl ; ret 0xe875
+fzshellext_64.dll | 0x670810cc | sub byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; pop r12 ; pop r13 ; ret
+fzshellext_64.dll | 0x670834d0 | sub byte ptr [rbx + 0x5e], bl ; pop rdi ; pop rbp ; ret
+fzshellext_64.dll | 0x670814ba | sub byte ptr [rbx + 0x5e], bl ; ret
+fzshellext_64.dll | 0x67083237 | sub byte ptr [rcx + rdi - 0x38], cl ; jne 0x67083229 ; xor eax, eax ; ret
+fzshellext_64.dll | 0x67081430 | sub dword ptr [rip + 0xabe5], 1 ; ret
+fzshellext_64.dll | 0x67083599 | sub ecx, eax ; or qword ptr [rcx], 0 ; pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x67083598 | sub rcx, rax ; or qword ptr [rcx], 0 ; pop rax ; pop rcx ; ret
+fzshellext_64.dll | 0x6708256a | test byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; mov rax, rcx ; ret
+fzshellext_64.dll | 0x67081689 | test eax, 0x48010000 ; add esp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670822b6 | test eax, eax ; je 0x670822c5 ; ret
+fzshellext_64.dll | 0x6708223c | test eax, eax ; jne 0x6708222b ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67081a28 | test edx, edx ; setne al ; ret
+fzshellext_64.dll | 0x6708223b | test rax, rax ; jne 0x6708222c ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x67082080 | xor al, byte ptr [rax] ; add byte ptr [rcx], dh ; ror byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67082144 | xor byte ptr [rax - 0x77], cl ; retf
+fzshellext_64.dll | 0x67081518 | xor eax, eax ; add rsp, 0x20 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x6708307f | xor eax, eax ; add rsp, 0x20 ; pop rbx ; ret
+fzshellext_64.dll | 0x670814b5 | xor eax, eax ; add rsp, 0x28 ; pop rbx ; pop rsi ; ret
+fzshellext_64.dll | 0x67081db2 | xor eax, eax ; add rsp, 0x28 ; ret
+fzshellext_64.dll | 0x670815aa | xor eax, eax ; add rsp, 0x70 ; pop rbx ; pop rsi ; pop rdi ; ret
+fzshellext_64.dll | 0x67081450 | xor eax, eax ; ret
+fzshellext_64.dll | 0x67081a26 | xor eax, eax ; test edx, edx ; setne al ; ret
+fzshellext_64.dll | 0x670820a5 | xor ecx, ecx ; call qword ptr [rip + 0xc243]

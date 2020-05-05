@@ -1,0 +1,2172 @@
+frhed.exe | 0x4021aa | adc al, 0x5e ; ret
+frhed.exe | 0x401eaa | adc eax, 0x40303c ; xor eax, eax ; ret
+frhed.exe | 0x401e60 | adc eax, 0x403048 ; leave ; ret
+frhed.exe | 0x401d50 | adc eax, 0x4030d0 ; pop ecx ; xor eax, eax ; ret
+frhed.exe | 0x401976 | adc eax, 0x403114 ; mov esp, ebp ; pop ebp ; ret 0x10
+frhed.exe | 0x401f8b | add al, 0x3b ; div dword ptr [edx - 0xf] ; pop edi ; pop esi ; ret
+frhed.exe | 0x40223b | add al, 0x40 ; inc eax ; add byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+frhed.exe | 0x4020d5 | add al, al ; sete dl ; mov eax, edx ; ret
+frhed.exe | 0x40217a | add al, ch ; loop 0x402187 ; add byte ptr [eax], al ; add esp, 0x18 ; ret
+frhed.exe | 0x401ea8 | add bh, bh ; adc eax, 0x40303c ; xor eax, eax ; ret
+frhed.exe | 0x4021ce | add bh, bh ; push dword ptr [ebp + ecx - 0x7b] ; ret
+frhed.exe | 0x401a44 | add byte ptr [eax + 0x40], al ; add byte ptr [ebp + 2], dh ; ret
+frhed.exe | 0x401e5d | add byte ptr [eax - 1], dl ; adc eax, 0x403048 ; leave ; ret
+frhed.exe | 0x402148 | add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+frhed.exe | 0x4021a6 | add byte ptr [eax], al ; add esp, 0x14 ; pop esi ; ret
+frhed.exe | 0x40217e | add byte ptr [eax], al ; add esp, 0x18 ; ret
+frhed.exe | 0x4014c7 | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0x10
+frhed.exe | 0x401561 | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+frhed.exe | 0x401c25 | add byte ptr [eax], al ; pop ecx ; pop ecx ; ret
+frhed.exe | 0x4020bf | add byte ptr [eax], al ; pop ecx ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401a98 | add byte ptr [eax], al ; pop ecx ; ret
+frhed.exe | 0x401c78 | add byte ptr [eax], al ; ret
+frhed.exe | 0x4020d4 | add byte ptr [eax], al ; ror byte ptr [edi], 0x94 ; ret 0xc28b
+frhed.exe | 0x401e9d | add byte ptr [eax], al ; xor eax, eax ; ret 4
+frhed.exe | 0x401a47 | add byte ptr [ebp + 2], dh ; ret
+frhed.exe | 0x4019f2 | add byte ptr [ebx + 0x2eb0cc4], al ; xor eax, eax ; pop ebp ; ret
+frhed.exe | 0x4021a7 | add byte ptr [ebx - 0x3ca1eb3c], al ; xor eax, eax ; ret
+frhed.exe | 0x401c26 | add byte ptr [ecx + 0x59], bl ; ret
+frhed.exe | 0x4020c0 | add byte ptr [ecx + 0x5f], bl ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x40223e | add byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+frhed.exe | 0x401e64 | add cl, cl ; ret
+frhed.exe | 0x401a49 | add dh, bl ; ret
+frhed.exe | 0x4014c6 | add eax, 0xe58b0000 ; pop ebp ; ret 0x10
+frhed.exe | 0x4020d3 | add eax, 0xfc00000 ; xchg eax, esp ; ret 0xc28b
+frhed.exe | 0x401c24 | add eax, dword ptr [eax] ; add byte ptr [ecx + 0x59], bl ; ret
+frhed.exe | 0x401f89 | add esi, 4 ; cmp esi, edi ; jb 0x401f8a ; pop edi ; pop esi ; ret
+frhed.exe | 0x401fad | add esi, 4 ; cmp esi, edi ; jb 0x401fae ; pop edi ; pop esi ; ret
+frhed.exe | 0x4021a8 | add esp, 0x14 ; pop esi ; ret
+frhed.exe | 0x402180 | add esp, 0x18 ; ret
+frhed.exe | 0x401a33 | cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401a36 | cld ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401fc6 | cmp dword ptr [ebp + 0x5a], ecx ; je 0x401fd5 ; xor eax, eax ; ret
+frhed.exe | 0x401fc5 | cmp dword ptr [ecx], 0x3745a4d ; xor eax, eax ; ret
+frhed.exe | 0x401a42 | cmp ecx, dword ptr [0x404000] ; jne 0x401a55 ; ret
+frhed.exe | 0x402028 | cmp edx, esi ; jb 0x40201b ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+frhed.exe | 0x401f8c | cmp esi, edi ; jb 0x401f87 ; pop edi ; pop esi ; ret
+frhed.exe | 0x401fb0 | cmp esi, edi ; jb 0x401fab ; pop edi ; pop esi ; ret
+frhed.exe | 0x401fc4 | cmp word ptr [ecx], 0x5a4d ; je 0x401fd7 ; xor eax, eax ; ret
+frhed.exe | 0x401f6d | dec eax ; ret
+frhed.exe | 0x401e61 | dec eax ; xor byte ptr [eax], al ; leave ; ret
+frhed.exe | 0x401fc7 | dec ebp ; pop edx ; je 0x401fd4 ; xor eax, eax ; ret
+frhed.exe | 0x401f8d | div dword ptr [edx - 0xf] ; pop edi ; pop esi ; ret
+frhed.exe | 0x401f67 | fcomp dword ptr [ebx] ; sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+frhed.exe | 0x401f6b | fcomp dword ptr [ecx + 0x48] ; ret
+frhed.exe | 0x40215d | in eax, 0x5d ; push ecx ; ret
+frhed.exe | 0x401a38 | in eax, 0x5d ; ret
+frhed.exe | 0x4014ca | in eax, 0x5d ; ret 0x10
+frhed.exe | 0x401564 | in eax, 0x5d ; ret 8
+frhed.exe | 0x401a46 | inc eax ; add byte ptr [ebp + 2], dh ; ret
+frhed.exe | 0x40223d | inc eax ; add byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+frhed.exe | 0x401e63 | inc eax ; add cl, cl ; ret
+frhed.exe | 0x401a45 | inc eax ; inc eax ; add byte ptr [ebp + 2], dh ; ret
+frhed.exe | 0x40223c | inc eax ; inc eax ; add byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+frhed.exe | 0x401c64 | inc eax ; ret
+frhed.exe | 0x401a32 | inc ebp ; cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401a35 | inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401f8f | int1 ; pop edi ; pop esi ; ret
+frhed.exe | 0x401f8e | jb 0x401f85 ; pop edi ; pop esi ; ret
+frhed.exe | 0x401fb2 | jb 0x401fa9 ; pop edi ; pop esi ; ret
+frhed.exe | 0x40202a | jb 0x402019 ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+frhed.exe | 0x401fc9 | je 0x401fd2 ; xor eax, eax ; ret
+frhed.exe | 0x401a48 | jne 0x401a4f ; ret
+frhed.exe | 0x4014c5 | jns 0x4014d3 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0x10
+frhed.exe | 0x401fdf | js 0x402002 ; or eax, dword ptr [ecx] ; sete cl ; mov eax, ecx ; ret
+frhed.exe | 0x402143 | lea eax, [ebp - 0x10] ; mov dword ptr fs:[0], eax ; ret
+frhed.exe | 0x401e65 | leave ; ret
+frhed.exe | 0x402181 | les ebx, ptr [eax] ; ret
+frhed.exe | 0x4021a9 | les edx, ptr [esi + ebx*2] ; ret
+frhed.exe | 0x40217c | loop 0x402185 ; add byte ptr [eax], al ; add esp, 0x18 ; ret
+frhed.exe | 0x401f8a | mov byte ptr [ebx + edi], 0xf7 ; jb 0x401f89 ; pop edi ; pop esi ; ret
+frhed.exe | 0x401fae | mov byte ptr [ebx + edi], 0xf7 ; jb 0x401fad ; pop edi ; pop esi ; ret
+frhed.exe | 0x402147 | mov dword ptr [0], eax ; ret
+frhed.exe | 0x401a31 | mov dword ptr [ebp - 4], eax ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x402146 | mov dword ptr fs:[0], eax ; ret
+frhed.exe | 0x401a34 | mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401fe6 | mov eax, ecx ; ret
+frhed.exe | 0x4020da | mov eax, edx ; ret
+frhed.exe | 0x40215c | mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x401a37 | mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x4014c9 | mov esp, ebp ; pop ebp ; ret 0x10
+frhed.exe | 0x401563 | mov esp, ebp ; pop ebp ; ret 8
+frhed.exe | 0x401f6a | neg eax ; pop ecx ; dec eax ; ret
+frhed.exe | 0x401f66 | neg eax ; sbb eax, eax ; neg eax ; pop ecx ; dec eax ; ret
+frhed.exe | 0x402021 | or al, 0x83 ; ret 0x8301
+frhed.exe | 0x401a43 | or eax, 0x404000 ; jne 0x401a54 ; ret
+frhed.exe | 0x401fe1 | or eax, dword ptr [ecx] ; sete cl ; mov eax, ecx ; ret
+frhed.exe | 0x40202b | out 0x33, al ; rcr byte ptr [edi + 0x5e], 0x5b ; ret
+frhed.exe | 0x40215e | pop ebp ; push ecx ; ret
+frhed.exe | 0x4019fa | pop ebp ; ret
+frhed.exe | 0x4014cb | pop ebp ; ret 0x10
+frhed.exe | 0x401565 | pop ebp ; ret 8
+frhed.exe | 0x402241 | pop ebx ; leave ; ret
+frhed.exe | 0x40215b | pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x4020c4 | pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x402030 | pop ebx ; ret
+frhed.exe | 0x401f6c | pop ecx ; dec eax ; ret
+frhed.exe | 0x401c27 | pop ecx ; pop ecx ; ret
+frhed.exe | 0x402157 | pop ecx ; pop edi ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x4020c1 | pop ecx ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x401a9a | pop ecx ; ret
+frhed.exe | 0x401d55 | pop ecx ; xor eax, eax ; ret
+frhed.exe | 0x402240 | pop edi ; pop ebx ; leave ; ret
+frhed.exe | 0x402158 | pop edi ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x402159 | pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x4020c2 | pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x40202e | pop edi ; pop esi ; pop ebx ; ret
+frhed.exe | 0x401f90 | pop edi ; pop esi ; ret
+frhed.exe | 0x401fc8 | pop edx ; je 0x401fd3 ; xor eax, eax ; ret
+frhed.exe | 0x40215a | pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+frhed.exe | 0x4020c3 | pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+frhed.exe | 0x40202f | pop esi ; pop ebx ; ret
+frhed.exe | 0x40223f | pop esi ; pop edi ; pop ebx ; leave ; ret
+frhed.exe | 0x401f91 | pop esi ; ret
+frhed.exe | 0x4021d0 | push dword ptr [ebp + ecx - 0x7b] ; ret
+frhed.exe | 0x40215f | push ecx ; ret
+frhed.exe | 0x401f65 | push edi ; fcomp dword ptr [ebx] ; sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+frhed.exe | 0x40202d | rcr byte ptr [edi + 0x5e], 0x5b ; ret
+frhed.exe | 0x4019fb | ret
+frhed.exe | 0x4014cc | ret 0x10
+frhed.exe | 0x4017f5 | ret 0x5202
+frhed.exe | 0x402023 | ret 0x8301
+frhed.exe | 0x401711 | ret 0x8b50
+frhed.exe | 0x4020d9 | ret 0xc28b
+frhed.exe | 0x4016ec | ret 0xe33d
+frhed.exe | 0x401ea1 | ret 4
+frhed.exe | 0x401566 | ret 8
+frhed.exe | 0x4020d6 | ror byte ptr [edi], 0x94 ; ret 0xc28b
+frhed.exe | 0x401f69 | sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+frhed.exe | 0x402029 | salc ; jb 0x40201a ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+frhed.exe | 0x401f68 | sbb eax, eax ; neg eax ; pop ecx ; dec eax ; ret
+frhed.exe | 0x401fe3 | sete cl ; mov eax, ecx ; ret
+frhed.exe | 0x4020d7 | sete dl ; mov eax, edx ; ret
+frhed.exe | 0x401c23 | xchg eax, ecx ; add eax, dword ptr [eax] ; add byte ptr [ecx + 0x59], bl ; ret
+frhed.exe | 0x4020d8 | xchg eax, esp ; ret 0xc28b
+frhed.exe | 0x401e62 | xor byte ptr [eax], al ; leave ; ret
+frhed.exe | 0x401d52 | xor byte ptr [eax], al ; pop ecx ; xor eax, eax ; ret
+frhed.exe | 0x401eac | xor byte ptr [eax], al ; xor eax, eax ; ret
+frhed.exe | 0x401978 | xor dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 0x10
+frhed.exe | 0x40223a | xor eax, 0x404004 ; pop esi ; pop edi ; pop ebx ; leave ; ret
+frhed.exe | 0x401c62 | xor eax, eax ; inc eax ; ret
+frhed.exe | 0x4019f8 | xor eax, eax ; pop ebp ; ret
+frhed.exe | 0x40202c | xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+frhed.exe | 0x401d56 | xor eax, eax ; ret
+frhed.exe | 0x401e9f | xor eax, eax ; ret 4
+heksedit.dll | 0x1000bf3a | aaa ; add al, byte ptr [eax] ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002bfb5 | aaa ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100160a5 | aaa ; outsd dx, dword ptr [esi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000b193 | aaa ; pop ebp ; ret
+heksedit.dll | 0x1001cea7 | aad 0x59 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d1e7 | aad 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x100229fe | aad 0xcc ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000e280 | aam 0x81 ; ret 0x84
+heksedit.dll | 0x1001a593 | aam 0x83 ; ret 0x5201
+heksedit.dll | 0x1000e3ea | aam 0x83 ; ret 0x8964
+heksedit.dll | 0x1001a590 | aam 0x8b ; push ebp ; aam 0x83 ; ret 0x5201
+heksedit.dll | 0x1000e6fc | aam 0xf ; mov dh, 0x51 ; jl 0x1000e743 ; ret 0x4e74
+heksedit.dll | 0x10006ae2 | aam ; add byte ptr [eax], al ; call 0x10002cf6
+heksedit.dll | 0x10011cd7 | adc al, 0x13 ; retf 0xe883
+heksedit.dll | 0x1002465c | adc al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1001e7b3 | adc al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001df83 | adc al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002085a | adc al, 0x8b ; inc ebp ; fcom dword ptr [eax - 0x18] ; retf 0xee
+heksedit.dll | 0x1001f0f1 | adc al, 0xb8 ; add dword ptr [eax], eax ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x100012bf | adc al, 0xe4 ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000bd66 | adc al, 1 ; movzx eax, byte ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d389 | adc al, 3 ; adc byte ptr [ebx - 0x17adf7ab], cl ; retf
+heksedit.dll | 0x10008e55 | adc al, byte ptr [ebx] ; adc byte ptr [ebx - 0x1a74f33c], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000beb9 | adc al, byte ptr [ebx] ; adc byte ptr [ebx - 0x1a74f33c], al ; pop ebp ; ret 8
+heksedit.dll | 0x1000be35 | adc al, byte ptr [ebx] ; adc byte ptr [ebx - 0x1a74f73c], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000be11 | adc al, byte ptr [ebx] ; adc byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x1002286b | adc al, ch ; mov edi, 0x5dfffff6 ; ret 4
+heksedit.dll | 0x1000d333 | adc al, ch ; out 0x4d, eax ; add dword ptr [eax], eax ; pop ebp ; ret 8
+heksedit.dll | 0x1002f9c0 | adc al, ch ; ret
+heksedit.dll | 0x10030d77 | adc bh, bh ; adc eax, 0x100311ac ; pop ebp ; ret
+heksedit.dll | 0x10026baa | adc bh, byte ptr [edi + 0x458afffd] ; ret
+heksedit.dll | 0x1000d1e5 | adc bl, ch ; aad 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10002c20 | adc byte ptr [eax + 0x5de58b01], dh ; ret 8
+heksedit.dll | 0x100261a0 | adc byte ptr [eax + 1], bh ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10008bca | adc byte ptr [eax + 1], bh ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10006fcb | adc byte ptr [eax + 1], bh ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100282c3 | adc byte ptr [eax + eax], dh ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10022583 | adc byte ptr [eax - 0x1a74a1ff], dh ; pop ebp ; ret 8
+heksedit.dll | 0x1000fd83 | adc byte ptr [eax - 0xc], bl ; add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x1002fdcb | adc byte ptr [eax - 1], dl ; adc eax, 0x10031178 ; leave ; ret
+heksedit.dll | 0x1001f1bc | adc byte ptr [eax], al ; add byte ptr [eax], al ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x1002f6dc | adc byte ptr [ebp + 2], dh ; ret
+heksedit.dll | 0x1002f9ac | adc byte ptr [ebp + 5], dh ; xor eax, eax ; inc eax ; pop esi ; ret
+heksedit.dll | 0x10030cc4 | adc byte ptr [ebx + 0x100391d8], ah ; pop ebp ; ret
+heksedit.dll | 0x10030ce4 | adc byte ptr [ebx + 0x100391dc], ah ; pop ebp ; ret
+heksedit.dll | 0x10030ca7 | adc byte ptr [ebx + 0x100391e4], ah ; pop ebp ; ret
+heksedit.dll | 0x10030c84 | adc byte ptr [ebx + 0x100391e8], ah ; pop ebp ; ret
+heksedit.dll | 0x1001d680 | adc byte ptr [ebx + 0x1ba8e8c8], cl ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x10017d9b | adc byte ptr [ebx + 0x1ce8fc4d], cl ; ret 0xffff
+heksedit.dll | 0x1001dbd0 | adc byte ptr [ebx + 0x5428e8c8], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d950 | adc byte ptr [ebx + 0x5dd8e8c8], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d540 | adc byte ptr [ebx + 0x6978e8c8], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d360 | adc byte ptr [ebx + 0x7a8e8c8], cl ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d38b | adc byte ptr [ebx - 0x17adf7ab], cl ; retf
+heksedit.dll | 0x1000bd2f | adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10001cf3 | adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x100017b2 | adc byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x10008e57 | adc byte ptr [ebx - 0x1a74f33c], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000bdc1 | adc byte ptr [ebx - 0x1a74f33c], al ; pop ebp ; ret 8
+heksedit.dll | 0x1000be37 | adc byte ptr [ebx - 0x1a74f73c], al ; pop ebp ; ret 4
+heksedit.dll | 0x100250c4 | adc byte ptr [ebx - 0x1a74f7bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1000be13 | adc byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x1001d310 | adc byte ptr [ebx - 0x37271738], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d860 | adc byte ptr [ebx - 0x5c471738], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001dc20 | adc byte ptr [ebx - 0x64171738], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001db30 | adc byte ptr [ebx - 0x6b771738], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d900 | adc byte ptr [ebx - 0x72171738], cl ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001fe1d | adc byte ptr [ebx], bh ; retf 0xc75
+heksedit.dll | 0x1000f011 | adc byte ptr [ebx], cl ; ret 0xd
+heksedit.dll | 0x1002fb8f | adc byte ptr [ebx], dh ; rol byte ptr [eax + 0x5f], 0x5e ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000bbb5 | adc byte ptr [ebx], dh ; rol byte ptr [ebx - 0x6bf0f908], cl ; ret 0xc28a
+heksedit.dll | 0x1002e7dd | adc byte ptr [ebx], dh ; sar byte ptr [ebx], cl ; ror dword ptr [edi], 0x94 ; ret 0x9589
+heksedit.dll | 0x1002bc5a | adc byte ptr [ecx - 0x743fcdff], cl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001803f | adc byte ptr [ecx - 0x75], dl ; push ebp ; test al, 0x81 ; ret 0xb1c
+heksedit.dll | 0x1001b5d6 | adc byte ptr [edi], cl ; mov dh, 0x4d ; ret
+heksedit.dll | 0x1000fd7f | adc byte ptr [esi + 0x581000f3], cl ; hlt ; add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x10030162 | adc byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+heksedit.dll | 0x10030c5d | adc byte ptr [esi - 0x5d], ah ; in al, dx ; xchg eax, ecx ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x10030c3d | adc byte ptr [esi - 0x5d], ah ; loopne 0x10030bdb ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x10010de9 | adc byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret
+heksedit.dll | 0x100135b7 | adc byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001122d | adc byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000782a | adc cl, ch ; retf
+heksedit.dll | 0x1002fdd2 | adc cl, cl ; ret
+heksedit.dll | 0x1001c9c2 | adc dword ptr [0xe58b0001], ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002312d | adc dword ptr [eax + 0x5de58b01], esi ; ret
+heksedit.dll | 0x1002726b | adc dword ptr [eax], eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030cc2 | adc dword ptr [ebx], eax ; adc byte ptr [ebx + 0x100391d8], ah ; pop ebp ; ret
+heksedit.dll | 0x10030ce2 | adc dword ptr [ebx], eax ; adc byte ptr [ebx + 0x100391dc], ah ; pop ebp ; ret
+heksedit.dll | 0x10030ca5 | adc dword ptr [ebx], eax ; adc byte ptr [ebx + 0x100391e4], ah ; pop ebp ; ret
+heksedit.dll | 0x10030c82 | adc dword ptr [ebx], eax ; adc byte ptr [ebx + 0x100391e8], ah ; pop ebp ; ret
+heksedit.dll | 0x10001cf1 | adc dword ptr [ebx], eax ; adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x100017b0 | adc dword ptr [ebx], eax ; adc byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002fdd0 | adc dword ptr [ebx], eax ; adc cl, cl ; ret
+heksedit.dll | 0x1001ec47 | adc dword ptr [ebx], edi ; ret 0x1c75
+heksedit.dll | 0x10018c88 | adc dword ptr [ebx], edi ; ret 0xb74
+heksedit.dll | 0x100119aa | adc dword ptr [ebx], edi ; ret 0xc74
+heksedit.dll | 0x100112af | adc eax, 0x10031090 ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x10024c46 | adc eax, 0x100310d8 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10024bc8 | adc eax, 0x100310d8 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10024e00 | adc eax, 0x100310e4 ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x100222f0 | adc eax, 0x10031124 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000555c | adc eax, 0x1003113c ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e460 | adc eax, 0x10031158 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001dfa8 | adc eax, 0x1003115c ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002fdce | adc eax, 0x10031178 ; leave ; ret
+heksedit.dll | 0x10022230 | adc eax, 0x1003119c ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10022191 | adc eax, 0x1003119c ; pop ebp ; ret
+heksedit.dll | 0x1002724b | adc eax, 0x100311ac ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030d79 | adc eax, 0x100311ac ; pop ebp ; ret
+heksedit.dll | 0x1002bb71 | adc eax, 0x100311f4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002227c | adc eax, 0x10031234 ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x10002a6c | adc eax, 0x100312f8 ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x1002a33e | adc eax, 0x10031374 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d308 | adc eax, 0x10031374 ; pop ebp ; ret 8
+heksedit.dll | 0x10003c6f | adc eax, 0x100313fc ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10016f91 | adc eax, 0x100313fc ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cb71 | adc eax, 0x10031404 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d9eb | adc eax, 0x10031404 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001b1e | adc eax, 0x10031410 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000c0fd | adc eax, 0x10031454 ; pop ebp ; ret
+heksedit.dll | 0x1001da3c | adc eax, 0x1003145c ; mov ecx, eax ; call 0x10009ce9
+heksedit.dll | 0x100084aa | adc eax, 0x10031484 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10008547 | adc eax, 0x1003148c ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x100228be | adc eax, 0x100314c4 ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10018a23 | adc eax, 0x100314ec ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10011229 | adc eax, 0x10031550 ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10010f22 | adc eax, 0x10031554 ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10010de5 | adc eax, 0x10031558 ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100135b3 | adc eax, 0x10031584 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000ed3a | adc eax, 0x10031594 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10017d78 | adc eax, 0x100315ac ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000cfbc | adc eax, 0x100315b0 ; pop ebp ; ret 8
+heksedit.dll | 0x1000c129 | adc eax, 0x100315b4 ; pop ebp ; ret
+heksedit.dll | 0x1000533a | adc eax, 0x100315e8 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000840b | adc eax, 0x10038ca8 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030471 | adc eax, 0x59fffff3 ; ret
+heksedit.dll | 0x1001d267 | adc eax, 0x8b000056 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001cf67 | adc eax, 0x8b000059 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10010de7 | adc eax, 0x8b5e1003 ; in eax, 0x5d ; ret
+heksedit.dll | 0x100135b5 | adc eax, 0x8b5e1003 ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001122b | adc eax, 0x8b5e1003 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000ff44 | adc eax, 0xc0331003 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10010f24 | adc eax, 0xe58b1003 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000ed3c | adc eax, 0xe58b1003 ; pop ebp ; ret 4
+heksedit.dll | 0x1000d1e3 | adc eax, dword ptr [ebx] ; adc bl, ch ; aad 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000bdbf | adc eax, dword ptr [ebx] ; adc byte ptr [ebx - 0x1a74f33c], al ; pop ebp ; ret 8
+heksedit.dll | 0x100063c0 | adc edx, dword ptr [ebx - 0x1a74fffe] ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002a45d | add al, 0 ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002fc7f | add al, 0 ; add byte ptr [ecx + 0x59], bl ; ret
+heksedit.dll | 0x10020e6c | add al, 0 ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001f2e6 | add al, 0 ; pop ebp ; ret 8
+heksedit.dll | 0x1001cb72 | add al, 0x14 ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d9ec | add al, 0x14 ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f70f | add al, 0x24 ; ret
+heksedit.dll | 0x1002c1d1 | add al, 0x33 ; sar byte ptr [ebx], cl ; dec eax ; add al, 0xf ; xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x1002ff4c | add al, 0x3b ; div dword ptr [edx - 0xf] ; pop edi ; pop esi ; ret
+heksedit.dll | 0x10030c29 | add al, 0x5d ; ret
+heksedit.dll | 0x1001eae7 | add al, 0x5d ; ret 4
+heksedit.dll | 0x1001ad50 | add al, 0x5e ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ec6d | add al, 0x80 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10020fb4 | add al, 0x88 ; add byte ptr [eax], al ; add byte ptr [eax], al ; jmp 0x10020f8e
+heksedit.dll | 0x100269c0 | add al, 0x8a ; inc ebp ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10001d53 | add al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001f48b | add al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000a47b | add al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10002c72 | add al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002c25a | add al, 0x8b ; inc ebp ; cld ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10022331 | add al, 0x91 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d826 | add al, 0xb8 ; add dword ptr [eax], eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020fb2 | add al, 0xc7 ; add al, 0x88 ; add byte ptr [eax], al ; add byte ptr [eax], al ; jmp 0x10020f90
+heksedit.dll | 0x100227bc | add al, 0xeb ; add dh, byte ptr [edx] ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 4
+heksedit.dll | 0x10021004 | add al, 0xeb ; ret 0x4d8b
+heksedit.dll | 0x1001f6bd | add al, 0xf ; xchg eax, ebp ; ret 0x8b52
+heksedit.dll | 0x1002c1d6 | add al, 0xf ; xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x1000bfb7 | add al, 0xff ; ror byte ptr [ebx - 0x1a7403bb], 1 ; pop ebp ; ret
+heksedit.dll | 0x10029b69 | add al, 4 ; add eax, 0x498d04 ; retf
+heksedit.dll | 0x1000a6c5 | add al, 8 ; and bl, ch ; loopne 0x1000a65e ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10030095 | add al, al ; sete dl ; mov eax, edx ; ret
+heksedit.dll | 0x10001d4f | add al, byte ptr [eax] ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10002476 | add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10003261 | add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x100012c1 | add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100010cd | add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10003018 | add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001f2e4 | add al, byte ptr [ecx] ; add al, 0 ; pop ebp ; ret 8
+heksedit.dll | 0x1000c885 | add al, byte ptr cs:[eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000c09b | add al, byte ptr ss:[eax] ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000cedb | add al, ch ; dec edi ; push ebp ; add dword ptr [eax], eax ; pop ebp ; ret 4
+heksedit.dll | 0x1001d238 | add al, ch ; inc edx ; push esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d208 | add al, ch ; jb 0x1001d26b ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fe75 | add al, ch ; jb 0x1002fe7f ; add byte ptr [eax], al ; ret 0x10
+heksedit.dll | 0x1001d1d8 | add al, ch ; mov byte ptr [0x8b000056], al ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001ccc8 | add al, ch ; mov dl, 0x5b ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cd28 | add al, ch ; push edx ; pop ebx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002694e | add al, ch ; pushfd ; ret
+heksedit.dll | 0x10010fa7 | add al, ch ; ret
+heksedit.dll | 0x1001d0b8 | add al, ch ; ret 0x57
+heksedit.dll | 0x10001988 | add al, ch ; ret 1
+heksedit.dll | 0x10015f60 | add al, ch ; retf 0xc4
+heksedit.dll | 0x1001b020 | add al, ch ; retf 0xfe7c
+heksedit.dll | 0x1000ceb8 | add al, ch ; sar ch, cl ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x1001ccf8 | add al, ch ; sbb byte ptr [ebx], 0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d0e8 | add al, ch ; xchg eax, edx ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10007823 | add bh, al ; inc ebp ; in al, dx ; pushfd ; sbb eax, dword ptr [ebx] ; adc cl, ch ; retf
+heksedit.dll | 0x100300f2 | add bh, bh ; push dword ptr [ebp + ecx - 0x7b] ; ret
+heksedit.dll | 0x10009714 | add bh, bh ; ror byte ptr [ebx - 0x1a7437bb], 1 ; pop ebp ; ret 0xc
+heksedit.dll | 0x10009403 | add bl, ch ; add dh, byte ptr [ebx] ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 0xc
+heksedit.dll | 0x10020fb9 | add bl, ch ; retf
+heksedit.dll | 0x1002f9bb | add byte ptr [eax + 0x54], ch ; inc dword ptr [edx] ; adc al, ch ; ret
+heksedit.dll | 0x1002a391 | add byte ptr [eax + 1], bh ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ec6c | add byte ptr [eax + eax*4], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000e238 | add byte ptr [eax - 0x6af10000], al ; ret 0x5588
+heksedit.dll | 0x10007063 | add byte ptr [eax - 0x75], dl ; push ebp ; or byte ptr [edx - 0x18], dl ; ret 0x50
+heksedit.dll | 0x1001eabf | add byte ptr [eax - 0x7fffbffe], bh ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001ebfc | add byte ptr [eax - 0x7fffbfff], bh ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001d0b5 | add byte ptr [eax], 0 ; add al, ch ; ret 0x57
+heksedit.dll | 0x1000513b | add byte ptr [eax], 0 ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002fe73 | add byte ptr [eax], al ; add al, ch ; jb 0x1002fe81 ; add byte ptr [eax], al ; ret 0x10
+heksedit.dll | 0x1001d0b6 | add byte ptr [eax], al ; add al, ch ; ret 0x57
+heksedit.dll | 0x10020fb7 | add byte ptr [eax], al ; add bl, ch ; retf
+heksedit.dll | 0x1001eabd | add byte ptr [eax], al ; add byte ptr [eax - 0x7fffbffe], bh ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001ebfa | add byte ptr [eax], al ; add byte ptr [eax - 0x7fffbfff], bh ; pop ebp ; ret 0xc
+heksedit.dll | 0x100137ec | add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100131f8 | add byte ptr [eax], al ; add byte ptr [eax], al ; add byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10020fb6 | add byte ptr [eax], al ; add byte ptr [eax], al ; jmp 0x10020f8c
+heksedit.dll | 0x1002fe14 | add byte ptr [eax], al ; add byte ptr [eax], al ; mov eax, dword ptr [ebp - 0x24] ; ret
+heksedit.dll | 0x10008ddd | add byte ptr [eax], al ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a2b3 | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005230 | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000285e | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007577 | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ae1f | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x100168fd | add byte ptr [eax], al ; add byte ptr [eax], al ; pop ecx ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100131f9 | add byte ptr [eax], al ; add byte ptr [eax], al ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fee8 | add byte ptr [eax], al ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x10001cd0 | add byte ptr [eax], al ; add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001f109 | add byte ptr [eax], al ; add byte ptr [eax], al ; xor eax, eax ; pop ebp ; ret 4
+heksedit.dll | 0x10002ab5 | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10025b61 | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000bd08 | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002f5b8 | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10018ceb | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a7417bb], cl ; pop ebp ; ret 8
+heksedit.dll | 0x100094de | add byte ptr [eax], al ; add byte ptr [ebx - 0x1a74e73c], al ; pop ebp ; ret
+heksedit.dll | 0x10012d47 | add byte ptr [eax], al ; add byte ptr [ebx], dh ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 0xc
+heksedit.dll | 0x100168fe | add byte ptr [eax], al ; add byte ptr [ecx + 0x5e], bl ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a2b4 | add byte ptr [eax], al ; add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret
+heksedit.dll | 0x10005231 | add byte ptr [eax], al ; add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1000285f | add byte ptr [eax], al ; add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x10007578 | add byte ptr [eax], al ; add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000ae20 | add byte ptr [eax], al ; add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10024add | add byte ptr [eax], al ; add byte ptr [edi + 0x5e], bl ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10002c40 | add byte ptr [eax], al ; add byte ptr [edi], cl ; mov dh, 0xc0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000c214 | add byte ptr [eax], al ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000f2fa | add byte ptr [eax], al ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x10008a25 | add byte ptr [eax], al ; add byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x100131fa | add byte ptr [eax], al ; add byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x1000e0b1 | add byte ptr [eax], al ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0x5589
+heksedit.dll | 0x100015f3 | add byte ptr [eax], al ; add cl, ch ; ret
+heksedit.dll | 0x1002f6cb | add byte ptr [eax], al ; add cl, cl ; ret 0x10
+heksedit.dll | 0x100094df | add byte ptr [eax], al ; add esp, 0x18 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ff1e | add byte ptr [eax], al ; add esp, 0x18 ; ret
+heksedit.dll | 0x10018b4e | add byte ptr [eax], al ; add esp, 0xc ; pop ebp ; ret
+heksedit.dll | 0x10020ecf | add byte ptr [eax], al ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002aac5 | add byte ptr [eax], al ; add esp, 8 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001f1be | add byte ptr [eax], al ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x10006ae4 | add byte ptr [eax], al ; call 0x10002cf4
+heksedit.dll | 0x10020fb8 | add byte ptr [eax], al ; jmp 0x10020f8a
+heksedit.dll | 0x1002f6cc | add byte ptr [eax], al ; leave ; ret 0x10
+heksedit.dll | 0x1001ebfb | add byte ptr [eax], al ; mov eax, 0x80004001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001eabe | add byte ptr [eax], al ; mov eax, 0x80004002 ; pop ebp ; ret 0xc
+heksedit.dll | 0x10018cec | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 0x18] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fe16 | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 0x24] ; ret
+heksedit.dll | 0x10002ab6 | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10025b62 | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000bd09 | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f5b9 | add byte ptr [eax], al ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d011 | add byte ptr [eax], al ; mov ecx, dword ptr [ebp - 4] ; mov dword ptr [eax + ecx*4], esi ; jmp 0x1000cfe7
+heksedit.dll | 0x1000212e | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100246c9 | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10020b09 | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0x18
+heksedit.dll | 0x10001de9 | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10006fcf | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000eb6e | add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10002c41 | add byte ptr [eax], al ; movzx eax, al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d316 | add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000ce76 | add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000cebc | add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x1002f77f | add byte ptr [eax], al ; pop ecx ; mov eax, esi ; pop esi ; pop ebx ; ret 4
+heksedit.dll | 0x1000a2b5 | add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005232 | add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10002860 | add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007579 | add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ae21 | add byte ptr [eax], al ; pop ecx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fc80 | add byte ptr [eax], al ; pop ecx ; pop ecx ; ret
+heksedit.dll | 0x1003007f | add byte ptr [eax], al ; pop ecx ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100168ff | add byte ptr [eax], al ; pop ecx ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f885 | add byte ptr [eax], al ; pop ecx ; ret
+heksedit.dll | 0x10024ade | add byte ptr [eax], al ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10008a26 | add byte ptr [eax], al ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100131fb | add byte ptr [eax], al ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002f87d | add byte ptr [eax], al ; ret
+heksedit.dll | 0x1002fe2e | add byte ptr [eax], al ; ret 0x10
+heksedit.dll | 0x10030094 | add byte ptr [eax], al ; ror byte ptr [edi], 0x94 ; ret 0xc28b
+heksedit.dll | 0x10001cd2 | add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000513c | add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10012b36 | add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001f10b | add byte ptr [eax], al ; xor eax, eax ; pop ebp ; ret 4
+heksedit.dll | 0x10012d48 | add byte ptr [eax], al ; xor eax, eax ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100024a6 | add byte ptr [eax], dl ; in al, 0x22 ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x1000fd82 | add byte ptr [eax], dl ; pop eax ; hlt ; add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x100024aa | add byte ptr [eax], dl ; ret
+heksedit.dll | 0x10005f2e | add byte ptr [eax], dl ; retf
+heksedit.dll | 0x1000fd86 | add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x100101a5 | add byte ptr [ebp + 0x22e8d84d], cl ; retf 0
+heksedit.dll | 0x10010173 | add byte ptr [ebp + 0x54e8dc4d], cl ; retf 0
+heksedit.dll | 0x10016cc6 | add byte ptr [ebp + 0x682c7fc0], al ; ret
+heksedit.dll | 0x10005bf8 | add byte ptr [ebp - 0x10173fb3], cl ; retf
+heksedit.dll | 0x10005c05 | add byte ptr [ebp - 0x1d173bb3], cl ; retf
+heksedit.dll | 0x10010113 | add byte ptr [ebp - 0x4b171bb3], cl ; retf 0
+heksedit.dll | 0x10010137 | add byte ptr [ebp - 0x6f171fb3], cl ; retf 0
+heksedit.dll | 0x10014567 | add byte ptr [ebx + 0x12c89], cl ; add byte ptr [ebx], dl ; retf 0x8589
+heksedit.dll | 0x1001476a | add byte ptr [ebx + 0x13489], cl ; add byte ptr [ebx], dl ; retf 0x5051
+heksedit.dll | 0x1002ab10 | add byte ptr [ebx + 0x1b008c4], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10014cd7 | add byte ptr [ebx + 0x2b9901c0], al ; ret 0xf8d1
+heksedit.dll | 0x1000d012 | add byte ptr [ebx + 0x3489fc4d], cl ; mov bl, ch ; ret
+heksedit.dll | 0x1000cb54 | add byte ptr [ebx + 0x40c7e445], cl ; sbb al, 0xef ; retf
+heksedit.dll | 0x10004e1d | add byte ptr [ebx + 0x552bfc55], cl ; loopne 0x10004db0 ; ret 0x8901
+heksedit.dll | 0x1002f983 | add byte ptr [ebx + 0x5e], bl ; pop edi ; ret 0x10
+heksedit.dll | 0x1002f876 | add byte ptr [ebx + 0x6ee8dc45], cl ; push es ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x10002ab7 | add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10025b63 | add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000bd0a | add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002f5ba | add byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10018ced | add byte ptr [ebx - 0x1a7417bb], cl ; pop ebp ; ret 8
+heksedit.dll | 0x100094e0 | add byte ptr [ebx - 0x1a74e73c], al ; pop ebp ; ret
+heksedit.dll | 0x1002aac6 | add byte ptr [ebx - 0x1a74f73c], al ; pop ebp ; ret 4
+heksedit.dll | 0x10001d50 | add byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x1001c7e8 | add byte ptr [ebx - 0x2e], ch ; or ch, byte ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1001cb07 | add byte ptr [ebx - 0x3814f33c], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001325 | add byte ptr [ebx - 0x3fccfb3c], al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001ad4d | add byte ptr [ebx - 0x74a1fb3c], al ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10017077 | add byte ptr [ebx - 0x7b740fab], cl ; retf 0x14c
+heksedit.dll | 0x10006828 | add byte ptr [ebx], 0x10 ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x10015f4e | add byte ptr [ebx], al ; ret 0xf8c1
+heksedit.dll | 0x10012d49 | add byte ptr [ebx], dh ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 0xc
+heksedit.dll | 0x10014770 | add byte ptr [ebx], dl ; retf 0x5051
+heksedit.dll | 0x1001456d | add byte ptr [ebx], dl ; retf 0x8589
+heksedit.dll | 0x1000464a | add byte ptr [ecx + 0x4d8be045], cl ; fsub st(0), st(0) ; retf 0x155
+heksedit.dll | 0x1002fc81 | add byte ptr [ecx + 0x59], bl ; ret
+heksedit.dll | 0x10016900 | add byte ptr [ecx + 0x5e], bl ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030080 | add byte ptr [ecx + 0x5f], bl ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10014866 | add byte ptr [ecx - 0x18], dl ; ret
+heksedit.dll | 0x1000a2b6 | add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret
+heksedit.dll | 0x10005233 | add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x10002861 | add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x1000757a | add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000ae22 | add byte ptr [ecx - 0x75], bl ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x1000cfb9 | add byte ptr [ecx - 1], dl ; adc eax, 0x100315b0 ; pop ebp ; ret 8
+heksedit.dll | 0x1001749a | add byte ptr [ecx], 0 ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10017688 | add byte ptr [ecx], 0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10024adf | add byte ptr [edi + 0x5e], bl ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10016eb7 | add byte ptr [edi], cl ; lahf ; ret
+heksedit.dll | 0x1002edfe | add byte ptr [edi], cl ; lahf ; ret 0x5589
+heksedit.dll | 0x10002c42 | add byte ptr [edi], cl ; mov dh, 0xc0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000e23b | add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5588
+heksedit.dll | 0x1000c216 | add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x100198a1 | add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x858b
+heksedit.dll | 0x10001bf7 | add byte ptr [edi], cl ; xchg eax, ebp ; ret 0xc281
+heksedit.dll | 0x1000f2fc | add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1001294f | add byte ptr [edi], cl ; xchg eax, esp ; ret 0x5588
+heksedit.dll | 0x10008a27 | add byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x100131fc | add byte ptr [esi - 0x75], bl ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10019306 | add byte ptr ds:[eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ec6b | add byte ptr fs:[eax + eax*4], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002284c | add ch, bl ; mov esp, 0x8bf8458b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001ebd9 | add ch, bl ; xchg byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000e0b3 | add cl, byte ptr [edi] ; xchg eax, esp ; ret 0x5589
+heksedit.dll | 0x1000682b | add cl, byte ptr [edi] ; xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x100015f5 | add cl, ch ; ret
+heksedit.dll | 0x1001feee | add cl, ch ; retf
+heksedit.dll | 0x1001c78b | add cl, ch ; retf 0xfffe
+heksedit.dll | 0x1002f6cd | add cl, cl ; ret 0x10
+heksedit.dll | 0x1002f6de | add dh, bl ; ret
+heksedit.dll | 0x1002abfb | add dh, byte ptr [eax + 0x5de58b01] ; ret
+heksedit.dll | 0x10009405 | add dh, byte ptr [ebx] ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 0xc
+heksedit.dll | 0x100227be | add dh, byte ptr [edx] ; rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 4
+heksedit.dll | 0x1002f75f | add dh, dh ; ret
+heksedit.dll | 0x1001f2e5 | add dword ptr [eax + eax], eax ; pop ebp ; ret 8
+heksedit.dll | 0x10016ed2 | add dword ptr [eax - 0x1a74ffff], ecx ; pop ebp ; ret 4
+heksedit.dll | 0x100274df | add dword ptr [eax], 0x5de58b00 ; ret 4
+heksedit.dll | 0x10018b4d | add dword ptr [eax], 0xcc48300 ; pop ebp ; ret
+heksedit.dll | 0x100261a2 | add dword ptr [eax], eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001de7 | add dword ptr [eax], eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10006fcd | add dword ptr [eax], eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ce74 | add dword ptr [eax], eax ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1001f0f3 | add dword ptr [eax], eax ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x10024adc | add dword ptr [eax], eax ; add byte ptr [eax], al ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10008a24 | add dword ptr [eax], eax ; add byte ptr [eax], al ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002bfcc | add dword ptr [eax], eax ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10027d59 | add dword ptr [eax], eax ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x10017075 | add dword ptr [eax], eax ; add byte ptr [ebx - 0x7b740fab], cl ; retf 0x14c
+heksedit.dll | 0x1001476e | add dword ptr [eax], eax ; add byte ptr [ebx], dl ; retf 0x5051
+heksedit.dll | 0x1001456b | add dword ptr [eax], eax ; add byte ptr [ebx], dl ; retf 0x8589
+heksedit.dll | 0x10016eb5 | add dword ptr [eax], eax ; add byte ptr [edi], cl ; lahf ; ret
+heksedit.dll | 0x1001ad4c | add dword ptr [eax], eax ; add esp, 4 ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10010112 | add dword ptr [eax], eax ; lea ecx, [ebp - 0x1c] ; call 0x1001cbd7
+heksedit.dll | 0x10010136 | add dword ptr [eax], eax ; lea ecx, [ebp - 0x20] ; call 0x1001cbd7
+heksedit.dll | 0x10010172 | add dword ptr [eax], eax ; lea ecx, [ebp - 0x24] ; call 0x1001cbd7
+heksedit.dll | 0x100101a4 | add dword ptr [eax], eax ; lea ecx, [ebp - 0x28] ; call 0x1001cbd7
+heksedit.dll | 0x1001002d | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001749b | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10013ee9 | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 0x18
+heksedit.dll | 0x10011c9a | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10010cba | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000fc46 | add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001d366 | add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x10017a78 | add dword ptr [eax], eax ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000cedf | add dword ptr [eax], eax ; pop ebp ; ret 4
+heksedit.dll | 0x1000d337 | add dword ptr [eax], eax ; pop ebp ; ret 8
+heksedit.dll | 0x10002919 | add dword ptr [ebx + ecx*4 + 0x55], ebx ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x100028e2 | add dword ptr [ebx + ecx*4], edi ; push ebp ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10001aff | add dword ptr [ebx - 0x1a7403bb], ecx ; pop ebp ; ret
+heksedit.dll | 0x10022bf4 | add dword ptr [ebx - 0x32cc0bb3], ecx ; call 0x1002f6df
+heksedit.dll | 0x10006615 | add dword ptr [ecx - 0x201403ab], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ae24 | add dword ptr [ecx - 0x3514f3bb], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100066b2 | add dword ptr [ecx - 0x6d1403bb], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002338b | add dword ptr [edi], ecx ; xchg eax, esp ; ret 0x1588
+heksedit.dll | 0x10007f32 | add dword ptr [edi], ecx ; xchg eax, esp ; ret 0x6852
+heksedit.dll | 0x10009130 | add dword ptr [edi], ecx ; xchg eax, esp ; ret 0xb60f
+heksedit.dll | 0x1002a9b3 | add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001dd40 | add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x10002ce2 | add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10004c4f | add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10010111 | add dword ptr es:[eax], eax ; lea ecx, [ebp - 0x1c] ; call 0x1001cbd8
+heksedit.dll | 0x10010135 | add dword ptr es:[eax], eax ; lea ecx, [ebp - 0x20] ; call 0x1001cbd8
+heksedit.dll | 0x10010171 | add dword ptr es:[eax], eax ; lea ecx, [ebp - 0x24] ; call 0x1001cbd8
+heksedit.dll | 0x100101a3 | add dword ptr es:[eax], eax ; lea ecx, [ebp - 0x28] ; call 0x1001cbd8
+heksedit.dll | 0x10029b6b | add eax, 0x498d04 ; retf
+heksedit.dll | 0x1002f9b9 | add eax, 0x54680000 ; inc dword ptr [edx] ; adc al, ch ; ret
+heksedit.dll | 0x10024657 | add eax, 0x558b5275 ; adc al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1002f9ae | add eax, 0x5e40c033 ; ret
+heksedit.dll | 0x1001ce77 | add eax, 0x8b00005a ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001ebb5 | add eax, 0x8b08458b ; dec eax ; or al, 3 ; retf 0x558b
+heksedit.dll | 0x10030093 | add eax, 0xfc00000 ; xchg eax, esp ; ret 0xc28b
+heksedit.dll | 0x1002243d | add eax, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c09a | add eax, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001f1e9 | add eax, 1 ; pop ebp ; ret
+heksedit.dll | 0x10005441 | add eax, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10015f4c | add eax, dword ptr [eax] ; add byte ptr [ebx], al ; ret 0xf8c1
+heksedit.dll | 0x10002cfd | add eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000dc3b | add eax, dword ptr [ebx] ; ret 0xf8c1
+heksedit.dll | 0x10011d6e | add eax, dword ptr [ebx] ; retf 0x458b
+heksedit.dll | 0x10014c2d | add eax, dword ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1000a92b | add eax, dword ptr [ebx] ; retf 0x858b
+heksedit.dll | 0x1000aace | add eax, dword ptr [ebx] ; retf 0x958b
+heksedit.dll | 0x10019bad | add eax, dword ptr [ecx + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10006ae0 | add ecx, 0xad4 ; call 0x10002cf8
+heksedit.dll | 0x1001e5a9 | add ecx, 1 ; mov dword ptr [ebp - 8], ecx ; jmp 0x1001e57b
+heksedit.dll | 0x10005338 | add edi, edi ; adc eax, 0x100315e8 ; pop ebp ; ret 0xc
+heksedit.dll | 0x100021e9 | add edx, 1 ; mov dword ptr [ebp - 0x54], edx ; jmp 0x100021bb
+heksedit.dll | 0x10006829 | add edx, dword ptr [eax] ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x10007f30 | add edx, dword ptr [eax] ; add dword ptr [edi], ecx ; xchg eax, esp ; ret 0x6852
+heksedit.dll | 0x10008e56 | add edx, dword ptr [eax] ; add esp, 0xc ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000bdc0 | add edx, dword ptr [eax] ; add esp, 0xc ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000be12 | add edx, dword ptr [eax] ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000be36 | add edx, dword ptr [eax] ; add esp, 8 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002a6f | add edx, dword ptr [eax] ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x1002f6db | add edx, dword ptr [eax] ; jne 0x1002f6e6 ; ret
+heksedit.dll | 0x1002f9ab | add edx, dword ptr [eax] ; jne 0x1002f9bc ; xor eax, eax ; inc eax ; pop esi ; ret
+heksedit.dll | 0x1002fdd1 | add edx, dword ptr [eax] ; leave ; ret
+heksedit.dll | 0x10030cc3 | add edx, dword ptr [eax] ; mov dword ptr [0x100391d8], eax ; pop ebp ; ret
+heksedit.dll | 0x10030ce3 | add edx, dword ptr [eax] ; mov dword ptr [0x100391dc], eax ; pop ebp ; ret
+heksedit.dll | 0x10030ca6 | add edx, dword ptr [eax] ; mov dword ptr [0x100391e4], eax ; pop ebp ; ret
+heksedit.dll | 0x10030c83 | add edx, dword ptr [eax] ; mov dword ptr [0x100391e8], eax ; pop ebp ; ret
+heksedit.dll | 0x1000bd2e | add edx, dword ptr [eax] ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001cf2 | add edx, dword ptr [eax] ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100017b1 | add edx, dword ptr [eax] ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10017d9a | add edx, dword ptr [eax] ; mov ecx, dword ptr [ebp - 4] ; call 0x10013fc7
+heksedit.dll | 0x1001da3f | add edx, dword ptr [eax] ; mov ecx, eax ; call 0x10009ce6
+heksedit.dll | 0x10001b21 | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000854a | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x100112b2 | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x10010f25 | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000555f | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e463 | add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10030c3c | add edx, dword ptr [eax] ; mov word ptr [0x100391e0], ax ; pop ebp ; ret
+heksedit.dll | 0x10030c5c | add edx, dword ptr [eax] ; mov word ptr [0x100391ec], ax ; pop ebp ; ret
+heksedit.dll | 0x1000830a | add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x1000533d | add edx, dword ptr [eax] ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000cfbf | add edx, dword ptr [eax] ; pop ebp ; ret 8
+heksedit.dll | 0x10010de8 | add edx, dword ptr [eax] ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100135b6 | add edx, dword ptr [eax] ; pop esi ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001122c | add edx, dword ptr [eax] ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10030161 | add edx, dword ptr [eax] ; pop esi ; pop edi ; pop ebx ; leave ; ret
+heksedit.dll | 0x10030316 | add edx, dword ptr [eax] ; ret
+heksedit.dll | 0x1002fb8e | add edx, dword ptr [eax] ; xor eax, eax ; inc eax ; pop edi ; pop esi ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000ff45 | add edx, dword ptr [eax] ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10007fe7 | add edx, dword ptr [eax] ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002a31b | add edx, dword ptr [eax] ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002f7de | add edx, ebx ; pop ebx ; ret 0x10
+heksedit.dll | 0x1002ff4a | add esi, 4 ; cmp esi, edi ; jb 0x1002ff4b ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ff6e | add esi, 4 ; cmp esi, edi ; jb 0x1002ff6f ; pop edi ; pop esi ; ret
+heksedit.dll | 0x100250c2 | add esp, 0x10 ; mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100094e1 | add esp, 0x18 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ff20 | add esp, 0x18 ; ret
+heksedit.dll | 0x1000833c | add esp, 0xc ; mov al, byte ptr [ebp - 1] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10003ca4 | add esp, 0xc ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10008e58 | add esp, 0xc ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000bdc2 | add esp, 0xc ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10018b50 | add esp, 0xc ; pop ebp ; ret
+heksedit.dll | 0x1001870b | add esp, 0xc ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002c70 | add esp, 4 ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001d51 | add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030c27 | add esp, 4 ; pop ebp ; ret
+heksedit.dll | 0x1001ad4e | add esp, 4 ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001326 | add esp, 4 ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002ab11 | add esp, 8 ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000be38 | add esp, 8 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002a71 | add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x100222f1 | and al, 0x11 ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc0c | and al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002eea3 | and al, 1 ; add byte ptr [eax], al ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1002f7c2 | and al, 4 ; mul ecx ; ret 0x10
+heksedit.dll | 0x1002f7da | and al, 8 ; mul ecx ; add edx, ebx ; pop ebx ; ret 0x10
+heksedit.dll | 0x1000eb15 | and bh, bh ; rcr byte ptr [ebx - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000e750 | and bh, bh ; rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000a6c7 | and bl, ch ; loopne 0x1000a65c ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10014863 | and byte ptr [eax + eax], cl ; add byte ptr [ecx - 0x18], dl ; ret
+heksedit.dll | 0x1001294c | and byte ptr [eax + eax], cl ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x5588
+heksedit.dll | 0x1002f8b7 | and byte ptr [ebx + 6], dh ; shld edx, eax, cl ; shl eax, cl ; ret
+heksedit.dll | 0x1000f2f8 | and byte ptr [ecx], al ; add byte ptr [eax], al ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1002f8c4 | and cl, 0x1f ; shl edx, cl ; ret
+heksedit.dll | 0x100045b1 | and dh, byte ptr [ecx - 0x1a74fffe] ; pop ebp ; ret 0xc
+heksedit.dll | 0x100242b2 | and dword ptr [eax + eax + 0x5de58b00], esi ; ret
+heksedit.dll | 0x1001294b | and dword ptr [eax], 0xf00000c ; xchg eax, esp ; ret 0x5588
+heksedit.dll | 0x10030313 | and eax, 0x100311ac ; ret
+heksedit.dll | 0x10017d99 | and eax, 0x4d8b1003 ; cld ; call 0x10013fc8
+heksedit.dll | 0x10010203 | and eax, 0x4d8d0001 ; shr al, 1 ; ret 0xc9
+heksedit.dll | 0x1001d057 | and eax, 0x8b000058 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10006ae6 | call 0x10002cf2
+heksedit.dll | 0x1001da43 | call 0x10009ce2
+heksedit.dll | 0x10017d9f | call 0x10013fc2
+heksedit.dll | 0x1001a6d8 | call 0x10016912
+heksedit.dll | 0x1000c874 | call 0x10018b42
+heksedit.dll | 0x10010117 | call 0x1001cbd2
+heksedit.dll | 0x10005d5e | call 0x100227f2
+heksedit.dll | 0x100034b3 | call 0x1002f6d4
+heksedit.dll | 0x10022bfa | call 0x1002f6d9
+heksedit.dll | 0x1001fc79 | call 0x7b03bf03
+heksedit.dll | 0x10024a50 | call 0x840f0cda
+heksedit.dll | 0x10024a70 | call 0x840f0cfa
+heksedit.dll | 0x1001a9d8 | call 0x99036c62
+heksedit.dll | 0x1002f9aa | cdq ; add edx, dword ptr [eax] ; jne 0x1002f9bd ; xor eax, eax ; inc eax ; pop esi ; ret
+heksedit.dll | 0x1002633a | cdq ; xchg eax, ebx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001e5a8 | clc ; add ecx, 1 ; mov dword ptr [ebp - 8], ecx ; jmp 0x1001e57c
+heksedit.dll | 0x10017d98 | clc ; and eax, 0x4d8b1003 ; cld ; call 0x10013fc9
+heksedit.dll | 0x1001a325 | clc ; dec dword ptr [edi] ; xchg eax, esp ; ret 0x858b
+heksedit.dll | 0x1001e5ae | clc ; jmp 0x1001e576
+heksedit.dll | 0x1000531e | clc ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005321 | clc ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100017b5 | clc ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10022851 | clc ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002a103 | clc ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000d7db | clc ; push ds ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10029c0a | clc ; ret
+heksedit.dll | 0x10022adb | clc ; retf
+heksedit.dll | 0x10009fdb | clc ; sete al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100061db | clc ; xchg eax, esp ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020e96 | cld ; add eax, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10019bac | cld ; add eax, dword ptr [ecx + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10017d9e | cld ; call 0x10013fc3
+heksedit.dll | 0x1000bc09 | cld ; mov al, byte ptr [eax + 0x24] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc49 | cld ; mov al, byte ptr [eax + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001e9f9 | cld ; mov byte ptr [eax + 8], 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d015 | cld ; mov dword ptr [eax + ecx*4], esi ; jmp 0x1000cfe3
+heksedit.dll | 0x1000a3c2 | cld ; mov dword ptr [ecx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001afd | cld ; mov dword ptr [ecx], eax ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002312b | cld ; mov dword ptr [ecx], edx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ed6d | cld ; mov dword ptr [edx + 0x10], eax ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10001b62 | cld ; mov dword ptr [edx + 0xc], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002320f | cld ; mov dword ptr [edx + 4], ecx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001deae | cld ; mov dword ptr [edx + 4], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000603b | cld ; mov dword ptr [edx], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000b141 | cld ; mov dword ptr [edx], eax ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000afb9 | cld ; mov eax, dword ptr [eax + 0x1c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc29 | cld ; mov eax, dword ptr [eax + 0x28] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc69 | cld ; mov eax, dword ptr [eax + 0x30] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc89 | cld ; mov eax, dword ptr [eax + 0x34] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bcc9 | cld ; mov eax, dword ptr [eax + 0x3c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10009489 | cld ; mov eax, dword ptr [eax + 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a6d9 | cld ; mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001b39 | cld ; mov eax, dword ptr [eax + 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cbd9 | cld ; mov eax, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cbd6 | cld ; mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000aff6 | cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d119 | cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100272c0 | cld ; mov eax, dword ptr [edx + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a669 | cld ; mov ecx, dword ptr [ebp + 8] ; mov dword ptr [eax], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001b02 | cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ebde | cld ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10001cf6 | cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d1a0 | cld ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000bca9 | cld ; movzx eax, byte ptr [eax + 0x38] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10024b6c | cld ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002c25d | cld ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100249e6 | cld ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000fc45 | cli ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10028bd5 | cli ; retf 0
+heksedit.dll | 0x1002f883 | clts ; add byte ptr [eax], al ; pop ecx ; ret
+heksedit.dll | 0x100274de | cmc ; add dword ptr [eax], 0x5de58b00 ; ret 4
+heksedit.dll | 0x1001cd87 | cmc ; pop edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d087 | cmc ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000555d | cmp al, 0x11 ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001a497 | cmp al, 0x52 ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bccc | cmp al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x100028e3 | cmp al, 0x8b ; push ebp ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10017499 | cmp al, byte ptr [edx - 0x1a74ffff] ; pop ebp ; ret 0x10
+heksedit.dll | 0x10015c79 | cmp bh, 0xff ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x100257de | cmp byte ptr [ecx - 0x18], dl ; retf
+heksedit.dll | 0x1002ff86 | cmp dword ptr [ebp + 0x5a], ecx ; je 0x1002ff95 ; xor eax, eax ; ret
+heksedit.dll | 0x1002ff85 | cmp dword ptr [ecx], 0x3745a4d ; xor eax, eax ; ret
+heksedit.dll | 0x10006826 | cmp eax, 0x100380b0 ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x10007f2d | cmp eax, 0x10038cac ; add dword ptr [edi], ecx ; xchg eax, esp ; ret 0x6852
+heksedit.dll | 0x1001a9d3 | cmp eax, 0x558b0b74 ; call 0x99036c67
+heksedit.dll | 0x1001840b | cmp eax, 0xc483ffff ; or al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10011c98 | cmp ebx, edx ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f6d7 | cmp ecx, dword ptr [0x10038854] ; jne 0x1002f6ea ; ret
+heksedit.dll | 0x10018792 | cmp edi, edi ; inc dword ptr [ebx - 0x1a74f33c] ; pop ebp ; ret
+heksedit.dll | 0x1001f0cd | cmp edx, dword ptr [ebp + 0xc] ; setne al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10009fd9 | cmp edx, dword ptr [ebp - 8] ; sete al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ffe8 | cmp edx, esi ; jb 0x1002ffdb ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+heksedit.dll | 0x1002ff4d | cmp esi, edi ; jb 0x1002ff48 ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ff71 | cmp esi, edi ; jb 0x1002ff6c ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ff84 | cmp word ptr [ecx], 0x5a4d ; je 0x1002ff97 ; xor eax, eax ; ret
+heksedit.dll | 0x10024ffd | cmpsb byte ptr [esi], byte ptr es:[edi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002332d | cmpsb byte ptr [esi], byte ptr es:[edi] ; ret
+heksedit.dll | 0x10004f8b | cmpsd dword ptr [esi], dword ptr es:[edi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10017a55 | cmpsd dword ptr [esi], dword ptr es:[edi] ; push esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001a6d7 | cwde ; call 0x10016913
+heksedit.dll | 0x1001da44 | cwde ; ret 0xfffe
+heksedit.dll | 0x1002cf2a | daa ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10016085 | daa ; outsd dx, dword ptr [esi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10029fa4 | das ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001de6b | dec dword ptr [eax + 0x5de58b02] ; ret
+heksedit.dll | 0x1001dd8d | dec dword ptr [ebx + 0x518b084d] ; or al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10014860 | dec dword ptr [ebx + 0xc2088] ; add byte ptr [ecx - 0x18], dl ; ret
+heksedit.dll | 0x10001eb8 | dec dword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret
+heksedit.dll | 0x1002a3e2 | dec dword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret 4
+heksedit.dll | 0x10022168 | dec dword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret 8
+heksedit.dll | 0x100027b3 | dec dword ptr [ebx - 0x1a740bbb] ; pop ebp ; ret
+heksedit.dll | 0x1000260c | dec dword ptr [ebx - 0x1a740fbb] ; pop ebp ; ret
+heksedit.dll | 0x10003357 | dec dword ptr [ebx - 0x1a7413bb] ; pop ebp ; ret 0x14
+heksedit.dll | 0x1000aac8 | dec dword ptr [ebx - 0x2d94f7ae] ; add eax, dword ptr [ebx] ; retf 0x958b
+heksedit.dll | 0x1001a326 | dec dword ptr [edi] ; xchg eax, esp ; ret 0x858b
+heksedit.dll | 0x1002c1d5 | dec eax ; add al, 0xf ; xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x10016eb4 | dec eax ; add dword ptr [eax], eax ; add byte ptr [edi], cl ; lahf ; ret
+heksedit.dll | 0x1001ebba | dec eax ; or al, 3 ; retf 0x558b
+heksedit.dll | 0x1000bd8e | dec eax ; or byte ptr [ebx - 0x1a74f7bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1000e069 | dec eax ; push 0x8b0c4a89 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002f899 | dec eax ; ret
+heksedit.dll | 0x10021059 | dec eax ; sbb al, 0xf ; mov bh, 0x55 ; or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x1001a58f | dec ebp ; aam 0x8b ; push ebp ; aam 0x83 ; ret 0x5201
+heksedit.dll | 0x1000e6fb | dec ebp ; aam 0xf ; mov dh, 0x51 ; jl 0x1000e744 ; ret 0x4e74
+heksedit.dll | 0x10011cd6 | dec ebp ; adc al, 0x13 ; retf 0xe883
+heksedit.dll | 0x1002bc59 | dec ebp ; adc byte ptr [ecx - 0x743fcdff], cl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1002aac4 | dec ebp ; add byte ptr [eax], al ; add esp, 8 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d336 | dec ebp ; add dword ptr [eax], eax ; pop ebp ; ret 8
+heksedit.dll | 0x1001e5a7 | dec ebp ; clc ; add ecx, 1 ; mov dword ptr [ebp - 8], ecx ; jmp 0x1001e57d
+heksedit.dll | 0x1001e5ad | dec ebp ; clc ; jmp 0x1001e577
+heksedit.dll | 0x1000531d | dec ebp ; clc ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10019bab | dec ebp ; cld ; add eax, dword ptr [ecx + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10017d9d | dec ebp ; cld ; call 0x10013fc4
+heksedit.dll | 0x1000d014 | dec ebp ; cld ; mov dword ptr [eax + ecx*4], esi ; jmp 0x1000cfe4
+heksedit.dll | 0x1000a3c1 | dec ebp ; cld ; mov dword ptr [ecx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001dead | dec ebp ; cld ; mov dword ptr [edx + 4], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000aff5 | dec ebp ; cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100249e5 | dec ebp ; cld ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001a6d6 | dec ebp ; cwde ; call 0x10016914
+heksedit.dll | 0x10010175 | dec ebp ; fsub st(0), st(0) ; push esp ; retf 0
+heksedit.dll | 0x1000464f | dec ebp ; fsub st(0), st(0) ; retf 0x155
+heksedit.dll | 0x10022bf6 | dec ebp ; hlt ; xor ecx, ebp ; call 0x1002f6dd
+heksedit.dll | 0x10002916 | dec ebp ; in al, 0xc6 ; add dword ptr [ebx + ecx*4 + 0x55], ebx ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x100028df | dec ebp ; in al, 0xc6 ; add dword ptr [ebx + ecx*4], edi ; push ebp ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10010139 | dec ebp ; loopne 0x10010128 ; nop ; retf 0
+heksedit.dll | 0x10018b6e | dec ebp ; or al, ch ; dec ebx ; inc esi ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000fa5f | dec ebp ; or al, ch ; retf 0x54
+heksedit.dll | 0x1001382e | dec ebp ; or al, ch ; wait ; xchg eax, ebp ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x10030310 | dec ebp ; or bh, bh ; and eax, 0x100311ac ; ret
+heksedit.dll | 0x1000a66b | dec ebp ; or byte ptr [ecx + 0x5de58b08], cl ; ret 4
+heksedit.dll | 0x1001d0b1 | dec ebp ; or byte ptr [ecx + 0x68], dl ; add byte ptr [eax], 0 ; add al, ch ; ret 0x57
+heksedit.dll | 0x1000afdb | dec ebp ; or byte ptr [ecx - 0x1a74dfb8], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001dd61 | dec ebp ; or byte ptr [ecx - 0x1a74efb8], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002ff87 | dec ebp ; pop edx ; je 0x1002ff94 ; xor eax, eax ; ret
+heksedit.dll | 0x1001b4cb | dec ebp ; ret
+heksedit.dll | 0x10005bfa | dec ebp ; shr al, 0xef ; retf
+heksedit.dll | 0x10010207 | dec ebp ; shr al, 1 ; ret 0xc9
+heksedit.dll | 0x1001180d | dec ebp ; test byte ptr [ebx], dl ; retf 0xe883
+heksedit.dll | 0x10018b71 | dec ebx ; inc esi ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1002ad26 | dec ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10004f8a | dec ecx ; cmpsd dword ptr [esi], dword ptr es:[edi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000c884 | dec edi ; add al, byte ptr cs:[eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000cedd | dec edi ; push ebp ; add dword ptr [eax], eax ; pop ebp ; ret 4
+heksedit.dll | 0x1001df82 | dec edx ; adc al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001f0f0 | dec edx ; adc al, 0xb8 ; add dword ptr [eax], eax ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x1002c1d0 | dec edx ; add al, 0x33 ; sar byte ptr [ebx], cl ; dec eax ; add al, 0xf ; xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x1001deb0 | dec edx ; add al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000ac9f | dec edx ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x100101a2 | dec edx ; add dword ptr es:[eax], eax ; lea ecx, [ebp - 0x28] ; call 0x1001cbd9
+heksedit.dll | 0x100257dd | dec edx ; cmp byte ptr [ecx - 0x18], dl ; retf
+heksedit.dll | 0x10001b64 | dec edx ; or al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002a9b0 | dec edx ; or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001dd3d | dec edx ; or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x1000e1ef | dec edx ; sub bh, bh ; rcr dword ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x10015b85 | dec esi ; wait ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fc7e | dec esp ; add al, 0 ; add byte ptr [ecx + 0x59], bl ; ret
+heksedit.dll | 0x10017687 | dec esp ; add byte ptr [ecx], 0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10003e87 | dec esp ; mov eax, 0xe58b0002 ; pop ebp ; ret 4
+heksedit.dll | 0x1002ff4e | div dword ptr [edx - 0xf] ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1001dc22 | enter -0x1718, -0x65 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d902 | enter -0x1718, -0x73 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d4f4 | enter -0x190, -1 ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d7c4 | enter -0x19e, -1 ; pop ebp ; ret 0x10
+heksedit.dll | 0x10009719 | enter -0x1a75, 0x5d ; ret 0xc
+heksedit.dll | 0x1001d404 | enter -0x1c2, -1 ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d312 | enter -0x2718, -0x38 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d952 | enter -0x2718, 0x5d ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d862 | enter -0x4718, -0x5d ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d682 | enter -0x5718, 0x1b ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d362 | enter -0x5718, 7 ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x10009937 | enter -0x74a2, -0x1b ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001db32 | enter -0x7718, -0x6c ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001d315 | enter 0, 0x5d ; ret 0x10
+heksedit.dll | 0x1001dbd2 | enter 0x28e8, 0x54 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001ef6c | enter 0x32c, 0x10 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100095e6 | enter 0x5eff, -0x75 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001d542 | enter 0x78e8, 0x69 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x10002e6f | enter 2, -0x75 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1002f980 | fadd dword ptr [ebx + 0x5e5b00da] ; pop edi ; ret 0x10
+heksedit.dll | 0x1002085d | fcom dword ptr [eax - 0x18] ; retf 0xee
+heksedit.dll | 0x10024c47 | fcom dword ptr [eax] ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10024bc9 | fcom dword ptr [eax] ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002a650 | fcomp dword ptr [ebx] ; rol byte ptr [ebx - 0x1a74fe40], 0x5d ; ret
+heksedit.dll | 0x1002c097 | fcomp dword ptr [ebx] ; rol byte ptr [ebx - 0x1a74fe40], 0x5d ; ret 4
+heksedit.dll | 0x1002f893 | fcomp dword ptr [ebx] ; sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x1002f897 | fcomp dword ptr [ecx + 0x48] ; ret
+heksedit.dll | 0x1001f32c | fcos ; dec dword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret
+heksedit.dll | 0x1002f982 | fiadd dword ptr [eax] ; pop ebx ; pop esi ; pop edi ; ret 0x10
+heksedit.dll | 0x100046f4 | fild qword ptr [edi - 0x1a74fffe] ; pop ebp ; ret 4
+heksedit.dll | 0x100036f4 | fistp qword ptr [edi - 0x1a74fffe] ; pop ebp ; ret 4
+heksedit.dll | 0x10006df6 | fisttp qword ptr [eax - 0x1a74fffe] ; pop ebp ; ret 4
+heksedit.dll | 0x1000d19d | fisttp qword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret 8
+heksedit.dll | 0x1002ccf5 | fisubr word ptr [ecx] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10001d4e | fld dword ptr [edx] ; add byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x10011e17 | fmul dword ptr [ebx - 0x2d94d3b0] ; add eax, dword ptr [ebx] ; retf 0x458b
+heksedit.dll | 0x1001d314 | fmul st(0) ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x10022bfb | fmul st(2) ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10010110 | fsub qword ptr [esi] ; add dword ptr [eax], eax ; lea ecx, [ebp - 0x1c] ; call 0x1001cbd9
+heksedit.dll | 0x1002f879 | fsub st(0), st(0) ; outsb dx, byte ptr [esi] ; push es ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x10010176 | fsub st(0), st(0) ; push esp ; retf 0
+heksedit.dll | 0x10004650 | fsub st(0), st(0) ; retf 0x155
+heksedit.dll | 0x1000fd85 | hlt ; add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x1001026a | hlt ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10019c12 | hlt ; mov eax, dword ptr [ebp - 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100027b6 | hlt ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001c7e5 | hlt ; or al, byte ptr [eax] ; add byte ptr [ebx - 0x2e], ch ; or ch, byte ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1002a86b | hlt ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10022bf7 | hlt ; xor ecx, ebp ; call 0x1002f6dc
+heksedit.dll | 0x10008d98 | imul eax, dword ptr [edx], 0x4c48300 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d265 | imul ebp, eax, 0x5615 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10017003 | imul esp, dword ptr [eax], 0x5de58b00 ; ret
+heksedit.dll | 0x10024e01 | in al, 0x10 ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x100024a8 | in al, 0x22 ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x100028e6 | in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10018df6 | in al, 0x83 ; ret 0x8b01
+heksedit.dll | 0x10030ca9 | in al, 0x91 ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x10002917 | in al, 0xc6 ; add dword ptr [ebx + ecx*4 + 0x55], ebx ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x100028e0 | in al, 0xc6 ; add dword ptr [ebx + ecx*4], edi ; push ebp ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x1000cb57 | in al, 0xc7 ; inc eax ; sbb al, 0xef ; retf
+heksedit.dll | 0x100094f2 | in al, dx ; mov al, byte ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1001f2e2 | in al, dx ; mov eax, 0x40102 ; pop ebp ; ret 8
+heksedit.dll | 0x1001f152 | in al, dx ; mov eax, 0x80004001 ; pop ebp ; ret 0x14
+heksedit.dll | 0x1001ec82 | in al, dx ; mov eax, 0x80004001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001f162 | in al, dx ; mov eax, 0x80004001 ; pop ebp ; ret 8
+heksedit.dll | 0x1000ce72 | in al, dx ; mov eax, 1 ; pop ebp ; ret 4
+heksedit.dll | 0x1000335a | in al, dx ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x1000a432 | in al, dx ; pop ebp ; ret
+heksedit.dll | 0x10007826 | in al, dx ; pushfd ; sbb eax, dword ptr [ebx] ; adc cl, ch ; retf
+heksedit.dll | 0x10030c60 | in al, dx ; xchg eax, ecx ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x1001cf97 | in eax, 0x58 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fefd | in eax, 0x5d ; push ecx ; ret
+heksedit.dll | 0x10001b04 | in eax, 0x5d ; ret
+heksedit.dll | 0x1000132c | in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1000335c | in eax, 0x5d ; ret 0x14
+heksedit.dll | 0x10013eec | in eax, 0x5d ; ret 0x18
+heksedit.dll | 0x1000a62d | in eax, 0x5d ; ret 0x20
+heksedit.dll | 0x100012c4 | in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x100010d0 | in eax, 0x5d ; ret 4
+heksedit.dll | 0x10002c24 | in eax, 0x5d ; ret 8
+heksedit.dll | 0x100155ee | in eax, 0xa0 ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000e279 | inc dword ptr [ebp - 0x74b28b37] ; push ebp ; aam 0x81 ; ret 0x84
+heksedit.dll | 0x10026b97 | inc dword ptr [ebx + 0x45c60cc4] ; ret
+heksedit.dll | 0x10026c05 | inc dword ptr [ebx + 0x45c60cc4] ; ret 0xc700
+heksedit.dll | 0x10003ca3 | inc dword ptr [ebx - 0x1a74f33c] ; pop ebp ; ret
+heksedit.dll | 0x1001840d | inc dword ptr [ebx - 0x1a74f33c] ; pop ebp ; ret 4
+heksedit.dll | 0x10026d23 | inc dword ptr [ebx - 0x1a74f33c] ; pop ebp ; ret 8
+heksedit.dll | 0x10023055 | inc dword ptr [ebx - 0x3fccfb3c] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001870a | inc dword ptr [ebx - 0x74a1f33c] ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10001982 | inc dword ptr [ecx + 0xad4c1] ; add al, ch ; ret 1
+heksedit.dll | 0x10015f5a | inc dword ptr [ecx + 0xad4c1] ; add al, ch ; retf 0xc4
+heksedit.dll | 0x1002f9be | inc dword ptr [edx] ; adc al, ch ; ret
+heksedit.dll | 0x1001eae6 | inc eax ; add al, 0x5d ; ret 4
+heksedit.dll | 0x1000a6db | inc eax ; add al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001f48a | inc eax ; add al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10018b4c | inc eax ; add dword ptr [eax], 0xcc48300 ; pop ebp ; ret
+heksedit.dll | 0x1000bc0b | inc eax ; and al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000bccb | inc eax ; cmp al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002243b | inc eax ; or al, 0x83 ; rol byte ptr [ecx], 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000948b | inc eax ; or al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001e9fb | inc eax ; or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002fb92 | inc eax ; pop edi ; pop esi ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f9b1 | inc eax ; pop esi ; ret
+heksedit.dll | 0x1000afbb | inc eax ; sbb al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000cb59 | inc eax ; sbb al, 0xef ; retf
+heksedit.dll | 0x1000bc4b | inc eax ; sub al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000bc8b | inc eax ; xor al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10005320 | inc ebp ; clc ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100017b4 | inc ebp ; clc ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10022850 | inc ebp ; clc ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002a102 | inc ebp ; clc ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10020e95 | inc ebp ; cld ; add eax, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc08 | inc ebp ; cld ; mov al, byte ptr [eax + 0x24] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc48 | inc ebp ; cld ; mov al, byte ptr [eax + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001e9f8 | inc ebp ; cld ; mov byte ptr [eax + 8], 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000603a | inc ebp ; cld ; mov dword ptr [edx], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000b140 | inc ebp ; cld ; mov dword ptr [edx], eax ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000afb8 | inc ebp ; cld ; mov eax, dword ptr [eax + 0x1c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc28 | inc ebp ; cld ; mov eax, dword ptr [eax + 0x28] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc68 | inc ebp ; cld ; mov eax, dword ptr [eax + 0x30] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc88 | inc ebp ; cld ; mov eax, dword ptr [eax + 0x34] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bcc8 | inc ebp ; cld ; mov eax, dword ptr [eax + 0x3c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10009488 | inc ebp ; cld ; mov eax, dword ptr [eax + 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a6d8 | inc ebp ; cld ; mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001b38 | inc ebp ; cld ; mov eax, dword ptr [eax + 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cbd8 | inc ebp ; cld ; mov eax, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d118 | inc ebp ; cld ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001b01 | inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ebdd | inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10001cf5 | inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d19f | inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000bca8 | inc ebp ; cld ; movzx eax, byte ptr [eax + 0x38] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10024b6b | inc ebp ; cld ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002c25c | inc ebp ; cld ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001de6a | inc ebp ; dec dword ptr [eax + 0x5de58b02] ; ret
+heksedit.dll | 0x10009718 | inc ebp ; enter -0x1a75, 0x5d ; ret 0xc
+heksedit.dll | 0x10009936 | inc ebp ; enter -0x74a2, -0x1b ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002085c | inc ebp ; fcom dword ptr [eax - 0x18] ; retf 0xee
+heksedit.dll | 0x10011e16 | inc ebp ; fmul dword ptr [ebx - 0x2d94d3b0] ; add eax, dword ptr [ebx] ; retf 0x458b
+heksedit.dll | 0x1002f878 | inc ebp ; fsub st(0), st(0) ; outsb dx, byte ptr [esi] ; push es ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x100027b5 | inc ebp ; hlt ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002a86a | inc ebp ; hlt ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000cb56 | inc ebp ; in al, 0xc7 ; inc eax ; sbb al, 0xef ; retf
+heksedit.dll | 0x10003359 | inc ebp ; in al, dx ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x10007825 | inc ebp ; in al, dx ; pushfd ; sbb eax, dword ptr [ebx] ; adc cl, ch ; retf
+heksedit.dll | 0x1000464c | inc ebp ; loopne 0x100045e0 ; dec ebp ; fsub st(0), st(0) ; retf 0x155
+heksedit.dll | 0x100074a7 | inc ebp ; mov cl, ch ; ret
+heksedit.dll | 0x1001ae26 | inc ebp ; or al, 0xeb ; retf 0xe58b
+heksedit.dll | 0x1001f487 | inc ebp ; or byte ptr [ebx - 0x1a74fbc0], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001de36 | inc ebp ; or byte ptr [ecx - 0x1a74f3be], cl ; pop ebp ; ret 4
+heksedit.dll | 0x100223f6 | inc ebp ; or byte ptr [ecx - 0x1a74f3be], cl ; pop ebp ; ret 8
+heksedit.dll | 0x1001cf37 | inc ebp ; pop ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100269c2 | inc ebp ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001b4fb | inc ebp ; ret
+heksedit.dll | 0x10026c1d | inc ebp ; ret 0x43eb
+heksedit.dll | 0x10026c0a | inc ebp ; ret 0xc700
+heksedit.dll | 0x10020e6b | inc ecx ; add al, 0 ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c13b | inc ecx ; add al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c259 | inc ecx ; add al, 0x8b ; inc ebp ; cld ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000eb14 | inc ecx ; and bh, bh ; rcr byte ptr [ebx - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000a3c4 | inc ecx ; or al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10016a2a | inc ecx ; push 0xe58bd0ff ; pop ebp ; ret
+heksedit.dll | 0x10019bae | inc ecx ; sub al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10014efc | inc ecx ; sub bh, bh ; rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001261a | inc edi ; add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10014a8c | inc edi ; lodsb al, byte ptr [esi] ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100272c2 | inc edx ; add al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10019e42 | inc edx ; inc esp ; mov al, byte ptr [ebp - 0xa] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001de39 | inc edx ; or al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x100223f9 | inc edx ; or al, 0x8b ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x100100b5 | inc edx ; or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10010fed | inc edx ; push 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d23a | inc edx ; push esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000df03 | inc edx ; sbb al, 0xff ; rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10018b72 | inc esi ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x10017074 | inc esp ; add dword ptr [eax], eax ; add byte ptr [ebx - 0x7b740fab], cl ; retf 0x14c
+heksedit.dll | 0x1002f7c1 | inc esp ; and al, 4 ; mul ecx ; ret 0x10
+heksedit.dll | 0x1002f7d9 | inc esp ; and al, 8 ; mul ecx ; add edx, ebx ; pop ebx ; ret 0x10
+heksedit.dll | 0x10019e43 | inc esp ; mov al, byte ptr [ebp - 0xa] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10005f2c | insb byte ptr es:[edi], dx ; pop ebx ; add byte ptr [eax], dl ; retf
+heksedit.dll | 0x1000d7c0 | insb byte ptr es:[edi], dx ; retf
+heksedit.dll | 0x10016067 | insb byte ptr es:[edi], dx ; xchg eax, esi ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ff50 | int1 ; pop edi ; pop esi ; ret
+heksedit.dll | 0x10015ba5 | ja 0x10015c21 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cf05 | ja 0x1001cef8 ; jne 0x1001cf6b ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ce75 | jae 0x1001ce68 ; add eax, 0x8b00005a ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10022629 | jae 0x10022632 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f8b8 | jae 0x1002f8c7 ; shld edx, eax, cl ; shl eax, cl ; ret
+heksedit.dll | 0x1000513a | jb 0x100050c5 ; add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001d20a | jb 0x1001d269 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fe77 | jb 0x1002fe7d ; add byte ptr [eax], al ; ret 0x10
+heksedit.dll | 0x1002ff4f | jb 0x1002ff46 ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ff73 | jb 0x1002ff6a ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ffea | jb 0x1002ffd9 ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+heksedit.dll | 0x1001cde5 | jbe 0x1001cdd8 ; xchg eax, ebp ; pop edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002615d | jbe 0x100260fb ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000325f | je 0x1000322c ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000d309 | je 0x1000d323 ; add edx, dword ptr [eax] ; pop ebp ; ret 8
+heksedit.dll | 0x1001a05f | je 0x1001a0be ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ce45 | je 0x1001ce38 ; xor eax, 0x8b00005a ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1002a33f | je 0x1002a35b ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ff89 | je 0x1002ff92 ; xor eax, eax ; ret
+heksedit.dll | 0x1001d085 | jg 0x1001d078 ; cmc ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000912e | jge 0x10009125 ; add dword ptr [edi], ecx ; xchg eax, esp ; ret 0xb60f
+heksedit.dll | 0x1001d025 | jge 0x1001d018 ; push ebp ; pop eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e356 | jge 0x1001e372 ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10029c09 | jge 0x10029c05 ; ret
+heksedit.dll | 0x1002edfc | jge 0x1002edab ; add byte ptr [edi], cl ; lahf ; ret 0x5589
+heksedit.dll | 0x1000e700 | jl 0x1000e73f ; ret 0x4e74
+heksedit.dll | 0x10010170 | jl 0x100101a1 ; add dword ptr [eax], eax ; lea ecx, [ebp - 0x24] ; call 0x1001cbd9
+heksedit.dll | 0x10024d57 | jl 0x10024d09 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002a55 | jle 0x10002a2a ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d055 | jle 0x1001d048 ; and eax, 0x8b000058 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x100021ef | jmp 0x100021b5
+heksedit.dll | 0x1000d019 | jmp 0x1000cfdf
+heksedit.dll | 0x1001e5af | jmp 0x1001e575
+heksedit.dll | 0x10020fba | jmp 0x10020f88
+heksedit.dll | 0x1001cea5 | jne 0x1001ce98 ; aad 0x59 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cf07 | jne 0x1001cf69 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10021d9f | jne 0x10021c85 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f6dd | jne 0x1002f6e4 ; ret
+heksedit.dll | 0x1002f7be | jne 0x1002f7d1 ; mov eax, dword ptr [esp + 4] ; mul ecx ; ret 0x10
+heksedit.dll | 0x1002f9ad | jne 0x1002f9ba ; xor eax, eax ; inc eax ; pop esi ; ret
+heksedit.dll | 0x10017eab | jno 0x10017eb4 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ce15 | jno 0x1001ce08 ; pop edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cfc5 | jnp 0x1001cfb8 ; mov ch, 0x58 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10025f58 | jnp 0x10025ef8 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001bf5 | jns 0x10001c30 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0xc281
+heksedit.dll | 0x1000f366 | jns 0x1000f3a9 ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1000f754 | jns 0x1000f793 ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1001cf65 | jns 0x1001cf58 ; adc eax, 0x8b000059 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000f045 | jo 0x1000efcc ; ret 0x8b01
+heksedit.dll | 0x1001617c | jo 0x10016103 ; ret 0x8b01
+heksedit.dll | 0x1001ced5 | jo 0x1001cec8 ; movsd dword ptr es:[edi], dword ptr [esi] ; pop ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cf95 | jp 0x1001cf88 ; in eax, 0x58 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001cf35 | js 0x1001cf28 ; inc ebp ; pop ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d544 | js 0x1001d5b4 ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002fdcf | js 0x1002fde7 ; add edx, dword ptr [eax] ; leave ; ret
+heksedit.dll | 0x1002ff9f | js 0x1002ffc2 ; or eax, dword ptr [ecx] ; sete cl ; mov eax, ecx ; ret
+heksedit.dll | 0x10016eb9 | lahf ; ret
+heksedit.dll | 0x1002ee00 | lahf ; ret 0x5589
+heksedit.dll | 0x1000dc37 | lcall [ecx + 0x303e283] ; ret 0xf8c1
+heksedit.dll | 0x100095e7 | lcall [esi - 0x75] ; in eax, 0x5d ; ret
+heksedit.dll | 0x10011ebd | lcall [esi - 0x75] ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1002ee0e | lds ecx, ptr [eax] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002520e | lds esp, ptr [eax + eax + 0x5de58b00] ; ret 4
+heksedit.dll | 0x1002fee3 | lea eax, [ebp - 0x10] ; mov dword ptr fs:[0], eax ; ret
+heksedit.dll | 0x100095e4 | lea eax, [ebx - 0x74a10038] ; in eax, 0x5d ; ret
+heksedit.dll | 0x10022330 | lea eax, [ecx + edx*4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020198 | lea ecx, [ebp - 0x104] ; call 0x1001cbd8
+heksedit.dll | 0x100201a4 | lea ecx, [ebp - 0x108] ; call 0x1001cbd8
+heksedit.dll | 0x10005d68 | lea ecx, [ebp - 0x184] ; call 0x100227f8
+heksedit.dll | 0x10005d58 | lea ecx, [ebp - 0x188] ; call 0x100227f8
+heksedit.dll | 0x10010114 | lea ecx, [ebp - 0x1c] ; call 0x1001cbd5
+heksedit.dll | 0x10010138 | lea ecx, [ebp - 0x20] ; call 0x1001cbd5
+heksedit.dll | 0x10010174 | lea ecx, [ebp - 0x24] ; call 0x1001cbd5
+heksedit.dll | 0x100101a6 | lea ecx, [ebp - 0x28] ; call 0x1001cbd5
+heksedit.dll | 0x10029b6d | lea ecx, [ecx] ; retf
+heksedit.dll | 0x10014604 | lea edi, [eax + 0x13fffffe] ; retf 0x8589
+heksedit.dll | 0x10022d1c | leave ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002390a | leave ; mov ebp, 0xe58b0000 ; pop ebp ; ret
+heksedit.dll | 0x1002fdd3 | leave ; ret
+heksedit.dll | 0x1002f6ce | leave ; ret 0x10
+heksedit.dll | 0x1002f61d | leave ; ret 4
+heksedit.dll | 0x1002bbbd | leave ; xor al, al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000e0af | les eax, ptr [eax] ; add byte ptr [eax], al ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0x5589
+heksedit.dll | 0x10021003 | les eax, ptr [ebx + ebp*8] ; ret 0x4d8b
+heksedit.dll | 0x10001d52 | les eax, ptr [ebx + ecx*4] ; in eax, 0x5d ; ret
+heksedit.dll | 0x10002c71 | les eax, ptr [ebx + ecx*4] ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100269bf | les eax, ptr [edx + ecx*4] ; inc ebp ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001ad4f | les eax, ptr [esi + ebx*2] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100094e2 | les ebx, ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ff21 | les ebx, ptr [eax] ; ret
+heksedit.dll | 0x1002ab12 | les ecx, ptr [eax] ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000be39 | les ecx, ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002a72 | les ecx, ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x10003ca5 | les ecx, ptr [ebx + ecx*4] ; in eax, 0x5d ; ret
+heksedit.dll | 0x10008e59 | les ecx, ptr [ebx + ecx*4] ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000bdc3 | les ecx, ptr [ebx + ecx*4] ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10026b99 | les ecx, ptr [esi + eax*8] ; inc ebp ; ret
+heksedit.dll | 0x10026c07 | les ecx, ptr [esi + eax*8] ; inc ebp ; ret 0xc700
+heksedit.dll | 0x1001870c | les ecx, ptr [esi + ebx*2] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100250c3 | les edx, ptr [eax] ; mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10017b68 | les edx, ptr [ebx - 0x1a740001] ; pop ebp ; ret
+heksedit.dll | 0x100265e9 | ljmp 0x5de5:0x8b000090 ; ret 4
+heksedit.dll | 0x1000a928 | ljmp [ebx - 0x2e] ; add eax, dword ptr [ebx] ; retf 0x858b
+heksedit.dll | 0x1000912f | lock add dword ptr [edi], ecx ; xchg eax, esp ; ret 0xb60f
+heksedit.dll | 0x10017d79 | lodsb al, byte ptr [esi] ; adc eax, 0xe58b1003 ; pop ebp ; ret 4
+heksedit.dll | 0x10004a7f | lodsb al, byte ptr [esi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10014a8d | lodsb al, byte ptr [esi] ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10006adf | lodsb al, byte ptr [esi] ; add ecx, 0xad4 ; call 0x10002cf9
+heksedit.dll | 0x100021e8 | lodsb al, byte ptr [esi] ; add edx, 1 ; mov dword ptr [ebp - 0x54], edx ; jmp 0x100021bc
+heksedit.dll | 0x100021ee | lodsb al, byte ptr [esi] ; jmp 0x100021b6
+heksedit.dll | 0x10015f4a | loop 0x10015f51 ; add eax, dword ptr [eax] ; add byte ptr [ebx], al ; ret 0xf8c1
+heksedit.dll | 0x10015fcb | loop 0x10015fd2 ; add eax, dword ptr [eax] ; add byte ptr [ebx], al ; ret 0xf8c1
+heksedit.dll | 0x1002f8c8 | loop 0x1002f893 ; xor eax, eax ; xor edx, edx ; ret
+heksedit.dll | 0x1002f8c5 | loope 0x1002f8ea ; shl edx, cl ; ret
+heksedit.dll | 0x1000464d | loopne 0x100045df ; dec ebp ; fsub st(0), st(0) ; retf 0x155
+heksedit.dll | 0x10004e23 | loopne 0x10004daa ; ret 0x8901
+heksedit.dll | 0x1000a6c9 | loopne 0x1000a65a ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000bbf3 | loopne 0x1000bc36 ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001013a | loopne 0x10010127 ; nop ; retf 0
+heksedit.dll | 0x10012b34 | loopne 0x10012b3f ; add byte ptr [eax], al ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002d474 | loopne 0x1002d3fb ; ret 0x8901
+heksedit.dll | 0x1002d4c3 | loopne 0x1002d44a ; ret 0x8901
+heksedit.dll | 0x1002d744 | loopne 0x1002d6cb ; ret 0x8901
+heksedit.dll | 0x1002d788 | loopne 0x1002d70f ; ret 0x8901
+heksedit.dll | 0x1002d84d | loopne 0x1002d7d4 ; ret 0x8901
+heksedit.dll | 0x10030c40 | loopne 0x10030bd8 ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x1000c12a | mov ah, 0x15 ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x1002f21f | mov ah, 4 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000c35f | mov al, 0 ; add byte ptr [eax], al ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000cfbd | mov al, 0x15 ; add edx, dword ptr [eax] ; pop ebp ; ret 8
+heksedit.dll | 0x10006827 | mov al, 0x80 ; add edx, dword ptr [eax] ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x10022bf3 | mov al, 1 ; mov ecx, dword ptr [ebp - 0xc] ; xor ecx, ebp ; call 0x1002f6e0
+heksedit.dll | 0x1002312e | mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10027312 | mov al, 1 ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002ab14 | mov al, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002c21 | mov al, 1 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002a9b2 | mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001dd3f | mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10002ce1 | mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10004c4e | mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x100155ef | mov al, byte ptr [0xe58b0001] ; pop ebp ; ret 8
+heksedit.dll | 0x10008306 | mov al, byte ptr [eax + 0x100388a8] ; pop ebp ; ret
+heksedit.dll | 0x1000bc0a | mov al, byte ptr [eax + 0x24] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc4a | mov al, byte ptr [eax + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100094f3 | mov al, byte ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x10026c1c | mov al, byte ptr [ebp - 0x3e] ; jmp 0x10026c66
+heksedit.dll | 0x10019e44 | mov al, byte ptr [ebp - 0xa] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100269c1 | mov al, byte ptr [ebp - 0xd] ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001de69 | mov al, byte ptr [ebp - 1] ; mov byte ptr [edx], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000833f | mov al, byte ptr [ebp - 1] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cbf3 | mov al, cl ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c1da | mov al, dl ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10016cc4 | mov bh, 0 ; add byte ptr [ebp + 0x682c7fc0], al ; ret
+heksedit.dll | 0x10021058 | mov bh, 0x48 ; sbb al, 0xf ; mov bh, 0x55 ; or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x1002105c | mov bh, 0x55 ; or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x1001ec69 | mov bl, 0xb8 ; add byte ptr fs:[eax + eax*4], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000d018 | mov bl, ch ; ret
+heksedit.dll | 0x1001d1da | mov byte ptr [0x8b000056], al ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x100054a9 | mov byte ptr [0xe58b0002], al ; pop ebp ; ret
+heksedit.dll | 0x1001e9fa | mov byte ptr [eax + 8], 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10014862 | mov byte ptr [eax], ah ; or al, 0 ; add byte ptr [ecx - 0x18], dl ; ret
+heksedit.dll | 0x10020fb5 | mov byte ptr [eax], al ; add byte ptr [eax], al ; add bl, ch ; retf
+heksedit.dll | 0x1000951c | mov byte ptr [ebp + 8], dl ; mov al, byte ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1002ff4b | mov byte ptr [ebx + edi], 0xf7 ; jb 0x1002ff4a ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002ff6f | mov byte ptr [ebx + edi], 0xf7 ; jb 0x1002ff6e ; pop edi ; pop esi ; ret
+heksedit.dll | 0x1002f6da | mov byte ptr [ebx], al ; adc byte ptr [ebp + 2], dh ; ret
+heksedit.dll | 0x10030160 | mov byte ptr [ebx], al ; adc byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+heksedit.dll | 0x100100b4 | mov byte ptr [edx + 8], 0 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10003017 | mov byte ptr [edx], 0 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001de6c | mov byte ptr [edx], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cfc7 | mov ch, 0x58 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10005f22 | mov cl, 0x97 ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100074a8 | mov cl, ch ; ret
+heksedit.dll | 0x1001b5d8 | mov dh, 0x4d ; ret
+heksedit.dll | 0x1000e6fe | mov dh, 0x51 ; jl 0x1000e741 ; ret 0x4e74
+heksedit.dll | 0x10002c44 | mov dh, 0xc0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ccca | mov dl, 0x5b ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10025a21 | mov dl, 0x9c ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fee7 | mov dword ptr [0], eax ; ret
+heksedit.dll | 0x1000840a | mov dword ptr [0x10038ca8], edx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030cc5 | mov dword ptr [0x100391d8], eax ; pop ebp ; ret
+heksedit.dll | 0x10030ce5 | mov dword ptr [0x100391dc], eax ; pop ebp ; ret
+heksedit.dll | 0x10030c3f | mov dword ptr [0x100391e0], eax ; pop ebp ; ret
+heksedit.dll | 0x10030ca8 | mov dword ptr [0x100391e4], eax ; pop ebp ; ret
+heksedit.dll | 0x10030c85 | mov dword ptr [0x100391e8], eax ; pop ebp ; ret
+heksedit.dll | 0x10030c5f | mov dword ptr [0x100391ec], eax ; pop ebp ; ret
+heksedit.dll | 0x1001dd63 | mov dword ptr [eax + 0x10], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e15b | mov dword ptr [eax + 0x14], edx ; mov eax, dword ptr [ebp - 0x10] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e033 | mov dword ptr [eax + 0x14], edx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e7b1 | mov dword ptr [eax + 0x14], edx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000afdd | mov dword ptr [eax + 0x20], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002aa9d | mov dword ptr [eax + 0x230], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000cef9 | mov dword ptr [eax + 0xc28], ecx ; pop ebp ; ret 8
+heksedit.dll | 0x10004c4b | mov dword ptr [eax + 0xc], edx ; mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002c02d | mov dword ptr [eax + 4], edx ; mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000a4ea | mov dword ptr [eax + 4], edx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bd8d | mov dword ptr [eax + 8], ecx ; mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020fb3 | mov dword ptr [eax + ecx*4], 0 ; jmp 0x10020f8f
+heksedit.dll | 0x1000d016 | mov dword ptr [eax + ecx*4], esi ; jmp 0x1000cfe2
+heksedit.dll | 0x1001ef6a | mov dword ptr [eax], 0x10032cc8 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001f22a | mov dword ptr [eax], 0x10032ce8 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100227dd | mov dword ptr [eax], ecx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000a66d | mov dword ptr [eax], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000a41d | mov dword ptr [ebp - 0x10], eax ; mov eax, dword ptr [ebp - 0x10] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100021ec | mov dword ptr [ebp - 0x54], edx ; jmp 0x100021b8
+heksedit.dll | 0x10019c10 | mov dword ptr [ebp - 0xc], edx ; mov eax, dword ptr [ebp - 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d117 | mov dword ptr [ebp - 4], eax ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000aff4 | mov dword ptr [ebp - 4], ecx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100249e4 | mov dword ptr [ebp - 4], ecx ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001e5ac | mov dword ptr [ebp - 8], ecx ; jmp 0x1001e578
+heksedit.dll | 0x1000531c | mov dword ptr [ebp - 8], ecx ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10002c1e | mov dword ptr [ecx + 0x10], edx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10022581 | mov dword ptr [ecx + 0x10], edx ; mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000af9f | mov dword ptr [ecx + 0x18], edx ; mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a629 | mov dword ptr [ecx + 0x30], edx ; mov esp, ebp ; pop ebp ; ret 0x20
+heksedit.dll | 0x10015eb5 | mov dword ptr [ecx + 0xacc], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a3c3 | mov dword ptr [ecx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001df12 | mov dword ptr [ecx + 0xc], edx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001378e | mov dword ptr [ecx + 0xf4], edx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002c13a | mov dword ptr [ecx + 4], eax ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a479 | mov dword ptr [ecx + 4], edx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bdee | mov dword ptr [ecx + 4], edx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001e409 | mov dword ptr [ecx + 8], edx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10001afe | mov dword ptr [ecx], eax ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002bc5b | mov dword ptr [ecx], eax ; xor al, al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002312c | mov dword ptr [ecx], edx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a656 | mov dword ptr [edx + 0x10], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001ed6e | mov dword ptr [edx + 0x10], eax ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001f0ef | mov dword ptr [edx + 0x14], ecx ; mov eax, 1 ; pop ebp ; ret 8
+heksedit.dll | 0x1001cc2f | mov dword ptr [edx + 0x14], ecx ; mov eax, dword ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1001df81 | mov dword ptr [edx + 0x14], ecx ; mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10019e41 | mov dword ptr [edx + 0x44], eax ; mov al, byte ptr [ebp - 0xa] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002730f | mov dword ptr [edx + 0xc], eax ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007d11 | mov dword ptr [edx + 0xc], eax ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001de38 | mov dword ptr [edx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100223f8 | mov dword ptr [edx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002a9af | mov dword ptr [edx + 0xc], ecx ; mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001dd3c | mov dword ptr [edx + 0xc], ecx ; mov al, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10001b63 | mov dword ptr [edx + 0xc], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10023210 | mov dword ptr [edx + 4], ecx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001deaf | mov dword ptr [edx + 4], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000603c | mov dword ptr [edx], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000b142 | mov dword ptr [edx], eax ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002f70e | mov dword ptr [esp], eax ; ret
+heksedit.dll | 0x1002fee6 | mov dword ptr fs:[0], eax ; ret
+heksedit.dll | 0x10014605 | mov eax, 0x13fffffe ; retf 0x8589
+heksedit.dll | 0x1001f2e3 | mov eax, 0x40102 ; pop ebp ; ret 8
+heksedit.dll | 0x1001d864 | mov eax, 0x5d0000a3 ; ret 0x10
+heksedit.dll | 0x1001d454 | mov eax, 0x5dfffebf ; ret 0x10
+heksedit.dll | 0x1001f153 | mov eax, 0x80004001 ; pop ebp ; ret 0x14
+heksedit.dll | 0x1001ebfd | mov eax, 0x80004001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001f163 | mov eax, 0x80004001 ; pop ebp ; ret 8
+heksedit.dll | 0x1001eac0 | mov eax, 0x80004002 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001ec6a | mov eax, 0x80040064 ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10022d1b | mov eax, 0x8b0000c9 ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10010134 | mov eax, 0x8d000126 ; dec ebp ; loopne 0x1001012d ; nop ; retf 0
+heksedit.dll | 0x10003e88 | mov eax, 0xe58b0002 ; pop ebp ; ret 4
+heksedit.dll | 0x100261a1 | mov eax, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001de6 | mov eax, 1 ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10006fcc | mov eax, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ce73 | mov eax, 1 ; pop ebp ; ret 4
+heksedit.dll | 0x1001f0f2 | mov eax, 1 ; pop ebp ; ret 8
+heksedit.dll | 0x10008a23 | mov eax, 1 ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000212b | mov eax, 8 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001a32 | mov eax, dword ptr [0x8b0002dc] ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000afba | mov eax, dword ptr [eax + 0x1c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc2a | mov eax, dword ptr [eax + 0x28] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc6a | mov eax, dword ptr [eax + 0x30] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc8a | mov eax, dword ptr [eax + 0x34] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bcca | mov eax, dword ptr [eax + 0x3c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002243a | mov eax, dword ptr [eax + 0xc] ; add eax, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000948a | mov eax, dword ptr [eax + 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10002cfa | mov eax, dword ptr [eax + 4] ; add eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000a6da | mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001f489 | mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001eae5 | mov eax, dword ptr [eax + 4] ; pop ebp ; ret 4
+heksedit.dll | 0x10001b3a | mov eax, dword ptr [eax + 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f70c | mov eax, dword ptr [eax] ; mov dword ptr [esp], eax ; ret
+heksedit.dll | 0x1001cbda | mov eax, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a653 | mov eax, dword ptr [ebp + 0xc] ; mov dword ptr [edx + 0x10], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001de35 | mov eax, dword ptr [ebp + 8] ; mov dword ptr [edx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100223f5 | mov eax, dword ptr [ebp + 8] ; mov dword ptr [edx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001f486 | mov eax, dword ptr [ebp + 8] ; mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001eae2 | mov eax, dword ptr [ebp + 8] ; mov eax, dword ptr [eax + 4] ; pop ebp ; ret 4
+heksedit.dll | 0x1000bd90 | mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002c030 | mov eax, dword ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001cc32 | mov eax, dword ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1000543e | mov eax, dword ptr [ebp - 0x10] ; add eax, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000260d | mov eax, dword ptr [ebp - 0x10] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001e15e | mov eax, dword ptr [ebp - 0x10] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001de13 | mov eax, dword ptr [ebp - 0x10] ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10003358 | mov eax, dword ptr [ebp - 0x14] ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x1001e7ae | mov eax, dword ptr [ebp - 0x18] ; mov dword ptr [eax + 0x14], edx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10018cee | mov eax, dword ptr [ebp - 0x18] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fe18 | mov eax, dword ptr [ebp - 0x24] ; ret
+heksedit.dll | 0x10009717 | mov eax, dword ptr [ebp - 0x38] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10009935 | mov eax, dword ptr [ebp - 0x38] ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100027b4 | mov eax, dword ptr [ebp - 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002a869 | mov eax, dword ptr [ebp - 0xc] ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020e94 | mov eax, dword ptr [ebp - 4] ; add eax, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc07 | mov eax, dword ptr [ebp - 4] ; mov al, byte ptr [eax + 0x24] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc47 | mov eax, dword ptr [ebp - 4] ; mov al, byte ptr [eax + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10006039 | mov eax, dword ptr [ebp - 4] ; mov dword ptr [edx], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000afb7 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0x1c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc27 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0x28] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc67 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0x30] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bc87 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0x34] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bcc7 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0x3c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10009487 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a6d7 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001b37 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax + 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cbd7 | mov eax, dword ptr [ebp - 4] ; mov eax, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001b00 | mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001ebdc | mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10001cf4 | mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000d19e | mov eax, dword ptr [ebp - 4] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10024b6a | mov eax, dword ptr [ebp - 4] ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002c25b | mov eax, dword ptr [ebp - 4] ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000531f | mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100017b3 | mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002284f | mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002a101 | mov eax, dword ptr [ebp - 8] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10022420 | mov eax, dword ptr [ecx + edx*4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100272c1 | mov eax, dword ptr [edx + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f7c0 | mov eax, dword ptr [esp + 4] ; mul ecx ; ret 0x10
+heksedit.dll | 0x1002f7d8 | mov eax, dword ptr [esp + 8] ; mul ecx ; add edx, ebx ; pop ebx ; ret 0x10
+heksedit.dll | 0x10024883 | mov eax, ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f708 | mov eax, ecx ; pop ecx ; xchg eax, esp ; mov eax, dword ptr [eax] ; mov dword ptr [esp], eax ; ret
+heksedit.dll | 0x1002ffa6 | mov eax, ecx ; ret
+heksedit.dll | 0x1003009a | mov eax, edx ; ret
+heksedit.dll | 0x1002f782 | mov eax, esi ; pop esi ; pop ebx ; ret 4
+heksedit.dll | 0x10003016 | mov ebp, 0x8b0002c6 ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x1002390b | mov ebp, 0xe58b0000 ; pop ebp ; ret
+heksedit.dll | 0x1001989c | mov ebp, 0xfffffeec ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x858b
+heksedit.dll | 0x10023386 | mov ebp, 0xffffff50 ; add dword ptr [edi], ecx ; xchg eax, esp ; ret 0x1588
+heksedit.dll | 0x100094f1 | mov ebp, esp ; mov al, byte ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1001f2e1 | mov ebp, esp ; mov eax, 0x40102 ; pop ebp ; ret 8
+heksedit.dll | 0x1001f151 | mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 0x14
+heksedit.dll | 0x1001ec81 | mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001f161 | mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 8
+heksedit.dll | 0x1000ce71 | mov ebp, esp ; mov eax, 1 ; pop ebp ; ret 4
+heksedit.dll | 0x1000a431 | mov ebp, esp ; pop ebp ; ret
+heksedit.dll | 0x10023718 | mov ebx, 0x8b0000bf ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000f2f7 | mov ecx, 0x120 ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1002eea2 | mov ecx, 0x124 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x10021c1a | mov ecx, 0x8b0000da ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x1000c211 | mov ecx, 0x90 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000c280 | mov ecx, 0x98 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000c2ef | mov ecx, 0xa4 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000c35e | mov ecx, 0xb0 ; add byte ptr [edi], cl ; xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x1000e0ae | mov ecx, 0xc4 ; add cl, byte ptr [edi] ; xchg eax, esp ; ret 0x5589
+heksedit.dll | 0x1000e068 | mov ecx, dword ptr [eax + 0x68] ; mov dword ptr [edx + 0xc], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001dd60 | mov ecx, dword ptr [ebp + 8] ; mov dword ptr [eax + 0x10], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000afda | mov ecx, dword ptr [ebp + 8] ; mov dword ptr [eax + 0x20], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000a66a | mov ecx, dword ptr [ebp + 8] ; mov dword ptr [eax], ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001a6d5 | mov ecx, dword ptr [ebp - 0x68] ; call 0x10016915
+heksedit.dll | 0x10022bf5 | mov ecx, dword ptr [ebp - 0xc] ; xor ecx, ebp ; call 0x1002f6de
+heksedit.dll | 0x10019baa | mov ecx, dword ptr [ebp - 4] ; add eax, dword ptr [ecx + 0x2c] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10017d9c | mov ecx, dword ptr [ebp - 4] ; call 0x10013fc5
+heksedit.dll | 0x1000d013 | mov ecx, dword ptr [ebp - 4] ; mov dword ptr [eax + ecx*4], esi ; jmp 0x1000cfe5
+heksedit.dll | 0x1000a3c0 | mov ecx, dword ptr [ebp - 4] ; mov dword ptr [ecx + 0xc], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001deac | mov ecx, dword ptr [ebp - 4] ; mov dword ptr [edx + 4], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001da41 | mov ecx, eax ; call 0x10009ce4
+heksedit.dll | 0x10026bab | mov edi, 0x458afffd ; ret
+heksedit.dll | 0x1002286d | mov edi, 0x5dfffff6 ; ret 4
+heksedit.dll | 0x10023719 | mov edi, 0xe58b0000 ; pop ebp ; ret 4
+heksedit.dll | 0x100036f5 | mov edi, 0xe58b0002 ; pop ebp ; ret 4
+heksedit.dll | 0x1000fc4e | mov edi, edi ; scasb al, byte ptr es:[edi] ; stc ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x1000a626 | mov edx, dword ptr [ebp + 0x24] ; mov dword ptr [ecx + 0x30], edx ; mov esp, ebp ; pop ebp ; ret 0x20
+heksedit.dll | 0x1002232d | mov edx, dword ptr [ebp + 8] ; lea eax, [ecx + edx*4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001df0f | mov edx, dword ptr [ebp + 8] ; mov dword ptr [ecx + 0xc], edx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002241d | mov edx, dword ptr [ebp + 8] ; mov eax, dword ptr [ecx + edx*4] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000c870 | mov edx, dword ptr [ebp + 8] ; push edx ; call 0x10018b46
+heksedit.dll | 0x100034ac | mov edx, dword ptr [ebp - 0x17c] ; push edx ; call 0x1002f6db
+heksedit.dll | 0x10001b60 | mov edx, dword ptr [ebp - 4] ; mov dword ptr [edx + 0xc], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100272be | mov edx, dword ptr [ebp - 4] ; mov eax, dword ptr [edx + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a4e7 | mov edx, dword ptr [ecx + 8] ; mov dword ptr [eax + 4], edx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f8c0 | mov edx, eax ; xor eax, eax ; and cl, 0x1f ; shl edx, cl ; ret
+heksedit.dll | 0x10026c19 | mov esi, 0x458afffd ; ret 0x43eb
+heksedit.dll | 0x10022115 | mov esi, 0x8b0000d5 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001893e | mov esi, 0xe9ffff58 ; retf
+heksedit.dll | 0x1002b1ff | mov esp, 0x83fffffb ; ret 0x8901
+heksedit.dll | 0x1002284e | mov esp, 0x8bf8458b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10003a7b | mov esp, 0xe58b0002 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002fefc | mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10001b03 | mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000132b | mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000335b | mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x10013eeb | mov esp, ebp ; pop ebp ; ret 0x18
+heksedit.dll | 0x1000a62c | mov esp, ebp ; pop ebp ; ret 0x20
+heksedit.dll | 0x100012c3 | mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x100010cf | mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10002c23 | mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x10030c3e | mov word ptr [0x100391e0], ax ; pop ebp ; ret
+heksedit.dll | 0x10030c5e | mov word ptr [0x100391ec], ax ; pop ebp ; ret
+heksedit.dll | 0x1000f042 | mov word ptr [ebx], gs ; push ecx ; jo 0x1000efcf ; ret 0x8b01
+heksedit.dll | 0x100052ce | movsb byte ptr es:[edi], byte ptr [esi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002520f | movsb byte ptr es:[edi], byte ptr [esi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10026c18 | movsb byte ptr es:[edi], byte ptr [esi] ; mov esi, 0x458afffd ; ret 0x43eb
+heksedit.dll | 0x10024b69 | movsd dword ptr es:[edi], dword ptr [esi] ; mov eax, dword ptr [ebp - 4] ; pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001ced7 | movsd dword ptr es:[edi], dword ptr [esi] ; pop ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f8bb | movsd dword ptr es:[edi], dword ptr [esi] ; ret 0xe0d3
+heksedit.dll | 0x10002c43 | movzx eax, al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000bcaa | movzx eax, byte ptr [eax + 0x38] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bd68 | movzx eax, byte ptr [ebp + 8] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000b18d | movzx eax, byte ptr [ebp + 8] ; sub eax, 0x37 ; pop ebp ; ret
+heksedit.dll | 0x1002f7dc | mul ecx ; add edx, ebx ; pop ebx ; ret 0x10
+heksedit.dll | 0x1002f7c4 | mul ecx ; ret 0x10
+heksedit.dll | 0x1002f896 | neg eax ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x1001f1e5 | neg eax ; sbb eax, eax ; add eax, 1 ; pop ebp ; ret
+heksedit.dll | 0x1002f892 | neg eax ; sbb eax, eax ; neg eax ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x1002f97f | neg eax ; sbb edx, 0 ; pop ebx ; pop esi ; pop edi ; ret 0x10
+heksedit.dll | 0x100265ea | nop ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001c7e4 | nop ; hlt ; or al, byte ptr [eax] ; add byte ptr [ebx - 0x2e], ch ; or ch, byte ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1001013c | nop ; retf 0
+heksedit.dll | 0x10014864 | or al, 0 ; add byte ptr [ecx - 0x18], dl ; ret
+heksedit.dll | 0x1001294d | or al, 0 ; add byte ptr [edi], cl ; xchg eax, esp ; ret 0x5588
+heksedit.dll | 0x10005f2a | or al, 0 ; insb byte ptr es:[edi], dx ; pop ebx ; add byte ptr [eax], dl ; retf
+heksedit.dll | 0x1002edf8 | or al, 0x33 ; rol byte ptr [ebx + 0xf00a87d], cl ; lahf ; ret 0x5589
+heksedit.dll | 0x1002105e | or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x10018b52 | or al, 0x5d ; ret
+heksedit.dll | 0x1001870d | or al, 0x5e ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10022620 | or al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1002ffe1 | or al, 0x83 ; ret 0x8301
+heksedit.dll | 0x1001b10d | or al, 0x83 ; ret 0x8901
+heksedit.dll | 0x1002243c | or al, 0x83 ; rol byte ptr [ecx], 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10002c1d | or al, 0x89 ; push ecx ; adc byte ptr [eax + 0x5de58b01], dh ; ret 8
+heksedit.dll | 0x1001de68 | or al, 0x8a ; inc ebp ; dec dword ptr [eax + 0x5de58b02] ; ret
+heksedit.dll | 0x10001b65 | or al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10008e5a | or al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000bdc4 | or al, 0x8b ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10006038 | or al, 0x8b ; inc ebp ; cld ; mov dword ptr [edx], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100246c7 | or al, 0xb0 ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002a9b1 | or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001dd3e | or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x10004c4d | or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10026b9a | or al, 0xc6 ; inc ebp ; ret
+heksedit.dll | 0x10026c08 | or al, 0xc6 ; inc ebp ; ret 0xc700
+heksedit.dll | 0x1000d19b | or al, 0xeb ; fisttp qword ptr [ebx - 0x1a7403bb] ; pop ebp ; ret 8
+heksedit.dll | 0x1001ae27 | or al, 0xeb ; retf 0xe58b
+heksedit.dll | 0x1001ebbb | or al, 3 ; retf 0x558b
+heksedit.dll | 0x1000ced9 | or al, byte ptr [eax] ; add al, ch ; dec edi ; push ebp ; add dword ptr [eax], eax ; pop ebp ; ret 4
+heksedit.dll | 0x1002694c | or al, byte ptr [eax] ; add al, ch ; pushfd ; ret
+heksedit.dll | 0x10010fa5 | or al, byte ptr [eax] ; add al, ch ; ret
+heksedit.dll | 0x10001986 | or al, byte ptr [eax] ; add al, ch ; ret 1
+heksedit.dll | 0x10015f5e | or al, byte ptr [eax] ; add al, ch ; retf 0xc4
+heksedit.dll | 0x1001b01e | or al, byte ptr [eax] ; add al, ch ; retf 0xfe7c
+heksedit.dll | 0x1000ceb6 | or al, byte ptr [eax] ; add al, ch ; sar ch, cl ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x1001c7e6 | or al, byte ptr [eax] ; add byte ptr [ebx - 0x2e], ch ; or ch, byte ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1002f881 | or al, ch ; clts ; add byte ptr [eax], al ; pop ecx ; ret
+heksedit.dll | 0x10018b6f | or al, ch ; dec ebx ; inc esi ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1000fa60 | or al, ch ; retf 0x54
+heksedit.dll | 0x1001382f | or al, ch ; wait ; xchg eax, ebp ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x10030311 | or bh, bh ; and eax, 0x100311ac ; ret
+heksedit.dll | 0x10029e27 | or bh, bh ; ror byte ptr [ebx - 0x1a7403bb], 1 ; pop ebp ; ret 8
+heksedit.dll | 0x1002a0fe | or bh, bh ; ror dword ptr [ebx - 0x1a7407bb], 1 ; pop ebp ; ret 8
+heksedit.dll | 0x1002ab13 | or byte ptr [eax + 0x5de58b01], dh ; ret 4
+heksedit.dll | 0x1000c0fa | or byte ptr [eax - 1], dl ; adc eax, 0x10031454 ; pop ebp ; ret
+heksedit.dll | 0x1000212c | or byte ptr [eax], al ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000fc4c | or byte ptr [eax], al ; mov edi, edi ; scasb al, byte ptr es:[edi] ; stc ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x1001e9fc | or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100100b6 | or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002232f | or byte ptr [ebp - 0x1a746efc], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001a6d4 | or byte ptr [ebx + 0x33e8984d], cl ; ret 0xffff
+heksedit.dll | 0x1001e40b | or byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002241f | or byte ptr [ebx - 0x1a746efc], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1000bd8f | or byte ptr [ebx - 0x1a74f7bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001f488 | or byte ptr [ebx - 0x1a74fbc0], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1000aacb | or byte ptr [ebx - 0x2e], ch ; add eax, dword ptr [ebx] ; retf 0x958b
+heksedit.dll | 0x1000fa59 | or byte ptr [ebx - 0x74adf73e], al ; dec ebp ; or al, ch ; retf 0x54
+heksedit.dll | 0x10008934 | or byte ptr [ebx], ah ; retf 0x558b
+heksedit.dll | 0x1000b0c8 | or byte ptr [ebx], cl ; retf 0x558b
+heksedit.dll | 0x100113e2 | or byte ptr [ebx], cl ; retf 0x858b
+heksedit.dll | 0x1000f750 | or byte ptr [ebx], dh ; rol byte ptr [ebx + 0xf003879], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1000f362 | or byte ptr [ebx], dh ; rol byte ptr [ebx + 0xf003c79], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1001a321 | or byte ptr [ebx], dh ; rol byte ptr [ebx - 0x6bf00008], cl ; ret 0x858b
+heksedit.dll | 0x10007d10 | or byte ptr [ecx + 0x1b00c42], cl ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000a66c | or byte ptr [ecx + 0x5de58b08], cl ; ret 4
+heksedit.dll | 0x1001d0b2 | or byte ptr [ecx + 0x68], dl ; add byte ptr [eax], 0 ; add al, ch ; ret 0x57
+heksedit.dll | 0x1000afdc | or byte ptr [ecx - 0x1a74dfb8], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001dd62 | or byte ptr [ecx - 0x1a74efb8], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001df11 | or byte ptr [ecx - 0x1a74f3af], cl ; pop ebp ; ret 8
+heksedit.dll | 0x1001de37 | or byte ptr [ecx - 0x1a74f3be], cl ; pop ebp ; ret 4
+heksedit.dll | 0x100223f7 | or byte ptr [ecx - 0x1a74f3be], cl ; pop ebp ; ret 8
+heksedit.dll | 0x1000a4e9 | or byte ptr [ecx - 0x1a74fbb0], cl ; pop ebp ; ret
+heksedit.dll | 0x100227dc | or byte ptr [ecx - 0x3ba74f8], cl ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002218e | or byte ptr [ecx - 1], dl ; adc eax, 0x1003119c ; pop ebp ; ret
+heksedit.dll | 0x10007067 | or byte ptr [edx - 0x18], dl ; ret 0x50
+heksedit.dll | 0x1001d38e | or byte ptr [edx - 0x18], dl ; retf
+heksedit.dll | 0x10027c6f | or byte ptr [edx - 0x18], dl ; retf 0xff0e
+heksedit.dll | 0x1000fa5c | or byte ptr [edx - 0x75], dl ; dec ebp ; or al, ch ; retf 0x54
+heksedit.dll | 0x1000c126 | or byte ptr [edx - 1], dl ; adc eax, 0x100315b4 ; pop ebp ; ret
+heksedit.dll | 0x10006853 | or byte ptr [esi - 0x1a74fffe], 0x5d ; ret 4
+heksedit.dll | 0x1002bbbb | or ch, bl ; leave ; xor al, al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001c7eb | or ch, byte ptr [ebx] ; retf 0x4d89
+heksedit.dll | 0x1001e073 | or cl, byte ptr [edi] ; pushfd ; ret 0xea83
+heksedit.dll | 0x100010cb | or dh, ah ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100100b3 | or dh, al ; inc edx ; or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002f744 | or dh, dh ; ret
+heksedit.dll | 0x1002f6ca | or dword ptr [eax], eax ; add byte ptr [eax], al ; leave ; ret 0x10
+heksedit.dll | 0x1002f77d | or dword ptr [eax], eax ; add byte ptr [eax], al ; pop ecx ; mov eax, esi ; pop esi ; pop ebx ; ret 4
+heksedit.dll | 0x1002f773 | or dword ptr [eax], eax ; add dh, dh ; ret
+heksedit.dll | 0x1000dccb | or dword ptr [ebx + ecx], 0x2b990000 ; ret 0xf8d1
+heksedit.dll | 0x1001c7b1 | or dword ptr [ecx + 0x303e283], ebx ; ret 0xf8c1
+heksedit.dll | 0x100065ca | or dword ptr [ecx - 0x1a74fffe], edx ; pop ebp ; ret
+heksedit.dll | 0x1000a2b2 | or eax, 0 ; pop ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000522f | or eax, 0 ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000285d | or eax, 0 ; pop ecx ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007576 | or eax, 0 ; pop ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ae1e | or eax, 0 ; pop ecx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002f6d8 | or eax, 0x10038854 ; jne 0x1002f6e9 ; ret
+heksedit.dll | 0x10017f0f | or eax, 0x8b000000 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002e90a | or eax, 0xe58b0000 ; pop ebp ; ret 4
+heksedit.dll | 0x100095e5 | or eax, 0xffffffff ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10014cd5 | or eax, dword ptr [eax] ; add byte ptr [ebx + 0x2b9901c0], al ; ret 0xf8d1
+heksedit.dll | 0x100267b8 | or eax, dword ptr [eax] ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001feec | or eax, dword ptr [eax] ; add cl, ch ; retf
+heksedit.dll | 0x1002ffa1 | or eax, dword ptr [ecx] ; sete cl ; mov eax, ecx ; ret
+heksedit.dll | 0x10015eb6 | or esp, 0x8b00000a ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002ffeb | out 0x33, al ; rcr byte ptr [edi + 0x5e], 0x5b ; ret
+heksedit.dll | 0x10019305 | out 0x3e, eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000d335 | out 0x4d, eax ; add dword ptr [eax], eax ; pop ebp ; ret 8
+heksedit.dll | 0x10016925 | out 0x66, eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10013f15 | out 0x8e, eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005bfd | out dx, eax ; retf
+heksedit.dll | 0x1002f87b | outsb dx, byte ptr [esi] ; push es ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x10016086 | outsd dx, dword ptr [esi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002bfb4 | pop ds ; aaa ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001b346 | pop ds ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f8c6 | pop ds ; shl edx, cl ; ret
+heksedit.dll | 0x10010de6 | pop eax ; adc eax, 0x8b5e1003 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001cf98 | pop eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000fd84 | pop eax ; hlt ; add byte ptr [eax], dl ; retf 0xf5
+heksedit.dll | 0x1003015f | pop eax ; mov byte ptr [ebx], al ; adc byte ptr [esi + 0x5f], bl ; pop ebx ; leave ; ret
+heksedit.dll | 0x1001d955 | pop ebp ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x100172f2 | pop ebp ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x10019943 | pop ebp ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002fefe | pop ebp ; push ecx ; ret
+heksedit.dll | 0x10001b05 | pop ebp ; ret
+heksedit.dll | 0x1000132d | pop ebp ; ret 0x10
+heksedit.dll | 0x1000335d | pop ebp ; ret 0x14
+heksedit.dll | 0x10013eed | pop ebp ; ret 0x18
+heksedit.dll | 0x1000a62e | pop ebp ; ret 0x20
+heksedit.dll | 0x100012c5 | pop ebp ; ret 0xc
+heksedit.dll | 0x100010d1 | pop ebp ; ret 4
+heksedit.dll | 0x10002c25 | pop ebp ; ret 8
+heksedit.dll | 0x10014b76 | pop ebp ; stosd dword ptr es:[edi], eax ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cccb | pop ebx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10005f2d | pop ebx ; add byte ptr [eax], dl ; retf
+heksedit.dll | 0x10019b73 | pop ebx ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030165 | pop ebx ; leave ; ret
+heksedit.dll | 0x1002fefb | pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10030084 | pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000eb18 | pop ebx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002fb95 | pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f984 | pop ebx ; pop esi ; pop edi ; ret 0x10
+heksedit.dll | 0x1002fff0 | pop ebx ; ret
+heksedit.dll | 0x1002f7e0 | pop ebx ; ret 0x10
+heksedit.dll | 0x1002f785 | pop ebx ; ret 4
+heksedit.dll | 0x10026078 | pop ebx ; xchg eax, esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001cea8 | pop ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f898 | pop ecx ; dec eax ; ret
+heksedit.dll | 0x1002f781 | pop ecx ; mov eax, esi ; pop esi ; pop ebx ; ret 4
+heksedit.dll | 0x10003a7a | pop ecx ; mov esp, 0xe58b0002 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000a2b7 | pop ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005234 | pop ecx ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10002862 | pop ecx ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000757b | pop ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000ae23 | pop ecx ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fc82 | pop ecx ; pop ecx ; ret
+heksedit.dll | 0x1002fef7 | pop ecx ; pop edi ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10030081 | pop ecx ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10016901 | pop ecx ; pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f887 | pop ecx ; ret
+heksedit.dll | 0x1002fccd | pop ecx ; ret 0xc
+heksedit.dll | 0x1002f70a | pop ecx ; xchg eax, esp ; mov eax, dword ptr [eax] ; mov dword ptr [esp], eax ; ret
+heksedit.dll | 0x1002f9d2 | pop ecx ; xor eax, eax ; pop esi ; ret
+heksedit.dll | 0x10030164 | pop edi ; pop ebx ; leave ; ret
+heksedit.dll | 0x1002fef8 | pop edi ; pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10024b6d | pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10024ae0 | pop edi ; pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fef9 | pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10030082 | pop edi ; pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002fb93 | pop edi ; pop esi ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002ffee | pop edi ; pop esi ; pop ebx ; ret
+heksedit.dll | 0x1002ff51 | pop edi ; pop esi ; ret
+heksedit.dll | 0x10029a74 | pop edi ; pop esp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f986 | pop edi ; ret 0x10
+heksedit.dll | 0x1001cd88 | pop edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002ff88 | pop edx ; je 0x1002ff93 ; xor eax, eax ; ret
+heksedit.dll | 0x1001d365 | pop es ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x1000b18c | pop es ; movzx eax, byte ptr [ebp + 8] ; sub eax, 0x37 ; pop ebp ; ret
+heksedit.dll | 0x1001b345 | pop es ; pop ds ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f61c | pop esi ; leave ; ret 4
+heksedit.dll | 0x100095e8 | pop esi ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10011ebe | pop esi ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10008a28 | pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10002ce3 | pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10004c50 | pop esi ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002fefa | pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; push ecx ; ret
+heksedit.dll | 0x10030083 | pop esi ; pop ebx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002fb94 | pop esi ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002ffef | pop esi ; pop ebx ; ret
+heksedit.dll | 0x1002f784 | pop esi ; pop ebx ; ret 4
+heksedit.dll | 0x10030163 | pop esi ; pop edi ; pop ebx ; leave ; ret
+heksedit.dll | 0x1002f985 | pop esi ; pop edi ; ret 0x10
+heksedit.dll | 0x1002f9b2 | pop esi ; ret
+heksedit.dll | 0x10029a75 | pop esp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10019b72 | popal ; pop ebx ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10022f4e | popfd ; ret 0x5589
+heksedit.dll | 0x1001d115 | push -0x18 ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10010269 | push -0xc ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10010fee | push 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d6d4 | push 0x5dfffe43 ; ret 0x10
+heksedit.dll | 0x1001d634 | push 0x5dfffe79 ; ret 0x10
+heksedit.dll | 0x1001d594 | push 0x5dfffe98 ; ret 0x10
+heksedit.dll | 0x1001d3b4 | push 0x5dfffef2 ; ret 0x10
+heksedit.dll | 0x1000e06a | push 0x8b0c4a89 ; in eax, 0x5d ; ret
+heksedit.dll | 0x10016a2b | push 0xe58bd0ff ; pop ebp ; ret
+heksedit.dll | 0x10016c9c | push 0xe58bd2ff ; pop ebp ; ret 4
+heksedit.dll | 0x1000d7dc | push ds ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x100300f4 | push dword ptr [ebp + ecx - 0x7b] ; ret
+heksedit.dll | 0x1001e7b2 | push eax ; adc al, 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001e034 | push eax ; adc al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001122a | push eax ; adc eax, 0x8b5e1003 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000a4eb | push eax ; add al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001810a | push eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000e74f | push eax ; and bh, bh ; rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x100201a3 | push eax ; lea ecx, [ebp - 0x108] ; call 0x1001cbd9
+heksedit.dll | 0x10004c4c | push eax ; or al, 0xb0 ; add dword ptr [esi - 0x75], ebx ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10016c9b | push eax ; push 0xe58bd2ff ; pop ebp ; ret 4
+heksedit.dll | 0x1001205c | push eax ; sub bh, bh ; rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000e27f | push ebp ; aam 0x81 ; ret 0x84
+heksedit.dll | 0x1001a592 | push ebp ; aam 0x83 ; ret 0x5201
+heksedit.dll | 0x1000e3e9 | push ebp ; aam 0x83 ; ret 0x8964
+heksedit.dll | 0x1002465b | push ebp ; adc al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1000a196 | push ebp ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002a14e | push ebp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000cede | push ebp ; add dword ptr [eax], eax ; pop ebp ; ret 4
+heksedit.dll | 0x1001fc78 | push ebp ; call 0x7b03bf04
+heksedit.dll | 0x10024a4f | push ebp ; call 0x840f0cdb
+heksedit.dll | 0x10024a6f | push ebp ; call 0x840f0cfb
+heksedit.dll | 0x1001a9d7 | push ebp ; call 0x99036c63
+heksedit.dll | 0x10009fda | push ebp ; clc ; sete al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002312a | push ebp ; cld ; mov dword ptr [ecx], edx ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001b61 | push ebp ; cld ; mov dword ptr [edx + 0xc], ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100272bf | push ebp ; cld ; mov eax, dword ptr [edx + 4] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10019c11 | push ebp ; hlt ; mov eax, dword ptr [ebp - 0xc] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100028e5 | push ebp ; in al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10018df5 | push ebp ; in al, 0x83 ; ret 0x8b01
+heksedit.dll | 0x10004a7e | push ebp ; lodsb al, byte ptr [esi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100021e7 | push ebp ; lodsb al, byte ptr [esi] ; add edx, 1 ; mov dword ptr [ebp - 0x54], edx ; jmp 0x100021bd
+heksedit.dll | 0x100021ed | push ebp ; lodsb al, byte ptr [esi] ; jmp 0x100021b7
+heksedit.dll | 0x10004e22 | push ebp ; loopne 0x10004dab ; ret 0x8901
+heksedit.dll | 0x1002d473 | push ebp ; loopne 0x1002d3fc ; ret 0x8901
+heksedit.dll | 0x1002d4c2 | push ebp ; loopne 0x1002d44b ; ret 0x8901
+heksedit.dll | 0x1002d743 | push ebp ; loopne 0x1002d6cc ; ret 0x8901
+heksedit.dll | 0x1002d787 | push ebp ; loopne 0x1002d710 ; ret 0x8901
+heksedit.dll | 0x1002d84c | push ebp ; loopne 0x1002d7d5 ; ret 0x8901
+heksedit.dll | 0x100094f0 | push ebp ; mov ebp, esp ; mov al, byte ptr [ebp + 8] ; pop ebp ; ret
+heksedit.dll | 0x1001f2e0 | push ebp ; mov ebp, esp ; mov eax, 0x40102 ; pop ebp ; ret 8
+heksedit.dll | 0x1001f150 | push ebp ; mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 0x14
+heksedit.dll | 0x1001ec80 | push ebp ; mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001f160 | push ebp ; mov ebp, esp ; mov eax, 0x80004001 ; pop ebp ; ret 8
+heksedit.dll | 0x1000ce70 | push ebp ; mov ebp, esp ; mov eax, 1 ; pop ebp ; ret 4
+heksedit.dll | 0x1000a430 | push ebp ; mov ebp, esp ; pop ebp ; ret
+heksedit.dll | 0x1000f041 | push ebp ; mov word ptr [ebx], gs ; push ecx ; jo 0x1000efd0 ; ret 0x8b01
+heksedit.dll | 0x1002105d | push ebp ; or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x1001b10c | push ebp ; or al, 0x83 ; ret 0x8901
+heksedit.dll | 0x1002232e | push ebp ; or byte ptr [ebp - 0x1a746efc], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002241e | push ebp ; or byte ptr [ebx - 0x1a746efc], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1001df10 | push ebp ; or byte ptr [ecx - 0x1a74f3af], cl ; pop ebp ; ret 8
+heksedit.dll | 0x10007066 | push ebp ; or byte ptr [edx - 0x18], dl ; ret 0x50
+heksedit.dll | 0x1001d38d | push ebp ; or byte ptr [edx - 0x18], dl ; retf
+heksedit.dll | 0x10027c6e | push ebp ; or byte ptr [edx - 0x18], dl ; retf 0xff0e
+heksedit.dll | 0x100100b2 | push ebp ; or dh, al ; inc edx ; or byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001d027 | push ebp ; pop eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10018042 | push ebp ; test al, 0x81 ; ret 0xb1c
+heksedit.dll | 0x10015542 | push ebp ; test al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10018109 | push ebx ; push eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10002c1f | push ecx ; adc byte ptr [eax + 0x5de58b01], dh ; ret 8
+heksedit.dll | 0x10022582 | push ecx ; adc byte ptr [eax - 0x1a74a1ff], dh ; pop ebp ; ret 8
+heksedit.dll | 0x1000a47a | push ecx ; add al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000bdef | push ecx ; add al, 0x8b ; inc ebp ; cld ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000a5c8 | push ecx ; add al, byte ptr [eax] ; add esp, 4 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000e6ff | push ecx ; jl 0x1000e740 ; ret 0x4e74
+heksedit.dll | 0x1000f044 | push ecx ; jo 0x1000efcd ; ret 0x8b01
+heksedit.dll | 0x1001617b | push ecx ; jo 0x10016104 ; ret 0x8b01
+heksedit.dll | 0x100249e3 | push ecx ; mov dword ptr [ebp - 4], ecx ; xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002261f | push ecx ; or al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1001dd92 | push ecx ; or al, 0x83 ; ret 0x8901
+heksedit.dll | 0x1001df13 | push ecx ; or al, 0x8b ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x1001e40a | push ecx ; or byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1000a4e8 | push ecx ; or byte ptr [ecx - 0x1a74fbb0], cl ; pop ebp ; ret
+heksedit.dll | 0x1002feff | push ecx ; ret
+heksedit.dll | 0x1000afa0 | push ecx ; sbb byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret
+heksedit.dll | 0x10009f9f | push edi ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x10029fa5 | push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001d088 | push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f891 | push edi ; fcomp dword ptr [ebx] ; sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x10018135 | push edi ; push eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10017ed5 | push edi ; push edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000a07c | push edi ; push esi ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002647c | push edi ; xchg eax, edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10017ed6 | push edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001a498 | push edx ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000c873 | push edx ; call 0x10018b43
+heksedit.dll | 0x100034b2 | push edx ; call 0x1002f6d5
+heksedit.dll | 0x1000aaca | push edx ; or byte ptr [ebx - 0x2e], ch ; add eax, dword ptr [ebx] ; retf 0x958b
+heksedit.dll | 0x1001cd2a | push edx ; pop ebx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f884 | push es ; add byte ptr [eax], al ; pop ecx ; ret
+heksedit.dll | 0x1002f87c | push es ; add byte ptr [eax], al ; ret
+heksedit.dll | 0x100052cd | push es ; movsb byte ptr es:[edi], byte ptr [esi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f8b9 | push es ; shld edx, eax, cl ; shl eax, cl ; ret
+heksedit.dll | 0x1000a07d | push esi ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10017a56 | push esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d1ab | push esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001a060 | push esi ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10029e7d | push esi ; pop eax ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10010f23 | push esp ; adc eax, 0xe58b1003 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002a214 | push esp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001dbd5 | push esp ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002f9bd | push esp ; inc dword ptr [edx] ; adc al, ch ; ret
+heksedit.dll | 0x1002f6d9 | push esp ; mov byte ptr [ebx], al ; adc byte ptr [ebp + 2], dh ; ret
+heksedit.dll | 0x10010178 | push esp ; retf 0
+heksedit.dll | 0x1002e03f | push ss ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001d388 | pushal ; adc al, 3 ; adc byte ptr [ebx - 0x17adf7ab], cl ; retf
+heksedit.dll | 0x10017004 | pushal ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005a14 | pushfd ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10025a22 | pushfd ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10026950 | pushfd ; ret
+heksedit.dll | 0x1001e075 | pushfd ; ret 0xea83
+heksedit.dll | 0x10007827 | pushfd ; sbb eax, dword ptr [ebx] ; adc cl, ch ; retf
+heksedit.dll | 0x1002a213 | rcl byte ptr [eax + eax], 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x10006ae1 | rcl esp, 0xa ; add byte ptr [eax], al ; call 0x10002cf7
+heksedit.dll | 0x1000eb17 | rcr byte ptr [ebx - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1002ffed | rcr byte ptr [edi + 0x5e], 0x5b ; ret
+heksedit.dll | 0x10009407 | rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 0xc
+heksedit.dll | 0x100227c0 | rcr byte ptr [esi - 0x75], 0xe5 ; pop ebp ; ret 4
+heksedit.dll | 0x10014eff | rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000df06 | rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001205f | rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000e752 | rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000e1f2 | rcr dword ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x100015f7 | ret
+heksedit.dll | 0x10007bb7 | ret 0
+heksedit.dll | 0x1000132e | ret 0x10
+heksedit.dll | 0x10015a4d | ret 0x104
+heksedit.dll | 0x10027cc2 | ret 0x108
+heksedit.dll | 0x10016b57 | ret 0x10f
+heksedit.dll | 0x100151f5 | ret 0x120
+heksedit.dll | 0x100151d1 | ret 0x124
+heksedit.dll | 0x1000335e | ret 0x14
+heksedit.dll | 0x1002338e | ret 0x1588
+heksedit.dll | 0x1002ee8c | ret 0x16d
+heksedit.dll | 0x10013eee | ret 0x18
+heksedit.dll | 0x10016a12 | ret 0x194
+heksedit.dll | 0x1001ec49 | ret 0x1c75
+heksedit.dll | 0x1000f8d6 | ret 0x1fe
+heksedit.dll | 0x1000a62f | ret 0x20
+heksedit.dll | 0x100015be | ret 0x27
+heksedit.dll | 0x1001b5fa | ret 0x29
+heksedit.dll | 0x100195ce | ret 0x2b01
+heksedit.dll | 0x1002b4b4 | ret 0x2b03
+heksedit.dll | 0x1002b946 | ret 0x2b07
+heksedit.dll | 0x10013044 | ret 0x2b99
+heksedit.dll | 0x10006056 | ret 0x302
+heksedit.dll | 0x1002734a | ret 0x3b01
+heksedit.dll | 0x10026c1e | ret 0x43eb
+heksedit.dll | 0x1001e085 | ret 0x4588
+heksedit.dll | 0x10004b30 | ret 0x4589
+heksedit.dll | 0x1000f2ff | ret 0x458b
+heksedit.dll | 0x1002b0e2 | ret 0x47
+heksedit.dll | 0x10009136 | ret 0x4d8b
+heksedit.dll | 0x1000e702 | ret 0x4e74
+heksedit.dll | 0x1000706a | ret 0x50
+heksedit.dll | 0x10008f2f | ret 0x5201
+heksedit.dll | 0x10010660 | ret 0x5202
+heksedit.dll | 0x10015066 | ret 0x5204
+heksedit.dll | 0x1000fa5b | ret 0x5208
+heksedit.dll | 0x100150a8 | ret 0x520c
+heksedit.dll | 0x1000fa1f | ret 0x5210
+heksedit.dll | 0x100150c9 | ret 0x5214
+heksedit.dll | 0x1001510b | ret 0x5218
+heksedit.dll | 0x1001514d | ret 0x522c
+heksedit.dll | 0x1001512c | ret 0x5230
+heksedit.dll | 0x100151b0 | ret 0x5240
+heksedit.dll | 0x1001518f | ret 0x5244
+heksedit.dll | 0x1001516e | ret 0x5248
+heksedit.dll | 0x10015219 | ret 0x5250
+heksedit.dll | 0x1000e23e | ret 0x5588
+heksedit.dll | 0x1000c219 | ret 0x5589
+heksedit.dll | 0x1001d0ba | ret 0x57
+heksedit.dll | 0x10007f35 | ret 0x6852
+heksedit.dll | 0x10016c60 | ret 0x6901
+heksedit.dll | 0x1001fc7b | ret 0x6b01
+heksedit.dll | 0x10024a52 | ret 0x740c
+heksedit.dll | 0x10024695 | ret 0x7e00
+heksedit.dll | 0x1002ffe3 | ret 0x8301
+heksedit.dll | 0x1000399f | ret 0x84
+heksedit.dll | 0x10009e9a | ret 0x8589
+heksedit.dll | 0x100198a4 | ret 0x858b
+heksedit.dll | 0x1000951a | ret 0x8820
+heksedit.dll | 0x1001188e | ret 0x8857
+heksedit.dll | 0x100083df | ret 0x88a8
+heksedit.dll | 0x100019aa | ret 0x8901
+heksedit.dll | 0x100083c8 | ret 0x8902
+heksedit.dll | 0x1000a3a0 | ret 0x8904
+heksedit.dll | 0x1002b9f7 | ret 0x8908
+heksedit.dll | 0x1002cfd0 | ret 0x8910
+heksedit.dll | 0x10009864 | ret 0x8914
+heksedit.dll | 0x1002d6b1 | ret 0x8930
+heksedit.dll | 0x1002d459 | ret 0x8957
+heksedit.dll | 0x1000e3ec | ret 0x8964
+heksedit.dll | 0x100219aa | ret 0x8a
+heksedit.dll | 0x1000168c | ret 0x8b01
+heksedit.dll | 0x100133fb | ret 0x8b02
+heksedit.dll | 0x100188db | ret 0x8b50
+heksedit.dll | 0x1001f6c0 | ret 0x8b52
+heksedit.dll | 0x1001523a | ret 0x8c
+heksedit.dll | 0x10023571 | ret 0x8d89
+heksedit.dll | 0x10011419 | ret 0x8d8b
+heksedit.dll | 0x1001525e | ret 0x90
+heksedit.dll | 0x10015282 | ret 0x94
+heksedit.dll | 0x1002e7e4 | ret 0x9589
+heksedit.dll | 0x100152a6 | ret 0x98
+heksedit.dll | 0x100152ca | ret 0x9c
+heksedit.dll | 0x100152ee | ret 0xa0
+heksedit.dll | 0x10015312 | ret 0xa4
+heksedit.dll | 0x10015336 | ret 0xa8
+heksedit.dll | 0x1001535a | ret 0xac
+heksedit.dll | 0x10013965 | ret 0xad4
+heksedit.dll | 0x1001537e | ret 0xb0
+heksedit.dll | 0x1001446a | ret 0xb1c
+heksedit.dll | 0x100153a2 | ret 0xb4
+heksedit.dll | 0x10009133 | ret 0xb60f
+heksedit.dll | 0x10018c8a | ret 0xb74
+heksedit.dll | 0x100153c6 | ret 0xb8
+heksedit.dll | 0x10015983 | ret 0xbc
+heksedit.dll | 0x100012c6 | ret 0xc
+heksedit.dll | 0x10001bfa | ret 0xc281
+heksedit.dll | 0x1000bbbd | ret 0xc28a
+heksedit.dll | 0x10030099 | ret 0xc28b
+heksedit.dll | 0x10026c0b | ret 0xc700
+heksedit.dll | 0x100119ac | ret 0xc74
+heksedit.dll | 0x1001020a | ret 0xc9
+heksedit.dll | 0x10028ff0 | ret 0xc933
+heksedit.dll | 0x100286ba | ret 0xca3d
+heksedit.dll | 0x1000f013 | ret 0xd
+heksedit.dll | 0x1000c745 | ret 0xe0c1
+heksedit.dll | 0x1002f8bc | ret 0xe0d3
+heksedit.dll | 0x1001e076 | ret 0xea83
+heksedit.dll | 0x1002da65 | ret 0xf02
+heksedit.dll | 0x1001e07e | ret 0xf30
+heksedit.dll | 0x100159f1 | ret 0xf8
+heksedit.dll | 0x1000dc3d | ret 0xf8c1
+heksedit.dll | 0x10006729 | ret 0xf8d1
+heksedit.dll | 0x10021aaa | ret 0xfe00
+heksedit.dll | 0x1000d67a | ret 0xff40
+heksedit.dll | 0x10008c8a | ret 0xfffe
+heksedit.dll | 0x10006ae8 | ret 0xffff
+heksedit.dll | 0x1000198a | ret 1
+heksedit.dll | 0x100034b5 | ret 2
+heksedit.dll | 0x100010d2 | ret 4
+heksedit.dll | 0x1002b40a | ret 7
+heksedit.dll | 0x10002c26 | ret 8
+heksedit.dll | 0x1001c23a | ret 9
+heksedit.dll | 0x10002b43 | retf
+heksedit.dll | 0x100052b0 | retf 0
+heksedit.dll | 0x1002cd05 | retf 0x1002
+heksedit.dll | 0x1001cbbc | retf 0x12b
+heksedit.dll | 0x100015a0 | retf 0x148
+heksedit.dll | 0x1000167a | retf 0x14c
+heksedit.dll | 0x10004652 | retf 0x155
+heksedit.dll | 0x10011d70 | retf 0x458b
+heksedit.dll | 0x1002aa5a | retf 0x4c
+heksedit.dll | 0x10014c2f | retf 0x4d89
+heksedit.dll | 0x10014666 | retf 0x5051
+heksedit.dll | 0x10003cf8 | retf 0x5204
+heksedit.dll | 0x1000fa62 | retf 0x54
+heksedit.dll | 0x10008936 | retf 0x558b
+heksedit.dll | 0x1000ba7c | retf 0x850f
+heksedit.dll | 0x1001456f | retf 0x8589
+heksedit.dll | 0x1000a92d | retf 0x858b
+heksedit.dll | 0x10002f43 | retf 0x8804
+heksedit.dll | 0x10002eec | retf 0x8820
+heksedit.dll | 0x100065a1 | retf 0x8901
+heksedit.dll | 0x10005eb7 | retf 0x8903
+heksedit.dll | 0x1001cb46 | retf 0x8904
+heksedit.dll | 0x1002d959 | retf 0x8d89
+heksedit.dll | 0x10019322 | retf 0x94
+heksedit.dll | 0x1000aad0 | retf 0x958b
+heksedit.dll | 0x10021060 | retf 0xa75
+heksedit.dll | 0x10017022 | retf 0xb7
+heksedit.dll | 0x1002add9 | retf 0xc
+heksedit.dll | 0x10015f62 | retf 0xc4
+heksedit.dll | 0x1001fe1f | retf 0xc75
+heksedit.dll | 0x1002e909 | retf 0xd
+heksedit.dll | 0x1002d2fe | retf 0xd3ff
+heksedit.dll | 0x1000eff7 | retf 0xe1c1
+heksedit.dll | 0x1001ae29 | retf 0xe58b
+heksedit.dll | 0x10011810 | retf 0xe883
+heksedit.dll | 0x1000df27 | retf 0xe8ff
+heksedit.dll | 0x10020860 | retf 0xee
+heksedit.dll | 0x1000fd88 | retf 0xf5
+heksedit.dll | 0x1001b022 | retf 0xfe7c
+heksedit.dll | 0x100182a2 | retf 0xfe99
+heksedit.dll | 0x10027c72 | retf 0xff0e
+heksedit.dll | 0x1001c78d | retf 0xfffe
+heksedit.dll | 0x100201a0 | retf 0xffff
+heksedit.dll | 0x10005d60 | retf 1
+heksedit.dll | 0x10021862 | retf 3
+heksedit.dll | 0x1002fb91 | rol byte ptr [eax + 0x5f], 0x5e ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000cb53 | rol byte ptr [eax], 0x8b ; inc ebp ; in al, 0xc7 ; inc eax ; sbb al, 0xef ; retf
+heksedit.dll | 0x10001bf3 | rol byte ptr [ebx + 0xf003479], cl ; xchg eax, ebp ; ret 0xc281
+heksedit.dll | 0x1000f752 | rol byte ptr [ebx + 0xf003879], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1000f364 | rol byte ptr [ebx + 0xf003c79], cl ; xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x1002edfa | rol byte ptr [ebx + 0xf00a87d], cl ; lahf ; ret 0x5589
+heksedit.dll | 0x10005442 | rol byte ptr [ebx + ecx*4], 0xe5 ; pop ebp ; ret
+heksedit.dll | 0x1002a652 | rol byte ptr [ebx - 0x1a74fe40], 0x5d ; ret
+heksedit.dll | 0x1002c099 | rol byte ptr [ebx - 0x1a74fe40], 0x5d ; ret 4
+heksedit.dll | 0x1001e070 | rol byte ptr [ebx - 0x63f0f507], cl ; ret 0xea83
+heksedit.dll | 0x1001a323 | rol byte ptr [ebx - 0x6bf00008], cl ; ret 0x858b
+heksedit.dll | 0x1000bbb7 | rol byte ptr [ebx - 0x6bf0f908], cl ; ret 0xc28a
+heksedit.dll | 0x1001f1ea | rol byte ptr [ecx], 0x5d ; ret
+heksedit.dll | 0x1002243e | rol byte ptr [ecx], 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1002c09b | rol byte ptr [ecx], 0x8b ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x100225fa | rol dword ptr [eax], 1 ; add byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x100223aa | rol dword ptr [eax], cl ; add byte ptr [ebx - 0x1a74fb3c], al ; pop ebp ; ret
+heksedit.dll | 0x1001e5aa | rol dword ptr [ecx], 0x89 ; dec ebp ; clc ; jmp 0x1001e57a
+heksedit.dll | 0x1000bfb9 | ror byte ptr [ebx - 0x1a7403bb], 1 ; pop ebp ; ret
+heksedit.dll | 0x10029e29 | ror byte ptr [ebx - 0x1a7403bb], 1 ; pop ebp ; ret 8
+heksedit.dll | 0x10009716 | ror byte ptr [ebx - 0x1a7437bb], 1 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000b0c2 | ror byte ptr [ebx - 0x49f017bb], 1 ; or byte ptr [ebx], cl ; retf 0x558b
+heksedit.dll | 0x1000892e | ror byte ptr [ebx - 0x49f053bb], 1 ; or byte ptr [ebx], ah ; retf 0x558b
+heksedit.dll | 0x1002a868 | ror byte ptr [ebx - 0x74a10bbb], cl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001de12 | ror byte ptr [ebx - 0x74a10fbb], cl ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1002d919 | ror byte ptr [ebx - 0x7c664fbb], 0xe2 ; add eax, dword ptr [ebx] ; ret 0xf8c1
+heksedit.dll | 0x10024057 | ror byte ptr [edi], 0x84 ; ret
+heksedit.dll | 0x1002add6 | ror byte ptr [edi], 0x84 ; retf 0xc
+heksedit.dll | 0x10030096 | ror byte ptr [edi], 0x94 ; ret 0xc28b
+heksedit.dll | 0x1002a100 | ror dword ptr [ebx - 0x1a7407bb], 1 ; pop ebp ; ret 8
+heksedit.dll | 0x10009934 | ror dword ptr [ebx - 0x74a137bb], 1 ; in eax, 0x5d ; ret 0xc
+heksedit.dll | 0x1002e7e1 | ror dword ptr [edi], 0x94 ; ret 0x9589
+heksedit.dll | 0x1002f895 | sal bh, 0xd8 ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x1002f8cb | sal byte ptr [ebx], 0xd2 ; ret
+heksedit.dll | 0x10024001 | sal byte ptr [esi - 0x1a750000], cl ; pop ebp ; ret
+heksedit.dll | 0x10021fe1 | salc ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002ffe9 | salc ; jb 0x1002ffda ; xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+heksedit.dll | 0x1002f14c | sar byte ptr [eax + 1], cl ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002be01 | sar byte ptr [eax], cl ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c1d3 | sar byte ptr [ebx], cl ; dec eax ; add al, 0xf ; xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x1002e7df | sar byte ptr [ebx], cl ; ror dword ptr [edi], 0x94 ; ret 0x9589
+heksedit.dll | 0x10016cc8 | sar byte ptr [edi + 0x2c], 0x68 ; ret
+heksedit.dll | 0x10026819 | sar ch, 0xff ; add esp, 0xc ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000ceba | sar ch, cl ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x100140d5 | sar dword ptr [eax + 1], 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10020f12 | sbb al, 0 ; add byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x1000afbc | sbb al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000cb5a | sbb al, 0xef ; retf
+heksedit.dll | 0x1002105a | sbb al, 0xf ; mov bh, 0x55 ; or al, 0x3b ; retf 0xa75
+heksedit.dll | 0x1000df04 | sbb al, 0xff ; rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1001c789 | sbb byte ptr [eax], al ; add cl, ch ; retf 0xfffe
+heksedit.dll | 0x100041bb | sbb byte ptr [ebp - 0x1a74fffe], dh ; pop ebp ; ret 4
+heksedit.dll | 0x1000afa1 | sbb byte ptr [ebx - 0x1a7407bb], cl ; pop ebp ; ret
+heksedit.dll | 0x1001ccfa | sbb byte ptr [ebx], 0 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000bd2d | sbb eax, 0x458b1003 ; cld ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10007828 | sbb eax, dword ptr [ebx] ; adc cl, ch ; retf
+heksedit.dll | 0x1002a651 | sbb eax, eax ; add eax, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002c098 | sbb eax, eax ; add eax, 1 ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001f1e7 | sbb eax, eax ; add eax, 1 ; pop ebp ; ret
+heksedit.dll | 0x1002f894 | sbb eax, eax ; neg eax ; pop ecx ; dec eax ; ret
+heksedit.dll | 0x10010cb8 | sbb ebp, edx ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002f981 | sbb edx, 0 ; pop ebx ; pop esi ; pop edi ; ret 0x10
+heksedit.dll | 0x1002ad25 | scasb al, byte ptr es:[edi] ; dec ecx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000fc50 | scasb al, byte ptr es:[edi] ; stc ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x100046f5 | scasd eax, dword ptr es:[edi] ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10004d24 | scasd eax, dword ptr es:[edi] ; test eax, 0xe58b0002 ; pop ebp ; ret 4
+heksedit.dll | 0x10026224 | scasd eax, dword ptr es:[edi] ; xchg eax, esp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10009fdc | sete al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002ffa3 | sete cl ; mov eax, ecx ; ret
+heksedit.dll | 0x1002c1d7 | sete dl ; mov al, dl ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10030097 | sete dl ; mov eax, edx ; ret
+heksedit.dll | 0x1001f0d0 | setne al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001cbf0 | setne cl ; mov al, cl ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10024880 | setne cl ; mov eax, ecx ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002f8bd | shl eax, cl ; ret
+heksedit.dll | 0x1002f8c7 | shl edx, cl ; ret
+heksedit.dll | 0x1002f8ba | shld edx, eax, cl ; shl eax, cl ; ret
+heksedit.dll | 0x10005bfb | shr al, 0xef ; retf
+heksedit.dll | 0x10010208 | shr al, 1 ; ret 0xc9
+heksedit.dll | 0x1002abf9 | shr bl, 2 ; mov al, 1 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001f413 | shr bl, 5 ; mov eax, 0x80004002 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1000fc51 | stc ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x10024656 | stc ; add eax, 0x558b5275 ; adc al, 0x83 ; ret 0x5201
+heksedit.dll | 0x1002f8b6 | stc ; and byte ptr [ebx + 6], dh ; shld edx, eax, cl ; shl eax, cl ; ret
+heksedit.dll | 0x1001a9d2 | stc ; cmp eax, 0x558b0b74 ; call 0x99036c68
+heksedit.dll | 0x1001e072 | stc ; or cl, byte ptr [edi] ; pushfd ; ret 0xea83
+heksedit.dll | 0x10028829 | stc ; retf 0
+heksedit.dll | 0x1000cebb | std ; add byte ptr [eax], al ; pop ebp ; ret 8
+heksedit.dll | 0x1002681a | std ; inc dword ptr [ebx - 0x1a74f33c] ; pop ebp ; ret
+heksedit.dll | 0x10025fd8 | sti ; xchg eax, esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002cf29 | stosb byte ptr es:[edi], al ; daa ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10014b77 | stosd dword ptr es:[edi], eax ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10016cca | sub al, 0x68 ; ret
+heksedit.dll | 0x1000bc4c | sub al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10011e32 | sub al, 3 ; retf 0x558b
+heksedit.dll | 0x10014efd | sub bh, bh ; rcr byte ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001205d | sub bh, bh ; rcr byte ptr [esi - 0x75], cl ; in eax, 0x5d ; ret
+heksedit.dll | 0x1000e1f0 | sub bh, bh ; rcr dword ptr [esi - 0x75], 1 ; in eax, 0x5d ; ret
+heksedit.dll | 0x1001dbd4 | sub byte ptr [eax + eax], dl ; pop ebp ; ret 0x10
+heksedit.dll | 0x10026c02 | sub dl, byte ptr [ebp - 2] ; inc dword ptr [ebx + 0x45c60cc4] ; ret 0xc700
+heksedit.dll | 0x100024a4 | sub dword ptr [ebx], esp ; add byte ptr [eax], dl ; in al, 0x22 ; add byte ptr [eax], dl ; ret
+heksedit.dll | 0x1000b191 | sub eax, 0x37 ; pop ebp ; ret
+heksedit.dll | 0x1001c9c3 | sub eax, 0xe58b0001 ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001cb8d | sub eax, dword ptr [ebx] ; adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x100054a8 | sub esp, dword ptr [edx - 0x1a74fffe] ; pop ebp ; ret
+heksedit.dll | 0x1000c1c4 | sysexit ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d684 | test al, 0x1b ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x10018043 | test al, 0x81 ; ret 0xb1c
+heksedit.dll | 0x10015543 | test al, 0x83 ; ret 0x8901
+heksedit.dll | 0x10008308 | test al, 0x88 ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x1000840c | test al, 0x8c ; add edx, dword ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001002b | test al, 0xf6 ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001d364 | test al, 7 ; add dword ptr [eax], eax ; pop ebp ; ret 0x10
+heksedit.dll | 0x100135b4 | test byte ptr [0x8b5e1003], dl ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1001180e | test byte ptr [ebx], dl ; retf 0xe883
+heksedit.dll | 0x1001002c | test byte ptr [ecx], 0 ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10016eb2 | test cl, dl ; dec eax ; add dword ptr [eax], eax ; add byte ptr [edi], cl ; lahf ; ret
+heksedit.dll | 0x1002e64e | test dword ptr [eax], edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1002185b | test dword ptr [ebx + edi*8 - 0x17af0001], edx ; retf 3
+heksedit.dll | 0x10001673 | test dword ptr [esi + edi*8 - 0x7b760001], edi ; retf 0x14c
+heksedit.dll | 0x100170a7 | test dword ptr [esi - 0x1a740001], ebx ; pop ebp ; ret
+heksedit.dll | 0x10024d58 | test eax, 0xe58b0000 ; pop ebp ; ret 4
+heksedit.dll | 0x10004d25 | test eax, 0xe58b0002 ; pop ebp ; ret 4
+heksedit.dll | 0x1001dc25 | wait ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x10015b86 | wait ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10013831 | wait ; xchg eax, ebp ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1001ebdb | xchg byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002615e | xchg eax, ebp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10013812 | xchg eax, ebp ; add byte ptr [eax], al ; pop ebp ; ret 4
+heksedit.dll | 0x1002b1fe | xchg eax, ebp ; mov esp, 0x83fffffb ; ret 0x8901
+heksedit.dll | 0x1001cde7 | xchg eax, ebp ; pop edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1002e03e | xchg eax, ebp ; push ss ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1000e23d | xchg eax, ebp ; ret 0x5588
+heksedit.dll | 0x1000c218 | xchg eax, ebp ; ret 0x5589
+heksedit.dll | 0x100198a3 | xchg eax, ebp ; ret 0x858b
+heksedit.dll | 0x1001f6bf | xchg eax, ebp ; ret 0x8b52
+heksedit.dll | 0x10001bf9 | xchg eax, ebp ; ret 0xc281
+heksedit.dll | 0x100063c1 | xchg eax, ebx ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002633b | xchg eax, ebx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100065cb | xchg eax, ecx ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10030c41 | xchg eax, ecx ; add edx, dword ptr [eax] ; pop ebp ; ret
+heksedit.dll | 0x10022332 | xchg eax, ecx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10019942 | xchg eax, ecx ; pop ebp ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10005f23 | xchg eax, edi ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10025f59 | xchg eax, edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002647d | xchg eax, edx ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x100066b7 | xchg eax, edx ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1001d0ea | xchg eax, edx ; push edi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10025fd9 | xchg eax, esi ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10016068 | xchg eax, esi ; add dword ptr [eax], eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1000ed3b | xchg eax, esp ; adc eax, 0xe58b1003 ; pop ebp ; ret 4
+heksedit.dll | 0x100061dc | xchg eax, esp ; add al, byte ptr [eax] ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10026225 | xchg eax, esp ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1001db35 | xchg eax, esp ; add byte ptr [eax], al ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002f70b | xchg eax, esp ; mov eax, dword ptr [eax] ; mov dword ptr [esp], eax ; ret
+heksedit.dll | 0x1002338d | xchg eax, esp ; ret 0x1588
+heksedit.dll | 0x1000f2fe | xchg eax, esp ; ret 0x458b
+heksedit.dll | 0x10012951 | xchg eax, esp ; ret 0x5588
+heksedit.dll | 0x1000e0b5 | xchg eax, esp ; ret 0x5589
+heksedit.dll | 0x10007f34 | xchg eax, esp ; ret 0x6852
+heksedit.dll | 0x1001a328 | xchg eax, esp ; ret 0x858b
+heksedit.dll | 0x1002e7e3 | xchg eax, esp ; ret 0x9589
+heksedit.dll | 0x10009132 | xchg eax, esp ; ret 0xb60f
+heksedit.dll | 0x1000682d | xchg eax, esp ; ret 0xc281
+heksedit.dll | 0x1000bbbc | xchg eax, esp ; ret 0xc28a
+heksedit.dll | 0x10030098 | xchg eax, esp ; ret 0xc28b
+heksedit.dll | 0x10024ffc | xlatb ; cmpsb byte ptr [esi], byte ptr es:[edi] ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002227d | xor al, 0x12 ; add edx, dword ptr [eax] ; add esp, 8 ; pop ebp ; ret
+heksedit.dll | 0x1000d017 | xor al, 0x88 ; jmp 0x1000cfe1
+heksedit.dll | 0x1000bc8c | xor al, 0x8b ; in eax, 0x5d ; ret
+heksedit.dll | 0x10023f51 | xor al, al ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x1002744d | xor al, al ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1002bbbe | xor al, al ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007dcd | xor al, al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x100227bf | xor al, al ; pop esi ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x10024b2d | xor byte ptr [ebx], al ; adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret
+heksedit.dll | 0x1002aa9f | xor byte ptr [edx], al ; add byte ptr [eax], al ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1003015e | xor eax, 0x10038858 ; pop esi ; pop edi ; pop ebx ; leave ; ret
+heksedit.dll | 0x1001694d | xor eax, 0x81f4558b ; ret 0xb1c
+heksedit.dll | 0x10016c5b | xor eax, 0x8308558b ; ret 0x6901
+heksedit.dll | 0x1001ce47 | xor eax, 0x8b00005a ; in eax, 0x5d ; ret 4
+heksedit.dll | 0x1000ac9e | xor eax, 0x8b00024a ; in eax, 0x5d ; ret 8
+heksedit.dll | 0x10009f9e | xor eax, 0x8b000257 ; in eax, 0x5d ; ret 0x10
+heksedit.dll | 0x1000c1c5 | xor eax, 0xe58b0002 ; pop ebp ; ret
+heksedit.dll | 0x1002a7c9 | xor eax, dword ptr [ebx] ; adc byte ptr [ebx - 0x1a7403bb], cl ; pop ebp ; ret 4
+heksedit.dll | 0x1002f8c2 | xor eax, eax ; and cl, 0x1f ; shl edx, cl ; ret
+heksedit.dll | 0x1002fb90 | xor eax, eax ; inc eax ; pop edi ; pop esi ; pop ebx ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f9af | xor eax, eax ; inc eax ; pop esi ; ret
+heksedit.dll | 0x10001cd4 | xor eax, eax ; mov esp, ebp ; pop ebp ; ret
+heksedit.dll | 0x10001329 | xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0x10
+heksedit.dll | 0x1001f6f2 | xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0x14
+heksedit.dll | 0x1000513e | xor eax, eax ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x10007fe9 | xor eax, eax ; mov esp, ebp ; pop ebp ; ret 4
+heksedit.dll | 0x1000b144 | xor eax, eax ; mov esp, ebp ; pop ebp ; ret 8
+heksedit.dll | 0x1001b399 | xor eax, eax ; pop ebp ; ret 0xc
+heksedit.dll | 0x1001f10d | xor eax, eax ; pop ebp ; ret 4
+heksedit.dll | 0x1002ffec | xor eax, eax ; pop edi ; pop esi ; pop ebx ; ret
+heksedit.dll | 0x1002f61a | xor eax, eax ; pop esi ; leave ; ret 4
+heksedit.dll | 0x10009406 | xor eax, eax ; pop esi ; mov esp, ebp ; pop ebp ; ret 0xc
+heksedit.dll | 0x1002f9d3 | xor eax, eax ; pop esi ; ret
+heksedit.dll | 0x1002ff8b | xor eax, eax ; ret
+heksedit.dll | 0x1002f8ca | xor eax, eax ; xor edx, edx ; ret
+heksedit.dll | 0x10022bf8 | xor ecx, ebp ; call 0x1002f6db
+heksedit.dll | 0x1002f8cc | xor edx, edx ; ret
